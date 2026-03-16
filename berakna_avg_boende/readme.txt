@@ -1,5 +1,5 @@
 
-Innehåller "källkod" för e-tjänsten "Räkna ut din avgift för insatser i hemmet":
+Innehåller "källkod" för e-tjänsten "Räkna ut din avgift för vård- och omsorgsboende":
 - berakna_avg_boende.oeflow (heter egentligen "Vård och omsorg - Räkna ut din avgift för vård- och omsorgsboende")
 - schema-3604.xsd
 
