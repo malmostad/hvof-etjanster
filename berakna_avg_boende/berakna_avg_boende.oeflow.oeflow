@@ -1,0 +1,2865 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<Flow>
+<flowID>3604</flowID>
+<name>Vård och omsorg - Räkna ut din avgift för vård- och omsorgsboende</name>
+<version>2</version>
+<iconFileName>heartbeat_Resized-01.png</iconFileName>
+<publishDate>2026-01-07</publishDate>
+<enabled>true</enabled>
+<lockSubmitForUnpublishedSavedFlow>false</lockSubmitForUnpublishedSavedFlow>
+<usePreview>false</usePreview>
+<paymentSupportEnabled>false</paymentSupportEnabled>
+<requireAuthentication>false</requireAuthentication>
+<allowForeignIDs>false</allowForeignIDs>
+<requireSigning>false</requireSigning>
+<useSequentialSigning>false</useSequentialSigning>
+<skipPosterSigning>false</skipPosterSigning>
+<allowPosterMultipartSigning>false</allowPosterMultipartSigning>
+<appendSigningSignatureToPDF>false</appendSigningSignatureToPDF>
+<showPreviousSignaturesToSigners>false</showPreviousSignaturesToSigners>
+<resetOwnersOnCompletion>false</resetOwnersOnCompletion>
+<showSubmitSurvey>false</showSubmitSurvey>
+<hideSubmitStepText>true</hideSubmitStepText>
+<hideSaveButton>true</hideSaveButton>
+<hideAsteriskInfo>false</hideAsteriskInfo>
+<showLoginQuestion>false</showLoginQuestion>
+<Tags>
+<tag>avgiftsutrymme</tag>
+<tag>betalningsförmåga</tag>
+<tag>lss-boende</tag>
+<tag>räknesnurra</tag>
+<tag>särskilt boende</tag>
+<tag>vård- och omsorgsboende</tag>
+</Tags>
+<FlowFamily>
+<flowFamilyID>1313</flowFamilyID>
+<versionCount>2</versionCount>
+<contactName>Hälsa-, vård- och omsorgsförvaltningen, avdelningen för myndighet</contactName>
+<contactEmail>avgifter.avd.myndighet.hvof@malmo.se</contactEmail>
+<ownerName>Hälsa-, vård- och omsorgsnämnden</ownerName>
+<ownerEmail>hvo@malmo.se</ownerEmail>
+<useLoginHelpLink>false</useLoginHelpLink>
+<statisticsMode>INTERNAL</statisticsMode>
+<ManagementInfo>
+<flowFamilyID>1313</flowFamilyID>
+<processOwner>Anton Collinder - HVOF, avdelning för myndighet</processOwner>
+<flowResponsible>Ubejd Shala - HVOF, avdelning för digital utveckling och lokaler</flowResponsible>
+</ManagementInfo>
+</FlowFamily>
+<skipOverview>false</skipOverview>
+<hideManagerDetails>true</hideManagerDetails>
+<hideFromOverview>false</hideFromOverview>
+<hideExternalMessages>true</hideExternalMessages>
+<hideExternalMessageAttachments>false</hideExternalMessageAttachments>
+<showExternalMessageAttachmentsForManager>false</showExternalMessageAttachmentsForManager>
+<readReceiptsEnabled>false</readReceiptsEnabled>
+<readReceiptsEnabledByDefault>false</readReceiptsEnabledByDefault>
+<hideInternalMessages>false</hideInternalMessages>
+<allowDeletingInternalMessages>false</allowDeletingInternalMessages>
+<hideFromUser>false</hideFromUser>
+<hideFromManager>false</hideFromManager>
+<hideOverviewPDF>false</hideOverviewPDF>
+<hideOverviewFlowInstance>false</hideOverviewFlowInstance>
+<hideFlowInstanceIDFromUser>false</hideFlowInstanceIDFromUser>
+<alwaysStartFromFirstStep>false</alwaysStartFromFirstStep>
+<Statuses>
+<Status>
+<flowInstanceCount>0</flowInstanceCount>
+<flowSubmittedInstanceCount>0</flowSubmittedInstanceCount>
+<statusID>28607</statusID>
+<name>Avslag</name>
+<description>Er ansökan har inte beviljats. Ni kommer att få ett beslut per e-post.</description>
+<managingTime>7</managingTime>
+<newExternalMessagesDisallowed>false</newExternalMessagesDisallowed>
+<addExternalMessage>false</addExternalMessage>
+<addInternalMessage>false</addInternalMessage>
+<isUserMutable>false</isUserMutable>
+<isUserDeletable>false</isUserDeletable>
+<isAdminMutable>false</isAdminMutable>
+<isAdminDeletable>false</isAdminDeletable>
+<isRestrictedAdminDeletable>false</isRestrictedAdminDeletable>
+<requireSigning>false</requireSigning>
+<useAccessCheckByUser>false</useAccessCheckByUser>
+<useAccessCheckByStatus>false</useAccessCheckByStatus>
+<contentType>ARCHIVED</contentType>
+<sortIndex>0</sortIndex>
+</Status>
+<Status>
+<flowInstanceCount>0</flowInstanceCount>
+<flowSubmittedInstanceCount>0</flowSubmittedInstanceCount>
+<statusID>28608</statusID>
+<name>Beviljat</name>
+<description>Text om att ärendet är beviljat</description>
+<managingTime>10</managingTime>
+<newExternalMessagesDisallowed>false</newExternalMessagesDisallowed>
+<addExternalMessage>false</addExternalMessage>
+<addInternalMessage>false</addInternalMessage>
+<isUserMutable>false</isUserMutable>
+<isUserDeletable>false</isUserDeletable>
+<isAdminMutable>false</isAdminMutable>
+<isAdminDeletable>false</isAdminDeletable>
+<isRestrictedAdminDeletable>false</isRestrictedAdminDeletable>
+<requireSigning>false</requireSigning>
+<useAccessCheckByUser>false</useAccessCheckByUser>
+<useAccessCheckByStatus>false</useAccessCheckByStatus>
+<contentType>ARCHIVED</contentType>
+<sortIndex>0</sortIndex>
+</Status>
+<Status>
+<flowInstanceCount>0</flowInstanceCount>
+<flowSubmittedInstanceCount>0</flowSubmittedInstanceCount>
+<statusID>28609</statusID>
+<name>Redo för beslut</name>
+<description>Ärendet är redo för internt beslut</description>
+<managingTime>7</managingTime>
+<newExternalMessagesDisallowed>false</newExternalMessagesDisallowed>
+<addExternalMessage>false</addExternalMessage>
+<addInternalMessage>false</addInternalMessage>
+<isUserMutable>false</isUserMutable>
+<isUserDeletable>false</isUserDeletable>
+<isAdminMutable>false</isAdminMutable>
+<isAdminDeletable>false</isAdminDeletable>
+<isRestrictedAdminDeletable>false</isRestrictedAdminDeletable>
+<requireSigning>false</requireSigning>
+<useAccessCheckByUser>false</useAccessCheckByUser>
+<useAccessCheckByStatus>false</useAccessCheckByStatus>
+<contentType>IN_PROGRESS</contentType>
+<sortIndex>0</sortIndex>
+</Status>
+<Status>
+<flowInstanceCount>0</flowInstanceCount>
+<flowSubmittedInstanceCount>0</flowSubmittedInstanceCount>
+<statusID>28610</statusID>
+<name>Sparat</name>
+<newExternalMessagesDisallowed>false</newExternalMessagesDisallowed>
+<addExternalMessage>false</addExternalMessage>
+<addInternalMessage>false</addInternalMessage>
+<isUserMutable>true</isUserMutable>
+<isUserDeletable>true</isUserDeletable>
+<isAdminMutable>false</isAdminMutable>
+<isAdminDeletable>false</isAdminDeletable>
+<isRestrictedAdminDeletable>false</isRestrictedAdminDeletable>
+<requireSigning>false</requireSigning>
+<useAccessCheckByUser>false</useAccessCheckByUser>
+<useAccessCheckByStatus>false</useAccessCheckByStatus>
+<contentType>NEW</contentType>
+<sortIndex>1</sortIndex>
+</Status>
+<Status>
+<flowInstanceCount>0</flowInstanceCount>
+<flowSubmittedInstanceCount>0</flowSubmittedInstanceCount>
+<statusID>28611</statusID>
+<name>Inskickat</name>
+<newExternalMessagesDisallowed>false</newExternalMessagesDisallowed>
+<addExternalMessage>false</addExternalMessage>
+<addInternalMessage>false</addInternalMessage>
+<isUserMutable>false</isUserMutable>
+<isUserDeletable>false</isUserDeletable>
+<isAdminMutable>true</isAdminMutable>
+<isAdminDeletable>true</isAdminDeletable>
+<isRestrictedAdminDeletable>true</isRestrictedAdminDeletable>
+<requireSigning>false</requireSigning>
+<useAccessCheckByUser>false</useAccessCheckByUser>
+<useAccessCheckByStatus>false</useAccessCheckByStatus>
+<contentType>SUBMITTED</contentType>
+<sortIndex>2</sortIndex>
+</Status>
+<Status>
+<flowInstanceCount>0</flowInstanceCount>
+<flowSubmittedInstanceCount>0</flowSubmittedInstanceCount>
+<statusID>28612</statusID>
+<name>Väntar på komplettering</name>
+<newExternalMessagesDisallowed>false</newExternalMessagesDisallowed>
+<addExternalMessage>false</addExternalMessage>
+<addInternalMessage>false</addInternalMessage>
+<isUserMutable>true</isUserMutable>
+<isUserDeletable>false</isUserDeletable>
+<isAdminMutable>false</isAdminMutable>
+<isAdminDeletable>false</isAdminDeletable>
+<isRestrictedAdminDeletable>false</isRestrictedAdminDeletable>
+<requireSigning>false</requireSigning>
+<useAccessCheckByUser>false</useAccessCheckByUser>
+<useAccessCheckByStatus>false</useAccessCheckByStatus>
+<contentType>WAITING_FOR_COMPLETION</contentType>
+<sortIndex>3</sortIndex>
+</Status>
+<Status>
+<flowInstanceCount>0</flowInstanceCount>
+<flowSubmittedInstanceCount>0</flowSubmittedInstanceCount>
+<statusID>28613</statusID>
+<name>Kompletterat</name>
+<newExternalMessagesDisallowed>false</newExternalMessagesDisallowed>
+<addExternalMessage>false</addExternalMessage>
+<addInternalMessage>false</addInternalMessage>
+<isUserMutable>false</isUserMutable>
+<isUserDeletable>false</isUserDeletable>
+<isAdminMutable>true</isAdminMutable>
+<isAdminDeletable>true</isAdminDeletable>
+<isRestrictedAdminDeletable>true</isRestrictedAdminDeletable>
+<requireSigning>false</requireSigning>
+<useAccessCheckByUser>false</useAccessCheckByUser>
+<useAccessCheckByStatus>false</useAccessCheckByStatus>
+<contentType>SUBMITTED</contentType>
+<sortIndex>4</sortIndex>
+</Status>
+<Status>
+<flowInstanceCount>0</flowInstanceCount>
+<flowSubmittedInstanceCount>0</flowSubmittedInstanceCount>
+<statusID>28614</statusID>
+<name>Under behandling</name>
+<newExternalMessagesDisallowed>false</newExternalMessagesDisallowed>
+<addExternalMessage>false</addExternalMessage>
+<addInternalMessage>false</addInternalMessage>
+<isUserMutable>false</isUserMutable>
+<isUserDeletable>false</isUserDeletable>
+<isAdminMutable>true</isAdminMutable>
+<isAdminDeletable>true</isAdminDeletable>
+<isRestrictedAdminDeletable>true</isRestrictedAdminDeletable>
+<requireSigning>false</requireSigning>
+<useAccessCheckByUser>false</useAccessCheckByUser>
+<useAccessCheckByStatus>false</useAccessCheckByStatus>
+<contentType>IN_PROGRESS</contentType>
+<sortIndex>5</sortIndex>
+</Status>
+<Status>
+<flowInstanceCount>0</flowInstanceCount>
+<flowSubmittedInstanceCount>0</flowSubmittedInstanceCount>
+<statusID>28615</statusID>
+<name>Arkiverat</name>
+<newExternalMessagesDisallowed>false</newExternalMessagesDisallowed>
+<addExternalMessage>false</addExternalMessage>
+<addInternalMessage>false</addInternalMessage>
+<isUserMutable>false</isUserMutable>
+<isUserDeletable>false</isUserDeletable>
+<isAdminMutable>false</isAdminMutable>
+<isAdminDeletable>false</isAdminDeletable>
+<isRestrictedAdminDeletable>false</isRestrictedAdminDeletable>
+<requireSigning>false</requireSigning>
+<useAccessCheckByUser>false</useAccessCheckByUser>
+<useAccessCheckByStatus>false</useAccessCheckByStatus>
+<contentType>ARCHIVED</contentType>
+<sortIndex>6</sortIndex>
+</Status>
+</Statuses>
+<defaultFlowStateMappings>
+<DefaultStatusMapping>
+<actionID>com.nordicpeak.flowengine.FlowBrowserModule.save</actionID>
+<Status>
+<statusID>28610</statusID>
+<name>Sparat</name>
+<newExternalMessagesDisallowed>false</newExternalMessagesDisallowed>
+<addExternalMessage>false</addExternalMessage>
+<addInternalMessage>false</addInternalMessage>
+<isUserMutable>true</isUserMutable>
+<isUserDeletable>true</isUserDeletable>
+<isAdminMutable>false</isAdminMutable>
+<isAdminDeletable>false</isAdminDeletable>
+<isRestrictedAdminDeletable>false</isRestrictedAdminDeletable>
+<requireSigning>false</requireSigning>
+<useAccessCheckByUser>false</useAccessCheckByUser>
+<useAccessCheckByStatus>false</useAccessCheckByStatus>
+<contentType>NEW</contentType>
+<sortIndex>1</sortIndex>
+</Status>
+</DefaultStatusMapping>
+<DefaultStatusMapping>
+<actionID>com.nordicpeak.flowengine.FlowBrowserModule.submit</actionID>
+<Status>
+<statusID>28611</statusID>
+<name>Inskickat</name>
+<newExternalMessagesDisallowed>false</newExternalMessagesDisallowed>
+<addExternalMessage>false</addExternalMessage>
+<addInternalMessage>false</addInternalMessage>
+<isUserMutable>false</isUserMutable>
+<isUserDeletable>false</isUserDeletable>
+<isAdminMutable>true</isAdminMutable>
+<isAdminDeletable>true</isAdminDeletable>
+<isRestrictedAdminDeletable>true</isRestrictedAdminDeletable>
+<requireSigning>false</requireSigning>
+<useAccessCheckByUser>false</useAccessCheckByUser>
+<useAccessCheckByStatus>false</useAccessCheckByStatus>
+<contentType>SUBMITTED</contentType>
+<sortIndex>2</sortIndex>
+</Status>
+</DefaultStatusMapping>
+<DefaultStatusMapping>
+<actionID>com.nordicpeak.flowengine.UserFlowInstanceModule.submitcompletion</actionID>
+<Status>
+<statusID>28613</statusID>
+<name>Kompletterat</name>
+<newExternalMessagesDisallowed>false</newExternalMessagesDisallowed>
+<addExternalMessage>false</addExternalMessage>
+<addInternalMessage>false</addInternalMessage>
+<isUserMutable>false</isUserMutable>
+<isUserDeletable>false</isUserDeletable>
+<isAdminMutable>true</isAdminMutable>
+<isAdminDeletable>true</isAdminDeletable>
+<isRestrictedAdminDeletable>true</isRestrictedAdminDeletable>
+<requireSigning>false</requireSigning>
+<useAccessCheckByUser>false</useAccessCheckByUser>
+<useAccessCheckByStatus>false</useAccessCheckByStatus>
+<contentType>SUBMITTED</contentType>
+<sortIndex>4</sortIndex>
+</Status>
+</DefaultStatusMapping>
+</defaultFlowStateMappings>
+<Steps>
+<Step>
+<stepID>9323</stepID>
+<name>Grunduppgifter</name>
+<sortIndex>0</sortIndex>
+<QueryDescriptors>
+<QueryDescriptor>
+<queryID>80483</queryID>
+<name>Är du gift eller har registrerat partnerskap?</name>
+<sortIndex>0</sortIndex>
+<defaultQueryState>VISIBLE_REQUIRED</defaultQueryState>
+<queryTypeID>com.nordicpeak.flowengine.queries.radiobuttonquery.RadioButtonQueryProviderModule</queryTypeID>
+<exported>false</exported>
+<EvaluatorDescriptors>
+<EvaluatorDescriptor>
+<evaluatorID>75322</evaluatorID>
+<name>Sätt vikt för gift/partnerskap</name>
+<comment>Är den sökande gift eller har registrerat partnerskap så blir den beräknade nettoinkomsten hälften av den sökandes och partners sammanlagda nettoinkomster.&#13;
+Värdet blir därför 2 vid gift/partnerskap och 1 annars.</comment>
+<sortIndex>1</sortIndex>
+<evaluatorTypeID>com.nordicpeak.flowengine.evaluators.setweightevaluator.SetWeightEvaluationProviderModule</evaluatorTypeID>
+<enabled>true</enabled>
+<SetWeightEvaluator>
+<weightType>vikt_gift_partnerskap</weightType>
+<useOnlyHighestWeight>false</useOnlyHighestWeight>
+<AlternativeWeights>
+<AlternativeWeight>
+<alternativeID>56060</alternativeID>
+<weight>2</weight>
+</AlternativeWeight>
+<AlternativeWeight>
+<alternativeID>56061</alternativeID>
+<weight>1</weight>
+</AlternativeWeight>
+</AlternativeWeights>
+<evaluatorID>75322</evaluatorID>
+<configURL>/ep/setweight/config/75322</configURL>
+<EvaluatorDescriptor>
+<evaluatorID>75322</evaluatorID>
+<name>Sätt vikt för gift/partnerskap</name>
+<comment>Är den sökande gift eller har registrerat partnerskap så blir den beräknade nettoinkomsten hälften av den sökandes och partners sammanlagda nettoinkomster.&#13;
+Värdet blir därför 2 vid gift/partnerskap och 1 annars.</comment>
+<sortIndex>1</sortIndex>
+<evaluatorTypeID>com.nordicpeak.flowengine.evaluators.setweightevaluator.SetWeightEvaluationProviderModule</evaluatorTypeID>
+<enabled>true</enabled>
+</EvaluatorDescriptor>
+</SetWeightEvaluator>
+</EvaluatorDescriptor>
+<EvaluatorDescriptor>
+<evaluatorID>75323</evaluatorID>
+<name>Visa fråga gällande inkomst för make/maka</name>
+<sortIndex>2</sortIndex>
+<evaluatorTypeID>com.nordicpeak.flowengine.evaluators.querystateevaluator.QueryStateEvaluationProviderModule</evaluatorTypeID>
+<enabled>true</enabled>
+<TargetQueryIDs>
+<queryID>80487</queryID>
+</TargetQueryIDs>
+<QueryStateEvaluator>
+<selectionMode>ANY</selectionMode>
+<RequiredAlternativeIDs>
+<alternativeID>56060</alternativeID>
+</RequiredAlternativeIDs>
+<freeTextAlternative>false</freeTextAlternative>
+<queryState>VISIBLE_REQUIRED</queryState>
+<doNotResetQueryState>false</doNotResetQueryState>
+<forceReload>false</forceReload>
+<evaluatorID>75323</evaluatorID>
+<configURL>/ep/querystateevaluationprovider/config/75323</configURL>
+<EvaluatorDescriptor>
+<evaluatorID>75323</evaluatorID>
+<name>Visa fråga gällande inkomst för make/maka</name>
+<sortIndex>2</sortIndex>
+<evaluatorTypeID>com.nordicpeak.flowengine.evaluators.querystateevaluator.QueryStateEvaluationProviderModule</evaluatorTypeID>
+<enabled>true</enabled>
+<TargetQueryIDs>
+<queryID>80487</queryID>
+</TargetQueryIDs>
+</EvaluatorDescriptor>
+</QueryStateEvaluator>
+</EvaluatorDescriptor>
+</EvaluatorDescriptors>
+<mergeWithPreviousQuery>false</mergeWithPreviousQuery>
+<RadioButtonQuery>
+<queryID>80483</queryID>
+<searchable>false</searchable>
+<Alternatives>
+<RadioButtonAlternative>
+<alternativeID>56060</alternativeID>
+<name>Ja</name>
+<sortIndex>0</sortIndex>
+</RadioButtonAlternative>
+<RadioButtonAlternative>
+<alternativeID>56061</alternativeID>
+<name>Nej</name>
+<sortIndex>1</sortIndex>
+</RadioButtonAlternative>
+</Alternatives>
+<setAsAttribute>false</setAsAttribute>
+<columns>ONE</columns>
+<hideTitle>false</hideTitle>
+<hideDescriptionInPDF>false</hideDescriptionInPDF>
+<hideDescriptionWhenSubmitted>false</hideDescriptionWhenSubmitted>
+<lockForManagerUpdate>false</lockForManagerUpdate>
+<lockForOwnerUpdate>false</lockForOwnerUpdate>
+<configURL>/qp/radiobuttonquery/config/80483</configURL>
+<QueryDescriptor>
+<queryID>80483</queryID>
+<name>Är du gift eller har registrerat partnerskap?</name>
+<sortIndex>0</sortIndex>
+<defaultQueryState>VISIBLE_REQUIRED</defaultQueryState>
+<queryTypeID>com.nordicpeak.flowengine.queries.radiobuttonquery.RadioButtonQueryProviderModule</queryTypeID>
+<exported>false</exported>
+<EvaluatorDescriptors>
+<EvaluatorDescriptor>
+<evaluatorID>75322</evaluatorID>
+<name>Sätt vikt för gift/partnerskap</name>
+<comment>Är den sökande gift eller har registrerat partnerskap så blir den beräknade nettoinkomsten hälften av den sökandes och partners sammanlagda nettoinkomster.&#13;
+Värdet blir därför 2 vid gift/partnerskap och 1 annars.</comment>
+<sortIndex>1</sortIndex>
+<evaluatorTypeID>com.nordicpeak.flowengine.evaluators.setweightevaluator.SetWeightEvaluationProviderModule</evaluatorTypeID>
+<enabled>true</enabled>
+</EvaluatorDescriptor>
+<EvaluatorDescriptor>
+<evaluatorID>75323</evaluatorID>
+<name>Visa fråga gällande inkomst för make/maka</name>
+<sortIndex>2</sortIndex>
+<evaluatorTypeID>com.nordicpeak.flowengine.evaluators.querystateevaluator.QueryStateEvaluationProviderModule</evaluatorTypeID>
+<enabled>true</enabled>
+<TargetQueryIDs>
+<queryID>80487</queryID>
+</TargetQueryIDs>
+</EvaluatorDescriptor>
+</EvaluatorDescriptors>
+<mergeWithPreviousQuery>false</mergeWithPreviousQuery>
+</QueryDescriptor>
+</RadioButtonQuery>
+</QueryDescriptor>
+<QueryDescriptor>
+<queryID>80484</queryID>
+<name>Ange din ålder</name>
+<sortIndex>1</sortIndex>
+<defaultQueryState>VISIBLE_REQUIRED</defaultQueryState>
+<queryTypeID>com.nordicpeak.flowengine.queries.radiobuttonquery.RadioButtonQueryProviderModule</queryTypeID>
+<exported>false</exported>
+<EvaluatorDescriptors>
+<EvaluatorDescriptor>
+<evaluatorID>75324</evaluatorID>
+<name>Sätt vikt för ålder</name>
+<comment>Under 60 år är förbehållsbeloppet 10% högre</comment>
+<sortIndex>1</sortIndex>
+<evaluatorTypeID>com.nordicpeak.flowengine.evaluators.setweightevaluator.SetWeightEvaluationProviderModule</evaluatorTypeID>
+<enabled>true</enabled>
+<SetWeightEvaluator>
+<weightType>vikt_alder</weightType>
+<useOnlyHighestWeight>false</useOnlyHighestWeight>
+<AlternativeWeights>
+<AlternativeWeight>
+<alternativeID>56062</alternativeID>
+<weight>11</weight>
+</AlternativeWeight>
+<AlternativeWeight>
+<alternativeID>56063</alternativeID>
+<weight>10</weight>
+</AlternativeWeight>
+</AlternativeWeights>
+<evaluatorID>75324</evaluatorID>
+<configURL>/ep/setweight/config/75324</configURL>
+<EvaluatorDescriptor>
+<evaluatorID>75324</evaluatorID>
+<name>Sätt vikt för ålder</name>
+<comment>Under 60 år är förbehållsbeloppet 10% högre</comment>
+<sortIndex>1</sortIndex>
+<evaluatorTypeID>com.nordicpeak.flowengine.evaluators.setweightevaluator.SetWeightEvaluationProviderModule</evaluatorTypeID>
+<enabled>true</enabled>
+</EvaluatorDescriptor>
+</SetWeightEvaluator>
+</EvaluatorDescriptor>
+</EvaluatorDescriptors>
+<mergeWithPreviousQuery>false</mergeWithPreviousQuery>
+<RadioButtonQuery>
+<queryID>80484</queryID>
+<searchable>false</searchable>
+<Alternatives>
+<RadioButtonAlternative>
+<alternativeID>56062</alternativeID>
+<name>Under 60 år</name>
+<sortIndex>0</sortIndex>
+</RadioButtonAlternative>
+<RadioButtonAlternative>
+<alternativeID>56063</alternativeID>
+<name>60 år eller äldre</name>
+<sortIndex>1</sortIndex>
+</RadioButtonAlternative>
+</Alternatives>
+<setAsAttribute>false</setAsAttribute>
+<columns>ONE</columns>
+<hideTitle>false</hideTitle>
+<hideDescriptionInPDF>false</hideDescriptionInPDF>
+<hideDescriptionWhenSubmitted>false</hideDescriptionWhenSubmitted>
+<lockForManagerUpdate>false</lockForManagerUpdate>
+<lockForOwnerUpdate>false</lockForOwnerUpdate>
+<configURL>/qp/radiobuttonquery/config/80484</configURL>
+<QueryDescriptor>
+<queryID>80484</queryID>
+<name>Ange din ålder</name>
+<sortIndex>1</sortIndex>
+<defaultQueryState>VISIBLE_REQUIRED</defaultQueryState>
+<queryTypeID>com.nordicpeak.flowengine.queries.radiobuttonquery.RadioButtonQueryProviderModule</queryTypeID>
+<exported>false</exported>
+<EvaluatorDescriptors>
+<EvaluatorDescriptor>
+<evaluatorID>75324</evaluatorID>
+<name>Sätt vikt för ålder</name>
+<comment>Under 60 år är förbehållsbeloppet 10% högre</comment>
+<sortIndex>1</sortIndex>
+<evaluatorTypeID>com.nordicpeak.flowengine.evaluators.setweightevaluator.SetWeightEvaluationProviderModule</evaluatorTypeID>
+<enabled>true</enabled>
+</EvaluatorDescriptor>
+</EvaluatorDescriptors>
+<mergeWithPreviousQuery>false</mergeWithPreviousQuery>
+</QueryDescriptor>
+</RadioButtonQuery>
+</QueryDescriptor>
+</QueryDescriptors>
+</Step>
+<Step>
+<stepID>9324</stepID>
+<name>Uppgifter om inkomster och boende</name>
+<sortIndex>1</sortIndex>
+<QueryDescriptors>
+<QueryDescriptor>
+<queryID>80485</queryID>
+<name>Sätt konstanter (prisbasbelopp, maxtaxa, elavgift) som vikter (DOLD)</name>
+<sortIndex>0</sortIndex>
+<defaultQueryState>HIDDEN</defaultQueryState>
+<queryTypeID>com.nordicpeak.flowengine.queries.textfieldquery.TextFieldQueryProviderModule</queryTypeID>
+<exported>false</exported>
+<EvaluatorDescriptors>
+<EvaluatorDescriptor>
+<evaluatorID>75325</evaluatorID>
+<name>Vikt för prisbasbelopp</name>
+<sortIndex>0</sortIndex>
+<evaluatorTypeID>com.nordicpeak.flowengine.evaluators.settextfieldweightevaluator.SetTextFieldWeightEvaluationProviderModule</evaluatorTypeID>
+<enabled>true</enabled>
+<SetTextFieldWeightEvaluator>
+<textFieldID>33678</textFieldID>
+<weightType>vikt_prisbasbelopp</weightType>
+<evaluationMode>USE_FIELD_VALUE</evaluationMode>
+<evaluatorID>75325</evaluatorID>
+<configURL>/ep/settextfieldweight/config/75325</configURL>
+<EvaluatorDescriptor>
+<evaluatorID>75325</evaluatorID>
+<name>Vikt för prisbasbelopp</name>
+<sortIndex>0</sortIndex>
+<evaluatorTypeID>com.nordicpeak.flowengine.evaluators.settextfieldweightevaluator.SetTextFieldWeightEvaluationProviderModule</evaluatorTypeID>
+<enabled>true</enabled>
+</EvaluatorDescriptor>
+</SetTextFieldWeightEvaluator>
+</EvaluatorDescriptor>
+<EvaluatorDescriptor>
+<evaluatorID>75326</evaluatorID>
+<name>Vikt för maxtaxa</name>
+<sortIndex>1</sortIndex>
+<evaluatorTypeID>com.nordicpeak.flowengine.evaluators.settextfieldweightevaluator.SetTextFieldWeightEvaluationProviderModule</evaluatorTypeID>
+<enabled>true</enabled>
+<SetTextFieldWeightEvaluator>
+<textFieldID>33679</textFieldID>
+<weightType>vikt_maxtaxa</weightType>
+<evaluationMode>USE_FIELD_VALUE</evaluationMode>
+<evaluatorID>75326</evaluatorID>
+<configURL>/ep/settextfieldweight/config/75326</configURL>
+<EvaluatorDescriptor>
+<evaluatorID>75326</evaluatorID>
+<name>Vikt för maxtaxa</name>
+<sortIndex>1</sortIndex>
+<evaluatorTypeID>com.nordicpeak.flowengine.evaluators.settextfieldweightevaluator.SetTextFieldWeightEvaluationProviderModule</evaluatorTypeID>
+<enabled>true</enabled>
+</EvaluatorDescriptor>
+</SetTextFieldWeightEvaluator>
+</EvaluatorDescriptor>
+<EvaluatorDescriptor>
+<evaluatorID>75327</evaluatorID>
+<name>Vikt för boendeabonnemang</name>
+<sortIndex>2</sortIndex>
+<evaluatorTypeID>com.nordicpeak.flowengine.evaluators.settextfieldweightevaluator.SetTextFieldWeightEvaluationProviderModule</evaluatorTypeID>
+<enabled>true</enabled>
+<SetTextFieldWeightEvaluator>
+<textFieldID>33680</textFieldID>
+<weightType>vikt_boendeabonnemang</weightType>
+<evaluationMode>USE_FIELD_VALUE</evaluationMode>
+<evaluatorID>75327</evaluatorID>
+<configURL>/ep/settextfieldweight/config/75327</configURL>
+<EvaluatorDescriptor>
+<evaluatorID>75327</evaluatorID>
+<name>Vikt för boendeabonnemang</name>
+<sortIndex>2</sortIndex>
+<evaluatorTypeID>com.nordicpeak.flowengine.evaluators.settextfieldweightevaluator.SetTextFieldWeightEvaluationProviderModule</evaluatorTypeID>
+<enabled>true</enabled>
+</EvaluatorDescriptor>
+</SetTextFieldWeightEvaluator>
+</EvaluatorDescriptor>
+<EvaluatorDescriptor>
+<evaluatorID>75328</evaluatorID>
+<name>Vikt för medelhyra</name>
+<sortIndex>3</sortIndex>
+<evaluatorTypeID>com.nordicpeak.flowengine.evaluators.settextfieldweightevaluator.SetTextFieldWeightEvaluationProviderModule</evaluatorTypeID>
+<enabled>true</enabled>
+<SetTextFieldWeightEvaluator>
+<textFieldID>33682</textFieldID>
+<weightType>vikt_medelhyra</weightType>
+<evaluationMode>USE_FIELD_VALUE</evaluationMode>
+<evaluatorID>75328</evaluatorID>
+<configURL>/ep/settextfieldweight/config/75328</configURL>
+<EvaluatorDescriptor>
+<evaluatorID>75328</evaluatorID>
+<name>Vikt för medelhyra</name>
+<sortIndex>3</sortIndex>
+<evaluatorTypeID>com.nordicpeak.flowengine.evaluators.settextfieldweightevaluator.SetTextFieldWeightEvaluationProviderModule</evaluatorTypeID>
+<enabled>true</enabled>
+</EvaluatorDescriptor>
+</SetTextFieldWeightEvaluator>
+</EvaluatorDescriptor>
+<EvaluatorDescriptor>
+<evaluatorID>75329</evaluatorID>
+<name>Vikt för elavgift per kvm</name>
+<sortIndex>4</sortIndex>
+<evaluatorTypeID>com.nordicpeak.flowengine.evaluators.settextfieldweightevaluator.SetTextFieldWeightEvaluationProviderModule</evaluatorTypeID>
+<enabled>false</enabled>
+<SetTextFieldWeightEvaluator>
+<textFieldID>33681</textFieldID>
+<weightType>vikt_elavgift_per_kvm</weightType>
+<evaluationMode>USE_FIELD_VALUE</evaluationMode>
+<evaluatorID>75329</evaluatorID>
+<configURL>/ep/settextfieldweight/config/75329</configURL>
+<EvaluatorDescriptor>
+<evaluatorID>75329</evaluatorID>
+<name>Vikt för elavgift per kvm</name>
+<sortIndex>4</sortIndex>
+<evaluatorTypeID>com.nordicpeak.flowengine.evaluators.settextfieldweightevaluator.SetTextFieldWeightEvaluationProviderModule</evaluatorTypeID>
+<enabled>false</enabled>
+</EvaluatorDescriptor>
+</SetTextFieldWeightEvaluator>
+</EvaluatorDescriptor>
+<EvaluatorDescriptor>
+<evaluatorID>75330</evaluatorID>
+<name>Sätt konstant för prisbasbelopp</name>
+<sortIndex>5</sortIndex>
+<evaluatorTypeID>com.nordicpeak.flowengine.evaluators.settextfieldvalueweightevaluator.SetTextFieldValueWeightEvaluationProviderModule</evaluatorTypeID>
+<enabled>true</enabled>
+<SetTextFieldValueWeightEvaluator>
+<textFieldID>33678</textFieldID>
+<expression><![CDATA[59200]]></expression>
+<displayDecimals>false</displayDecimals>
+<invalidExpressionMessage>Fel vid sättning av konstant för prisbasbelopp</invalidExpressionMessage>
+<evaluatorID>75330</evaluatorID>
+<configURL>/ep/settextfieldvalueweight/config/75330</configURL>
+<EvaluatorDescriptor>
+<evaluatorID>75330</evaluatorID>
+<name>Sätt konstant för prisbasbelopp</name>
+<sortIndex>5</sortIndex>
+<evaluatorTypeID>com.nordicpeak.flowengine.evaluators.settextfieldvalueweightevaluator.SetTextFieldValueWeightEvaluationProviderModule</evaluatorTypeID>
+<enabled>true</enabled>
+</EvaluatorDescriptor>
+</SetTextFieldValueWeightEvaluator>
+</EvaluatorDescriptor>
+<EvaluatorDescriptor>
+<evaluatorID>75331</evaluatorID>
+<name>Sätt konstant för maxtaxa</name>
+<sortIndex>6</sortIndex>
+<evaluatorTypeID>com.nordicpeak.flowengine.evaluators.settextfieldvalueweightevaluator.SetTextFieldValueWeightEvaluationProviderModule</evaluatorTypeID>
+<enabled>true</enabled>
+<SetTextFieldValueWeightEvaluator>
+<textFieldID>33679</textFieldID>
+<expression><![CDATA[2660]]></expression>
+<displayDecimals>false</displayDecimals>
+<invalidExpressionMessage>Fel vid sättning av konstant för maxtaxa.</invalidExpressionMessage>
+<evaluatorID>75331</evaluatorID>
+<configURL>/ep/settextfieldvalueweight/config/75331</configURL>
+<EvaluatorDescriptor>
+<evaluatorID>75331</evaluatorID>
+<name>Sätt konstant för maxtaxa</name>
+<sortIndex>6</sortIndex>
+<evaluatorTypeID>com.nordicpeak.flowengine.evaluators.settextfieldvalueweightevaluator.SetTextFieldValueWeightEvaluationProviderModule</evaluatorTypeID>
+<enabled>true</enabled>
+</EvaluatorDescriptor>
+</SetTextFieldValueWeightEvaluator>
+</EvaluatorDescriptor>
+<EvaluatorDescriptor>
+<evaluatorID>75332</evaluatorID>
+<name>Sätt konstant för boendeabonnemang</name>
+<sortIndex>7</sortIndex>
+<evaluatorTypeID>com.nordicpeak.flowengine.evaluators.settextfieldvalueweightevaluator.SetTextFieldValueWeightEvaluationProviderModule</evaluatorTypeID>
+<enabled>true</enabled>
+<SetTextFieldValueWeightEvaluator>
+<textFieldID>33680</textFieldID>
+<expression><![CDATA[4391]]></expression>
+<displayDecimals>false</displayDecimals>
+<invalidExpressionMessage>Fel vid beräkning av vikt för boendeabonnemang</invalidExpressionMessage>
+<evaluatorID>75332</evaluatorID>
+<configURL>/ep/settextfieldvalueweight/config/75332</configURL>
+<EvaluatorDescriptor>
+<evaluatorID>75332</evaluatorID>
+<name>Sätt konstant för boendeabonnemang</name>
+<sortIndex>7</sortIndex>
+<evaluatorTypeID>com.nordicpeak.flowengine.evaluators.settextfieldvalueweightevaluator.SetTextFieldValueWeightEvaluationProviderModule</evaluatorTypeID>
+<enabled>true</enabled>
+</EvaluatorDescriptor>
+</SetTextFieldValueWeightEvaluator>
+</EvaluatorDescriptor>
+<EvaluatorDescriptor>
+<evaluatorID>75333</evaluatorID>
+<name>Sätt konstant för medelhyra</name>
+<sortIndex>8</sortIndex>
+<evaluatorTypeID>com.nordicpeak.flowengine.evaluators.settextfieldvalueweightevaluator.SetTextFieldValueWeightEvaluationProviderModule</evaluatorTypeID>
+<enabled>true</enabled>
+<SetTextFieldValueWeightEvaluator>
+<textFieldID>33682</textFieldID>
+<expression><![CDATA[6400]]></expression>
+<displayDecimals>false</displayDecimals>
+<invalidExpressionMessage>Fel vid beräkning av vikt för medelhyra</invalidExpressionMessage>
+<evaluatorID>75333</evaluatorID>
+<configURL>/ep/settextfieldvalueweight/config/75333</configURL>
+<EvaluatorDescriptor>
+<evaluatorID>75333</evaluatorID>
+<name>Sätt konstant för medelhyra</name>
+<sortIndex>8</sortIndex>
+<evaluatorTypeID>com.nordicpeak.flowengine.evaluators.settextfieldvalueweightevaluator.SetTextFieldValueWeightEvaluationProviderModule</evaluatorTypeID>
+<enabled>true</enabled>
+</EvaluatorDescriptor>
+</SetTextFieldValueWeightEvaluator>
+</EvaluatorDescriptor>
+<EvaluatorDescriptor>
+<evaluatorID>75334</evaluatorID>
+<name>Sätt konstant för elavgift per kvm</name>
+<comment>Värdet är 5.16 kr/kvm men när beräkning med vikter görs med heltal.&#13;
+När vi sen ska beräkna hela avgiften dividerar vi med 100 och får korrekt resultat:&#13;
+200*516/100 = 1032 kr&#13;
+&#13;
+Annars hade plattformen multiplicerat med 5 istället för 5.16 och resultatet hade felaktigt blivit:&#13;
+200*5 = 1000 kr.</comment>
+<sortIndex>9</sortIndex>
+<evaluatorTypeID>com.nordicpeak.flowengine.evaluators.settextfieldvalueweightevaluator.SetTextFieldValueWeightEvaluationProviderModule</evaluatorTypeID>
+<enabled>false</enabled>
+<SetTextFieldValueWeightEvaluator>
+<textFieldID>33681</textFieldID>
+<expression><![CDATA[516]]></expression>
+<displayDecimals>false</displayDecimals>
+<invalidExpressionMessage>Fel vid beräkning av vikt för elavgift</invalidExpressionMessage>
+<evaluatorID>75334</evaluatorID>
+<configURL>/ep/settextfieldvalueweight/config/75334</configURL>
+<EvaluatorDescriptor>
+<evaluatorID>75334</evaluatorID>
+<name>Sätt konstant för elavgift per kvm</name>
+<comment>Värdet är 5.16 kr/kvm men när beräkning med vikter görs med heltal.&#13;
+När vi sen ska beräkna hela avgiften dividerar vi med 100 och får korrekt resultat:&#13;
+200*516/100 = 1032 kr&#13;
+&#13;
+Annars hade plattformen multiplicerat med 5 istället för 5.16 och resultatet hade felaktigt blivit:&#13;
+200*5 = 1000 kr.</comment>
+<sortIndex>9</sortIndex>
+<evaluatorTypeID>com.nordicpeak.flowengine.evaluators.settextfieldvalueweightevaluator.SetTextFieldValueWeightEvaluationProviderModule</evaluatorTypeID>
+<enabled>false</enabled>
+</EvaluatorDescriptor>
+</SetTextFieldValueWeightEvaluator>
+</EvaluatorDescriptor>
+</EvaluatorDescriptors>
+<mergeWithPreviousQuery>false</mergeWithPreviousQuery>
+<TextFieldQuery>
+<queryID>80485</queryID>
+<layout>FLOAT</layout>
+<hideTitle>false</hideTitle>
+<hideDescriptionWhenSubmitted>false</hideDescriptionWhenSubmitted>
+<lockOnOwnershipTransfer>false</lockOnOwnershipTransfer>
+<lockForManagerUpdate>false</lockForManagerUpdate>
+<Fields>
+<TextField>
+<textFieldID>33678</textFieldID>
+<label>Prisbasbelopp för aktuellt år</label>
+<disabled>true</disabled>
+<required>false</required>
+<searchable>false</searchable>
+<inactivateAutocomplete>false</inactivateAutocomplete>
+<sortIndex>0</sortIndex>
+<containsPrice>false</containsPrice>
+<maskFieldContent>false</maskFieldContent>
+<setAsAttribute>true</setAsAttribute>
+<attributeName>attr_prisbasbelopp</attributeName>
+</TextField>
+<TextField>
+<textFieldID>33679</textFieldID>
+<label>Maxtaxa för aktuellt år</label>
+<disabled>true</disabled>
+<required>false</required>
+<searchable>false</searchable>
+<inactivateAutocomplete>false</inactivateAutocomplete>
+<sortIndex>1</sortIndex>
+<containsPrice>false</containsPrice>
+<maskFieldContent>false</maskFieldContent>
+<setAsAttribute>true</setAsAttribute>
+<attributeName>attr_maxtaxa</attributeName>
+</TextField>
+<TextField>
+<textFieldID>33680</textFieldID>
+<label>Boendeabonnemang för aktuellt år</label>
+<disabled>true</disabled>
+<required>false</required>
+<searchable>false</searchable>
+<inactivateAutocomplete>false</inactivateAutocomplete>
+<sortIndex>2</sortIndex>
+<containsPrice>false</containsPrice>
+<maskFieldContent>false</maskFieldContent>
+<setAsAttribute>true</setAsAttribute>
+<attributeName>attr_boendeabonnemang</attributeName>
+</TextField>
+<TextField>
+<textFieldID>33681</textFieldID>
+<label>Elavgift per kvm</label>
+<disabled>true</disabled>
+<required>false</required>
+<searchable>false</searchable>
+<inactivateAutocomplete>false</inactivateAutocomplete>
+<sortIndex>3</sortIndex>
+<containsPrice>false</containsPrice>
+<maskFieldContent>false</maskFieldContent>
+<setAsAttribute>true</setAsAttribute>
+<attributeName>attr_elavgift_per_kvm</attributeName>
+</TextField>
+<TextField>
+<textFieldID>33682</textFieldID>
+<label>Medelhyra lägenhet säbo</label>
+<disabled>true</disabled>
+<required>false</required>
+<searchable>false</searchable>
+<inactivateAutocomplete>false</inactivateAutocomplete>
+<sortIndex>4</sortIndex>
+<containsPrice>false</containsPrice>
+<maskFieldContent>false</maskFieldContent>
+<formatValidator>se.unlogic.standardutils.validation.NonNegativeStringIntegerValidator</formatValidator>
+<invalidFormatMessage>Du måste fylla i 0 eller ett positivt heltal</invalidFormatMessage>
+<setAsAttribute>true</setAsAttribute>
+<attributeName>attr_medelhyra</attributeName>
+</TextField>
+</Fields>
+<configURL>/qp/textfieldprovider/config/80485</configURL>
+<QueryDescriptor>
+<queryID>80485</queryID>
+<name>Sätt konstanter (prisbasbelopp, maxtaxa, elavgift) som vikter (DOLD)</name>
+<sortIndex>0</sortIndex>
+<defaultQueryState>HIDDEN</defaultQueryState>
+<queryTypeID>com.nordicpeak.flowengine.queries.textfieldquery.TextFieldQueryProviderModule</queryTypeID>
+<exported>false</exported>
+<EvaluatorDescriptors>
+<EvaluatorDescriptor>
+<evaluatorID>75325</evaluatorID>
+<name>Vikt för prisbasbelopp</name>
+<sortIndex>0</sortIndex>
+<evaluatorTypeID>com.nordicpeak.flowengine.evaluators.settextfieldweightevaluator.SetTextFieldWeightEvaluationProviderModule</evaluatorTypeID>
+<enabled>true</enabled>
+</EvaluatorDescriptor>
+<EvaluatorDescriptor>
+<evaluatorID>75326</evaluatorID>
+<name>Vikt för maxtaxa</name>
+<sortIndex>1</sortIndex>
+<evaluatorTypeID>com.nordicpeak.flowengine.evaluators.settextfieldweightevaluator.SetTextFieldWeightEvaluationProviderModule</evaluatorTypeID>
+<enabled>true</enabled>
+</EvaluatorDescriptor>
+<EvaluatorDescriptor>
+<evaluatorID>75327</evaluatorID>
+<name>Vikt för boendeabonnemang</name>
+<sortIndex>2</sortIndex>
+<evaluatorTypeID>com.nordicpeak.flowengine.evaluators.settextfieldweightevaluator.SetTextFieldWeightEvaluationProviderModule</evaluatorTypeID>
+<enabled>true</enabled>
+</EvaluatorDescriptor>
+<EvaluatorDescriptor>
+<evaluatorID>75328</evaluatorID>
+<name>Vikt för medelhyra</name>
+<sortIndex>3</sortIndex>
+<evaluatorTypeID>com.nordicpeak.flowengine.evaluators.settextfieldweightevaluator.SetTextFieldWeightEvaluationProviderModule</evaluatorTypeID>
+<enabled>true</enabled>
+</EvaluatorDescriptor>
+<EvaluatorDescriptor>
+<evaluatorID>75329</evaluatorID>
+<name>Vikt för elavgift per kvm</name>
+<sortIndex>4</sortIndex>
+<evaluatorTypeID>com.nordicpeak.flowengine.evaluators.settextfieldweightevaluator.SetTextFieldWeightEvaluationProviderModule</evaluatorTypeID>
+<enabled>false</enabled>
+</EvaluatorDescriptor>
+<EvaluatorDescriptor>
+<evaluatorID>75330</evaluatorID>
+<name>Sätt konstant för prisbasbelopp</name>
+<sortIndex>5</sortIndex>
+<evaluatorTypeID>com.nordicpeak.flowengine.evaluators.settextfieldvalueweightevaluator.SetTextFieldValueWeightEvaluationProviderModule</evaluatorTypeID>
+<enabled>true</enabled>
+</EvaluatorDescriptor>
+<EvaluatorDescriptor>
+<evaluatorID>75331</evaluatorID>
+<name>Sätt konstant för maxtaxa</name>
+<sortIndex>6</sortIndex>
+<evaluatorTypeID>com.nordicpeak.flowengine.evaluators.settextfieldvalueweightevaluator.SetTextFieldValueWeightEvaluationProviderModule</evaluatorTypeID>
+<enabled>true</enabled>
+</EvaluatorDescriptor>
+<EvaluatorDescriptor>
+<evaluatorID>75332</evaluatorID>
+<name>Sätt konstant för boendeabonnemang</name>
+<sortIndex>7</sortIndex>
+<evaluatorTypeID>com.nordicpeak.flowengine.evaluators.settextfieldvalueweightevaluator.SetTextFieldValueWeightEvaluationProviderModule</evaluatorTypeID>
+<enabled>true</enabled>
+</EvaluatorDescriptor>
+<EvaluatorDescriptor>
+<evaluatorID>75333</evaluatorID>
+<name>Sätt konstant för medelhyra</name>
+<sortIndex>8</sortIndex>
+<evaluatorTypeID>com.nordicpeak.flowengine.evaluators.settextfieldvalueweightevaluator.SetTextFieldValueWeightEvaluationProviderModule</evaluatorTypeID>
+<enabled>true</enabled>
+</EvaluatorDescriptor>
+<EvaluatorDescriptor>
+<evaluatorID>75334</evaluatorID>
+<name>Sätt konstant för elavgift per kvm</name>
+<comment>Värdet är 5.16 kr/kvm men när beräkning med vikter görs med heltal.&#13;
+När vi sen ska beräkna hela avgiften dividerar vi med 100 och får korrekt resultat:&#13;
+200*516/100 = 1032 kr&#13;
+&#13;
+Annars hade plattformen multiplicerat med 5 istället för 5.16 och resultatet hade felaktigt blivit:&#13;
+200*5 = 1000 kr.</comment>
+<sortIndex>9</sortIndex>
+<evaluatorTypeID>com.nordicpeak.flowengine.evaluators.settextfieldvalueweightevaluator.SetTextFieldValueWeightEvaluationProviderModule</evaluatorTypeID>
+<enabled>false</enabled>
+</EvaluatorDescriptor>
+</EvaluatorDescriptors>
+<mergeWithPreviousQuery>false</mergeWithPreviousQuery>
+</QueryDescriptor>
+</TextFieldQuery>
+</QueryDescriptor>
+<QueryDescriptor>
+<queryID>80486</queryID>
+<name>Dina inkomster</name>
+<sortIndex>1</sortIndex>
+<defaultQueryState>VISIBLE_REQUIRED</defaultQueryState>
+<queryTypeID>com.nordicpeak.flowengine.queries.textfieldquery.TextFieldQueryProviderModule</queryTypeID>
+<exported>false</exported>
+<EvaluatorDescriptors>
+<EvaluatorDescriptor>
+<evaluatorID>75335</evaluatorID>
+<name>Vikt för inkomst</name>
+<sortIndex>1</sortIndex>
+<evaluatorTypeID>com.nordicpeak.flowengine.evaluators.settextfieldweightevaluator.SetTextFieldWeightEvaluationProviderModule</evaluatorTypeID>
+<enabled>true</enabled>
+<SetTextFieldWeightEvaluator>
+<textFieldID>33683</textFieldID>
+<weightType>vikt_inkomst</weightType>
+<evaluationMode>USE_FIELD_VALUE</evaluationMode>
+<evaluatorID>75335</evaluatorID>
+<configURL>/ep/settextfieldweight/config/75335</configURL>
+<EvaluatorDescriptor>
+<evaluatorID>75335</evaluatorID>
+<name>Vikt för inkomst</name>
+<sortIndex>1</sortIndex>
+<evaluatorTypeID>com.nordicpeak.flowengine.evaluators.settextfieldweightevaluator.SetTextFieldWeightEvaluationProviderModule</evaluatorTypeID>
+<enabled>true</enabled>
+</EvaluatorDescriptor>
+</SetTextFieldWeightEvaluator>
+</EvaluatorDescriptor>
+<EvaluatorDescriptor>
+<evaluatorID>75336</evaluatorID>
+<name>Vikt för ej skattepliktig inkomst</name>
+<sortIndex>2</sortIndex>
+<evaluatorTypeID>com.nordicpeak.flowengine.evaluators.settextfieldweightevaluator.SetTextFieldWeightEvaluationProviderModule</evaluatorTypeID>
+<enabled>true</enabled>
+<SetTextFieldWeightEvaluator>
+<textFieldID>33684</textFieldID>
+<weightType>vikt_ej_skattepl_inkomst</weightType>
+<evaluationMode>USE_FIELD_VALUE</evaluationMode>
+<evaluatorID>75336</evaluatorID>
+<configURL>/ep/settextfieldweight/config/75336</configURL>
+<EvaluatorDescriptor>
+<evaluatorID>75336</evaluatorID>
+<name>Vikt för ej skattepliktig inkomst</name>
+<sortIndex>2</sortIndex>
+<evaluatorTypeID>com.nordicpeak.flowengine.evaluators.settextfieldweightevaluator.SetTextFieldWeightEvaluationProviderModule</evaluatorTypeID>
+<enabled>true</enabled>
+</EvaluatorDescriptor>
+</SetTextFieldWeightEvaluator>
+</EvaluatorDescriptor>
+<EvaluatorDescriptor>
+<evaluatorID>75337</evaluatorID>
+<name>Vikt för kapitalinkomst</name>
+<sortIndex>3</sortIndex>
+<evaluatorTypeID>com.nordicpeak.flowengine.evaluators.settextfieldweightevaluator.SetTextFieldWeightEvaluationProviderModule</evaluatorTypeID>
+<enabled>true</enabled>
+<SetTextFieldWeightEvaluator>
+<textFieldID>33685</textFieldID>
+<weightType>vikt_kapitalinkomst</weightType>
+<evaluationMode>USE_FIELD_VALUE</evaluationMode>
+<evaluatorID>75337</evaluatorID>
+<configURL>/ep/settextfieldweight/config/75337</configURL>
+<EvaluatorDescriptor>
+<evaluatorID>75337</evaluatorID>
+<name>Vikt för kapitalinkomst</name>
+<sortIndex>3</sortIndex>
+<evaluatorTypeID>com.nordicpeak.flowengine.evaluators.settextfieldweightevaluator.SetTextFieldWeightEvaluationProviderModule</evaluatorTypeID>
+<enabled>true</enabled>
+</EvaluatorDescriptor>
+</SetTextFieldWeightEvaluator>
+</EvaluatorDescriptor>
+</EvaluatorDescriptors>
+<mergeWithPreviousQuery>false</mergeWithPreviousQuery>
+<TextFieldQuery>
+<queryID>80486</queryID>
+<layout>NEW_LINE</layout>
+<hideTitle>false</hideTitle>
+<hideDescriptionWhenSubmitted>false</hideDescriptionWhenSubmitted>
+<lockOnOwnershipTransfer>false</lockOnOwnershipTransfer>
+<lockForManagerUpdate>false</lockForManagerUpdate>
+<Fields>
+<TextField>
+<textFieldID>33683</textFieldID>
+<label>Nettoinkomst per månad (efter skatt)</label>
+<disabled>false</disabled>
+<required>true</required>
+<searchable>false</searchable>
+<inactivateAutocomplete>true</inactivateAutocomplete>
+<maxContentLength>10</maxContentLength>
+<sortIndex>0</sortIndex>
+<containsPrice>false</containsPrice>
+<maskFieldContent>false</maskFieldContent>
+<formatValidator>se.unlogic.standardutils.validation.NonNegativeStringIntegerValidator</formatValidator>
+<invalidFormatMessage>Du måste fylla i 0 eller ett positivt värde</invalidFormatMessage>
+<setAsAttribute>true</setAsAttribute>
+<attributeName>attr_nettoinkomst</attributeName>
+</TextField>
+<TextField>
+<textFieldID>33684</textFieldID>
+<label>Ej skattepliktig inkomst per månad</label>
+<disabled>false</disabled>
+<required>true</required>
+<searchable>false</searchable>
+<inactivateAutocomplete>true</inactivateAutocomplete>
+<maxContentLength>10</maxContentLength>
+<sortIndex>1</sortIndex>
+<containsPrice>false</containsPrice>
+<maskFieldContent>false</maskFieldContent>
+<formatValidator>se.unlogic.standardutils.validation.NonNegativeStringIntegerValidator</formatValidator>
+<invalidFormatMessage>Du måste fylla i 0 eller ett positivt värde</invalidFormatMessage>
+<setAsAttribute>true</setAsAttribute>
+<attributeName>attr_ej_skattepl_inkomst</attributeName>
+</TextField>
+<TextField>
+<textFieldID>33685</textFieldID>
+<label>Inkomst av kapital föregående år (före skatt)</label>
+<disabled>false</disabled>
+<required>true</required>
+<searchable>false</searchable>
+<inactivateAutocomplete>true</inactivateAutocomplete>
+<maxContentLength>10</maxContentLength>
+<sortIndex>2</sortIndex>
+<containsPrice>false</containsPrice>
+<maskFieldContent>false</maskFieldContent>
+<formatValidator>se.unlogic.standardutils.validation.NonNegativeStringIntegerValidator</formatValidator>
+<invalidFormatMessage>Du måste fylla i 0 eller ett positivt värde</invalidFormatMessage>
+<setAsAttribute>true</setAsAttribute>
+<attributeName>attr_kapitalinkomst</attributeName>
+</TextField>
+</Fields>
+<description><![CDATA[<p><strong>Nettoinkomst</strong>&nbsp;&auml;r till exempel l&ouml;n, pension, sjukers&auml;ttning med mera - efter skatt.</p>
+
+<p><strong>Ej skattepliktig inkomst</strong>&nbsp;&auml;r till exempel utl&auml;ndsk pension, f&ouml;rs&ouml;rjningsst&ouml;d, bostadsbidrag/bostadstill&auml;gg med mera.</p>
+
+<p><strong>Inkomst av kapital&nbsp;</strong>&auml;r till exempel r&auml;ntevinster och aktieutdelningar. Beloppet avser f&ouml;reg&aring;ende &aring;r och anges f&ouml;re skatt. Du hittar beloppet p&aring; din deklaration, p&aring; f&ouml;rsta sidan i ruta 7.2.</p>]]></description>
+<configURL>/qp/textfieldprovider/config/80486</configURL>
+<QueryDescriptor>
+<queryID>80486</queryID>
+<name>Dina inkomster</name>
+<sortIndex>1</sortIndex>
+<defaultQueryState>VISIBLE_REQUIRED</defaultQueryState>
+<queryTypeID>com.nordicpeak.flowengine.queries.textfieldquery.TextFieldQueryProviderModule</queryTypeID>
+<exported>false</exported>
+<EvaluatorDescriptors>
+<EvaluatorDescriptor>
+<evaluatorID>75335</evaluatorID>
+<name>Vikt för inkomst</name>
+<sortIndex>1</sortIndex>
+<evaluatorTypeID>com.nordicpeak.flowengine.evaluators.settextfieldweightevaluator.SetTextFieldWeightEvaluationProviderModule</evaluatorTypeID>
+<enabled>true</enabled>
+</EvaluatorDescriptor>
+<EvaluatorDescriptor>
+<evaluatorID>75336</evaluatorID>
+<name>Vikt för ej skattepliktig inkomst</name>
+<sortIndex>2</sortIndex>
+<evaluatorTypeID>com.nordicpeak.flowengine.evaluators.settextfieldweightevaluator.SetTextFieldWeightEvaluationProviderModule</evaluatorTypeID>
+<enabled>true</enabled>
+</EvaluatorDescriptor>
+<EvaluatorDescriptor>
+<evaluatorID>75337</evaluatorID>
+<name>Vikt för kapitalinkomst</name>
+<sortIndex>3</sortIndex>
+<evaluatorTypeID>com.nordicpeak.flowengine.evaluators.settextfieldweightevaluator.SetTextFieldWeightEvaluationProviderModule</evaluatorTypeID>
+<enabled>true</enabled>
+</EvaluatorDescriptor>
+</EvaluatorDescriptors>
+<mergeWithPreviousQuery>false</mergeWithPreviousQuery>
+</QueryDescriptor>
+</TextFieldQuery>
+</QueryDescriptor>
+<QueryDescriptor>
+<queryID>80487</queryID>
+<name>Ange din makes eller makas inkomster</name>
+<sortIndex>2</sortIndex>
+<defaultQueryState>HIDDEN</defaultQueryState>
+<queryTypeID>com.nordicpeak.flowengine.queries.textfieldquery.TextFieldQueryProviderModule</queryTypeID>
+<exported>false</exported>
+<EvaluatorDescriptors>
+<EvaluatorDescriptor>
+<evaluatorID>75338</evaluatorID>
+<name>Vikt för inkomst - make/maka</name>
+<sortIndex>2</sortIndex>
+<evaluatorTypeID>com.nordicpeak.flowengine.evaluators.settextfieldweightevaluator.SetTextFieldWeightEvaluationProviderModule</evaluatorTypeID>
+<enabled>true</enabled>
+<SetTextFieldWeightEvaluator>
+<textFieldID>33686</textFieldID>
+<weightType>vikt_inkomst_partner</weightType>
+<evaluationMode>USE_FIELD_VALUE</evaluationMode>
+<evaluatorID>75338</evaluatorID>
+<configURL>/ep/settextfieldweight/config/75338</configURL>
+<EvaluatorDescriptor>
+<evaluatorID>75338</evaluatorID>
+<name>Vikt för inkomst - make/maka</name>
+<sortIndex>2</sortIndex>
+<evaluatorTypeID>com.nordicpeak.flowengine.evaluators.settextfieldweightevaluator.SetTextFieldWeightEvaluationProviderModule</evaluatorTypeID>
+<enabled>true</enabled>
+</EvaluatorDescriptor>
+</SetTextFieldWeightEvaluator>
+</EvaluatorDescriptor>
+<EvaluatorDescriptor>
+<evaluatorID>75339</evaluatorID>
+<name>Vikt för ej skattepliktig inkomst - make/maka</name>
+<sortIndex>3</sortIndex>
+<evaluatorTypeID>com.nordicpeak.flowengine.evaluators.settextfieldweightevaluator.SetTextFieldWeightEvaluationProviderModule</evaluatorTypeID>
+<enabled>true</enabled>
+<SetTextFieldWeightEvaluator>
+<textFieldID>33687</textFieldID>
+<weightType>vikt_ej_skattepl_inkomst_partner</weightType>
+<evaluationMode>USE_FIELD_VALUE</evaluationMode>
+<evaluatorID>75339</evaluatorID>
+<configURL>/ep/settextfieldweight/config/75339</configURL>
+<EvaluatorDescriptor>
+<evaluatorID>75339</evaluatorID>
+<name>Vikt för ej skattepliktig inkomst - make/maka</name>
+<sortIndex>3</sortIndex>
+<evaluatorTypeID>com.nordicpeak.flowengine.evaluators.settextfieldweightevaluator.SetTextFieldWeightEvaluationProviderModule</evaluatorTypeID>
+<enabled>true</enabled>
+</EvaluatorDescriptor>
+</SetTextFieldWeightEvaluator>
+</EvaluatorDescriptor>
+<EvaluatorDescriptor>
+<evaluatorID>75340</evaluatorID>
+<name>Vikt för kapitalinkomst - make/maka</name>
+<sortIndex>4</sortIndex>
+<evaluatorTypeID>com.nordicpeak.flowengine.evaluators.settextfieldweightevaluator.SetTextFieldWeightEvaluationProviderModule</evaluatorTypeID>
+<enabled>true</enabled>
+<SetTextFieldWeightEvaluator>
+<textFieldID>33688</textFieldID>
+<weightType>vikt_kapitalinkomst_partner</weightType>
+<evaluationMode>USE_FIELD_VALUE</evaluationMode>
+<evaluatorID>75340</evaluatorID>
+<configURL>/ep/settextfieldweight/config/75340</configURL>
+<EvaluatorDescriptor>
+<evaluatorID>75340</evaluatorID>
+<name>Vikt för kapitalinkomst - make/maka</name>
+<sortIndex>4</sortIndex>
+<evaluatorTypeID>com.nordicpeak.flowengine.evaluators.settextfieldweightevaluator.SetTextFieldWeightEvaluationProviderModule</evaluatorTypeID>
+<enabled>true</enabled>
+</EvaluatorDescriptor>
+</SetTextFieldWeightEvaluator>
+</EvaluatorDescriptor>
+</EvaluatorDescriptors>
+<mergeWithPreviousQuery>false</mergeWithPreviousQuery>
+<TextFieldQuery>
+<queryID>80487</queryID>
+<layout>NEW_LINE</layout>
+<hideTitle>false</hideTitle>
+<hideDescriptionWhenSubmitted>false</hideDescriptionWhenSubmitted>
+<lockOnOwnershipTransfer>false</lockOnOwnershipTransfer>
+<lockForManagerUpdate>false</lockForManagerUpdate>
+<Fields>
+<TextField>
+<textFieldID>33686</textFieldID>
+<label>Nettoinkomst per månad (efter skatt)</label>
+<disabled>false</disabled>
+<required>true</required>
+<searchable>false</searchable>
+<inactivateAutocomplete>true</inactivateAutocomplete>
+<maxContentLength>10</maxContentLength>
+<sortIndex>0</sortIndex>
+<containsPrice>false</containsPrice>
+<maskFieldContent>false</maskFieldContent>
+<formatValidator>se.unlogic.standardutils.validation.NonNegativeStringIntegerValidator</formatValidator>
+<invalidFormatMessage>Du måste fylla i 0 eller ett positivt värde</invalidFormatMessage>
+<setAsAttribute>true</setAsAttribute>
+<attributeName>attr_nettoinkomst_partner</attributeName>
+</TextField>
+<TextField>
+<textFieldID>33687</textFieldID>
+<label>Ej skattepliktig inkomst per månad</label>
+<disabled>false</disabled>
+<required>true</required>
+<searchable>false</searchable>
+<inactivateAutocomplete>true</inactivateAutocomplete>
+<maxContentLength>10</maxContentLength>
+<sortIndex>1</sortIndex>
+<containsPrice>false</containsPrice>
+<maskFieldContent>false</maskFieldContent>
+<formatValidator>se.unlogic.standardutils.validation.NonNegativeStringIntegerValidator</formatValidator>
+<invalidFormatMessage>Du måste fylla i 0 eller ett positivt värde</invalidFormatMessage>
+<setAsAttribute>true</setAsAttribute>
+<attributeName>attr_ej_skattepl_inkomst_partner</attributeName>
+</TextField>
+<TextField>
+<textFieldID>33688</textFieldID>
+<label>Inkomst av kapital föregående år (före skatt)</label>
+<disabled>false</disabled>
+<required>true</required>
+<searchable>false</searchable>
+<inactivateAutocomplete>true</inactivateAutocomplete>
+<maxContentLength>10</maxContentLength>
+<sortIndex>3</sortIndex>
+<containsPrice>false</containsPrice>
+<maskFieldContent>false</maskFieldContent>
+<formatValidator>se.unlogic.standardutils.validation.NonNegativeStringIntegerValidator</formatValidator>
+<invalidFormatMessage>Du måste fylla i 0 eller ett positivt värde</invalidFormatMessage>
+<setAsAttribute>true</setAsAttribute>
+<attributeName>attr_kapitalinkomst_partner</attributeName>
+</TextField>
+</Fields>
+<configURL>/qp/textfieldprovider/config/80487</configURL>
+<QueryDescriptor>
+<queryID>80487</queryID>
+<name>Ange din makes eller makas inkomster</name>
+<sortIndex>2</sortIndex>
+<defaultQueryState>HIDDEN</defaultQueryState>
+<queryTypeID>com.nordicpeak.flowengine.queries.textfieldquery.TextFieldQueryProviderModule</queryTypeID>
+<exported>false</exported>
+<EvaluatorDescriptors>
+<EvaluatorDescriptor>
+<evaluatorID>75338</evaluatorID>
+<name>Vikt för inkomst - make/maka</name>
+<sortIndex>2</sortIndex>
+<evaluatorTypeID>com.nordicpeak.flowengine.evaluators.settextfieldweightevaluator.SetTextFieldWeightEvaluationProviderModule</evaluatorTypeID>
+<enabled>true</enabled>
+</EvaluatorDescriptor>
+<EvaluatorDescriptor>
+<evaluatorID>75339</evaluatorID>
+<name>Vikt för ej skattepliktig inkomst - make/maka</name>
+<sortIndex>3</sortIndex>
+<evaluatorTypeID>com.nordicpeak.flowengine.evaluators.settextfieldweightevaluator.SetTextFieldWeightEvaluationProviderModule</evaluatorTypeID>
+<enabled>true</enabled>
+</EvaluatorDescriptor>
+<EvaluatorDescriptor>
+<evaluatorID>75340</evaluatorID>
+<name>Vikt för kapitalinkomst - make/maka</name>
+<sortIndex>4</sortIndex>
+<evaluatorTypeID>com.nordicpeak.flowengine.evaluators.settextfieldweightevaluator.SetTextFieldWeightEvaluationProviderModule</evaluatorTypeID>
+<enabled>true</enabled>
+</EvaluatorDescriptor>
+</EvaluatorDescriptors>
+<mergeWithPreviousQuery>false</mergeWithPreviousQuery>
+</QueryDescriptor>
+</TextFieldQuery>
+</QueryDescriptor>
+<QueryDescriptor>
+<queryID>80488</queryID>
+<name>Uppgifter om vård- och omsorgsboendet</name>
+<sortIndex>3</sortIndex>
+<defaultQueryState>VISIBLE_REQUIRED</defaultQueryState>
+<queryTypeID>com.nordicpeak.flowengine.queries.textfieldquery.TextFieldQueryProviderModule</queryTypeID>
+<exported>false</exported>
+<EvaluatorDescriptors>
+<EvaluatorDescriptor>
+<evaluatorID>75341</evaluatorID>
+<name>Vikt för hyresavgift</name>
+<sortIndex>3</sortIndex>
+<evaluatorTypeID>com.nordicpeak.flowengine.evaluators.settextfieldweightevaluator.SetTextFieldWeightEvaluationProviderModule</evaluatorTypeID>
+<enabled>true</enabled>
+<SetTextFieldWeightEvaluator>
+<textFieldID>33689</textFieldID>
+<weightType>vikt_hyresavgift</weightType>
+<evaluationMode>USE_FIELD_VALUE</evaluationMode>
+<evaluatorID>75341</evaluatorID>
+<configURL>/ep/settextfieldweight/config/75341</configURL>
+<EvaluatorDescriptor>
+<evaluatorID>75341</evaluatorID>
+<name>Vikt för hyresavgift</name>
+<sortIndex>3</sortIndex>
+<evaluatorTypeID>com.nordicpeak.flowengine.evaluators.settextfieldweightevaluator.SetTextFieldWeightEvaluationProviderModule</evaluatorTypeID>
+<enabled>true</enabled>
+</EvaluatorDescriptor>
+</SetTextFieldWeightEvaluator>
+</EvaluatorDescriptor>
+<EvaluatorDescriptor>
+<evaluatorID>75342</evaluatorID>
+<name>Vikt för lägenhetens storlek</name>
+<sortIndex>4</sortIndex>
+<evaluatorTypeID>com.nordicpeak.flowengine.evaluators.settextfieldweightevaluator.SetTextFieldWeightEvaluationProviderModule</evaluatorTypeID>
+<enabled>false</enabled>
+<SetTextFieldWeightEvaluator>
+<weightType>vikt_lgh_storlek</weightType>
+<evaluationMode>USE_FIELD_VALUE</evaluationMode>
+<evaluatorID>75342</evaluatorID>
+<configURL>/ep/settextfieldweight/config/75342</configURL>
+<EvaluatorDescriptor>
+<evaluatorID>75342</evaluatorID>
+<name>Vikt för lägenhetens storlek</name>
+<sortIndex>4</sortIndex>
+<evaluatorTypeID>com.nordicpeak.flowengine.evaluators.settextfieldweightevaluator.SetTextFieldWeightEvaluationProviderModule</evaluatorTypeID>
+<enabled>false</enabled>
+</EvaluatorDescriptor>
+</SetTextFieldWeightEvaluator>
+</EvaluatorDescriptor>
+</EvaluatorDescriptors>
+<mergeWithPreviousQuery>false</mergeWithPreviousQuery>
+<TextFieldQuery>
+<queryID>80488</queryID>
+<layout>NEW_LINE</layout>
+<hideTitle>false</hideTitle>
+<hideDescriptionWhenSubmitted>false</hideDescriptionWhenSubmitted>
+<lockOnOwnershipTransfer>false</lockOnOwnershipTransfer>
+<lockForManagerUpdate>false</lockForManagerUpdate>
+<Fields>
+<TextField>
+<textFieldID>33689</textFieldID>
+<label>Hyra för vård- och omsorgsboendet (kronor per månad)</label>
+<disabled>false</disabled>
+<required>true</required>
+<searchable>false</searchable>
+<inactivateAutocomplete>false</inactivateAutocomplete>
+<sortIndex>1</sortIndex>
+<containsPrice>false</containsPrice>
+<maskFieldContent>false</maskFieldContent>
+<formatValidator>se.unlogic.standardutils.validation.NonNegativeStringIntegerValidator</formatValidator>
+<invalidFormatMessage>Du måste fylla i 0 eller ett positivt heltal</invalidFormatMessage>
+<setAsAttribute>true</setAsAttribute>
+<attributeName>attr_hyresavgift</attributeName>
+</TextField>
+</Fields>
+<description><![CDATA[<p>Genomsnittlig hyra&nbsp;f&ouml;r en l&auml;genhet p&aring; v&aring;rd- och omsorgsboende &auml;r $attribute{attr_medelhyra} kr. Du hittar hyror f&ouml;r varje v&aring;rd- och omsorgsboende p&aring;&nbsp;<a href="https://malmo.se/Vard--och-omsorgsboenden-i-Malmo.html" target="_blank">Alla v&aring;rd- och omsorgsboenden</a>.</p>]]></description>
+<configURL>/qp/textfieldprovider/config/80488</configURL>
+<QueryDescriptor>
+<queryID>80488</queryID>
+<name>Uppgifter om vård- och omsorgsboendet</name>
+<sortIndex>3</sortIndex>
+<defaultQueryState>VISIBLE_REQUIRED</defaultQueryState>
+<queryTypeID>com.nordicpeak.flowengine.queries.textfieldquery.TextFieldQueryProviderModule</queryTypeID>
+<exported>false</exported>
+<EvaluatorDescriptors>
+<EvaluatorDescriptor>
+<evaluatorID>75341</evaluatorID>
+<name>Vikt för hyresavgift</name>
+<sortIndex>3</sortIndex>
+<evaluatorTypeID>com.nordicpeak.flowengine.evaluators.settextfieldweightevaluator.SetTextFieldWeightEvaluationProviderModule</evaluatorTypeID>
+<enabled>true</enabled>
+</EvaluatorDescriptor>
+<EvaluatorDescriptor>
+<evaluatorID>75342</evaluatorID>
+<name>Vikt för lägenhetens storlek</name>
+<sortIndex>4</sortIndex>
+<evaluatorTypeID>com.nordicpeak.flowengine.evaluators.settextfieldweightevaluator.SetTextFieldWeightEvaluationProviderModule</evaluatorTypeID>
+<enabled>false</enabled>
+</EvaluatorDescriptor>
+</EvaluatorDescriptors>
+<mergeWithPreviousQuery>false</mergeWithPreviousQuery>
+</QueryDescriptor>
+</TextFieldQuery>
+</QueryDescriptor>
+<QueryDescriptor>
+<queryID>80489</queryID>
+<name>Beräkning av elavgift per månad (DOLD)</name>
+<sortIndex>4</sortIndex>
+<defaultQueryState>HIDDEN</defaultQueryState>
+<queryTypeID>com.nordicpeak.flowengine.queries.textfieldquery.TextFieldQueryProviderModule</queryTypeID>
+<exported>false</exported>
+<EvaluatorDescriptors>
+<EvaluatorDescriptor>
+<evaluatorID>75343</evaluatorID>
+<name>Beräknad elavgift per månad</name>
+<comment>Vi delar med 100 eftersom konstanten/värdet 5.16 är sparad i vikten vikt_elavgift_per_kvm som 516.&#13;
+eftersom beräkning med vikter görs med heltal.&#13;
+&#13;
+När vi nu ska beräkna avgiften dividerar vi med 100. T ex för en lägenhet på 200 kvm får vi korrekta resultatet:&#13;
+200*516/100 = 1032 kr.&#13;
+&#13;
+Annars hade plattformen multiplicerat med 5 istället för 5.16 och resultatet hade felaktigt blivit:&#13;
+200*5 = 1000 kr.</comment>
+<sortIndex>0</sortIndex>
+<evaluatorTypeID>com.nordicpeak.flowengine.evaluators.settextfieldvalueweightevaluator.SetTextFieldValueWeightEvaluationProviderModule</evaluatorTypeID>
+<enabled>false</enabled>
+<SetTextFieldValueWeightEvaluator>
+<textFieldID>33690</textFieldID>
+<expression><![CDATA[$weight{vikt_lgh_storlek} * $weight{vikt_elavgift_per_kvm} / 100]]></expression>
+<displayDecimals>false</displayDecimals>
+<invalidExpressionMessage>Fel vid beräkning av boendekostnad per månad.</invalidExpressionMessage>
+<evaluatorID>75343</evaluatorID>
+<configURL>/ep/settextfieldvalueweight/config/75343</configURL>
+<EvaluatorDescriptor>
+<evaluatorID>75343</evaluatorID>
+<name>Beräknad elavgift per månad</name>
+<comment>Vi delar med 100 eftersom konstanten/värdet 5.16 är sparad i vikten vikt_elavgift_per_kvm som 516.&#13;
+eftersom beräkning med vikter görs med heltal.&#13;
+&#13;
+När vi nu ska beräkna avgiften dividerar vi med 100. T ex för en lägenhet på 200 kvm får vi korrekta resultatet:&#13;
+200*516/100 = 1032 kr.&#13;
+&#13;
+Annars hade plattformen multiplicerat med 5 istället för 5.16 och resultatet hade felaktigt blivit:&#13;
+200*5 = 1000 kr.</comment>
+<sortIndex>0</sortIndex>
+<evaluatorTypeID>com.nordicpeak.flowengine.evaluators.settextfieldvalueweightevaluator.SetTextFieldValueWeightEvaluationProviderModule</evaluatorTypeID>
+<enabled>false</enabled>
+</EvaluatorDescriptor>
+</SetTextFieldValueWeightEvaluator>
+</EvaluatorDescriptor>
+<EvaluatorDescriptor>
+<evaluatorID>75344</evaluatorID>
+<name>Vikt för elavgift per månad</name>
+<sortIndex>1</sortIndex>
+<evaluatorTypeID>com.nordicpeak.flowengine.evaluators.settextfieldweightevaluator.SetTextFieldWeightEvaluationProviderModule</evaluatorTypeID>
+<enabled>false</enabled>
+<SetTextFieldWeightEvaluator>
+<textFieldID>33690</textFieldID>
+<weightType>vikt_elavgift</weightType>
+<evaluationMode>USE_FIELD_VALUE</evaluationMode>
+<evaluatorID>75344</evaluatorID>
+<configURL>/ep/settextfieldweight/config/75344</configURL>
+<EvaluatorDescriptor>
+<evaluatorID>75344</evaluatorID>
+<name>Vikt för elavgift per månad</name>
+<sortIndex>1</sortIndex>
+<evaluatorTypeID>com.nordicpeak.flowengine.evaluators.settextfieldweightevaluator.SetTextFieldWeightEvaluationProviderModule</evaluatorTypeID>
+<enabled>false</enabled>
+</EvaluatorDescriptor>
+</SetTextFieldWeightEvaluator>
+</EvaluatorDescriptor>
+</EvaluatorDescriptors>
+<mergeWithPreviousQuery>false</mergeWithPreviousQuery>
+<TextFieldQuery>
+<queryID>80489</queryID>
+<layout>FLOAT</layout>
+<hideTitle>false</hideTitle>
+<hideDescriptionWhenSubmitted>false</hideDescriptionWhenSubmitted>
+<lockOnOwnershipTransfer>false</lockOnOwnershipTransfer>
+<lockForManagerUpdate>false</lockForManagerUpdate>
+<Fields>
+<TextField>
+<textFieldID>33690</textFieldID>
+<label>Beräknad elavgift per månad</label>
+<disabled>false</disabled>
+<required>false</required>
+<searchable>false</searchable>
+<inactivateAutocomplete>false</inactivateAutocomplete>
+<sortIndex>1</sortIndex>
+<containsPrice>false</containsPrice>
+<maskFieldContent>false</maskFieldContent>
+<setAsAttribute>true</setAsAttribute>
+<attributeName>attr_elavgift</attributeName>
+</TextField>
+</Fields>
+<configURL>/qp/textfieldprovider/config/80489</configURL>
+<QueryDescriptor>
+<queryID>80489</queryID>
+<name>Beräkning av elavgift per månad (DOLD)</name>
+<sortIndex>4</sortIndex>
+<defaultQueryState>HIDDEN</defaultQueryState>
+<queryTypeID>com.nordicpeak.flowengine.queries.textfieldquery.TextFieldQueryProviderModule</queryTypeID>
+<exported>false</exported>
+<EvaluatorDescriptors>
+<EvaluatorDescriptor>
+<evaluatorID>75343</evaluatorID>
+<name>Beräknad elavgift per månad</name>
+<comment>Vi delar med 100 eftersom konstanten/värdet 5.16 är sparad i vikten vikt_elavgift_per_kvm som 516.&#13;
+eftersom beräkning med vikter görs med heltal.&#13;
+&#13;
+När vi nu ska beräkna avgiften dividerar vi med 100. T ex för en lägenhet på 200 kvm får vi korrekta resultatet:&#13;
+200*516/100 = 1032 kr.&#13;
+&#13;
+Annars hade plattformen multiplicerat med 5 istället för 5.16 och resultatet hade felaktigt blivit:&#13;
+200*5 = 1000 kr.</comment>
+<sortIndex>0</sortIndex>
+<evaluatorTypeID>com.nordicpeak.flowengine.evaluators.settextfieldvalueweightevaluator.SetTextFieldValueWeightEvaluationProviderModule</evaluatorTypeID>
+<enabled>false</enabled>
+</EvaluatorDescriptor>
+<EvaluatorDescriptor>
+<evaluatorID>75344</evaluatorID>
+<name>Vikt för elavgift per månad</name>
+<sortIndex>1</sortIndex>
+<evaluatorTypeID>com.nordicpeak.flowengine.evaluators.settextfieldweightevaluator.SetTextFieldWeightEvaluationProviderModule</evaluatorTypeID>
+<enabled>false</enabled>
+</EvaluatorDescriptor>
+</EvaluatorDescriptors>
+<mergeWithPreviousQuery>false</mergeWithPreviousQuery>
+</QueryDescriptor>
+</TextFieldQuery>
+</QueryDescriptor>
+<QueryDescriptor>
+<queryID>80490</queryID>
+<name>Beräkning av kapitalskatt - inkl. make/maka (DOLD)</name>
+<sortIndex>5</sortIndex>
+<defaultQueryState>HIDDEN</defaultQueryState>
+<queryTypeID>com.nordicpeak.flowengine.queries.textfieldquery.TextFieldQueryProviderModule</queryTypeID>
+<exported>false</exported>
+<EvaluatorDescriptors>
+<EvaluatorDescriptor>
+<evaluatorID>75345</evaluatorID>
+<name>Kapitalskatt - inkl. make/maka</name>
+<sortIndex>3</sortIndex>
+<evaluatorTypeID>com.nordicpeak.flowengine.evaluators.settextfieldvalueweightevaluator.SetTextFieldValueWeightEvaluationProviderModule</evaluatorTypeID>
+<enabled>true</enabled>
+<SetTextFieldValueWeightEvaluator>
+<textFieldID>33691</textFieldID>
+<expression><![CDATA[(($weight{vikt_kapitalinkomst} + $weight{vikt_kapitalinkomst_partner}) * 0.30) * (-1)]]></expression>
+<displayDecimals>false</displayDecimals>
+<invalidExpressionMessage>Fel vid beräkning av kapitalskatt.</invalidExpressionMessage>
+<evaluatorID>75345</evaluatorID>
+<configURL>/ep/settextfieldvalueweight/config/75345</configURL>
+<EvaluatorDescriptor>
+<evaluatorID>75345</evaluatorID>
+<name>Kapitalskatt - inkl. make/maka</name>
+<sortIndex>3</sortIndex>
+<evaluatorTypeID>com.nordicpeak.flowengine.evaluators.settextfieldvalueweightevaluator.SetTextFieldValueWeightEvaluationProviderModule</evaluatorTypeID>
+<enabled>true</enabled>
+</EvaluatorDescriptor>
+</SetTextFieldValueWeightEvaluator>
+</EvaluatorDescriptor>
+<EvaluatorDescriptor>
+<evaluatorID>75346</evaluatorID>
+<name>Vikt för kapitalskatt - inkl. make/maka</name>
+<sortIndex>4</sortIndex>
+<evaluatorTypeID>com.nordicpeak.flowengine.evaluators.settextfieldweightevaluator.SetTextFieldWeightEvaluationProviderModule</evaluatorTypeID>
+<enabled>true</enabled>
+<SetTextFieldWeightEvaluator>
+<textFieldID>33691</textFieldID>
+<weightType>vikt_kapitalskatt</weightType>
+<evaluationMode>USE_FIELD_VALUE</evaluationMode>
+<evaluatorID>75346</evaluatorID>
+<configURL>/ep/settextfieldweight/config/75346</configURL>
+<EvaluatorDescriptor>
+<evaluatorID>75346</evaluatorID>
+<name>Vikt för kapitalskatt - inkl. make/maka</name>
+<sortIndex>4</sortIndex>
+<evaluatorTypeID>com.nordicpeak.flowengine.evaluators.settextfieldweightevaluator.SetTextFieldWeightEvaluationProviderModule</evaluatorTypeID>
+<enabled>true</enabled>
+</EvaluatorDescriptor>
+</SetTextFieldWeightEvaluator>
+</EvaluatorDescriptor>
+</EvaluatorDescriptors>
+<mergeWithPreviousQuery>false</mergeWithPreviousQuery>
+<TextFieldQuery>
+<queryID>80490</queryID>
+<layout>NEW_LINE</layout>
+<hideTitle>false</hideTitle>
+<hideDescriptionWhenSubmitted>false</hideDescriptionWhenSubmitted>
+<lockOnOwnershipTransfer>false</lockOnOwnershipTransfer>
+<lockForManagerUpdate>false</lockForManagerUpdate>
+<Fields>
+<TextField>
+<textFieldID>33691</textFieldID>
+<label>Kapitalskatt föregående år - inkl. make/maka</label>
+<disabled>true</disabled>
+<required>false</required>
+<searchable>false</searchable>
+<inactivateAutocomplete>false</inactivateAutocomplete>
+<sortIndex>6</sortIndex>
+<containsPrice>false</containsPrice>
+<maskFieldContent>false</maskFieldContent>
+<setAsAttribute>true</setAsAttribute>
+<attributeName>attr_kapitalskatt_total</attributeName>
+</TextField>
+</Fields>
+<configURL>/qp/textfieldprovider/config/80490</configURL>
+<QueryDescriptor>
+<queryID>80490</queryID>
+<name>Beräkning av kapitalskatt - inkl. make/maka (DOLD)</name>
+<sortIndex>5</sortIndex>
+<defaultQueryState>HIDDEN</defaultQueryState>
+<queryTypeID>com.nordicpeak.flowengine.queries.textfieldquery.TextFieldQueryProviderModule</queryTypeID>
+<exported>false</exported>
+<EvaluatorDescriptors>
+<EvaluatorDescriptor>
+<evaluatorID>75345</evaluatorID>
+<name>Kapitalskatt - inkl. make/maka</name>
+<sortIndex>3</sortIndex>
+<evaluatorTypeID>com.nordicpeak.flowengine.evaluators.settextfieldvalueweightevaluator.SetTextFieldValueWeightEvaluationProviderModule</evaluatorTypeID>
+<enabled>true</enabled>
+</EvaluatorDescriptor>
+<EvaluatorDescriptor>
+<evaluatorID>75346</evaluatorID>
+<name>Vikt för kapitalskatt - inkl. make/maka</name>
+<sortIndex>4</sortIndex>
+<evaluatorTypeID>com.nordicpeak.flowengine.evaluators.settextfieldweightevaluator.SetTextFieldWeightEvaluationProviderModule</evaluatorTypeID>
+<enabled>true</enabled>
+</EvaluatorDescriptor>
+</EvaluatorDescriptors>
+<mergeWithPreviousQuery>false</mergeWithPreviousQuery>
+</QueryDescriptor>
+</TextFieldQuery>
+</QueryDescriptor>
+<QueryDescriptor>
+<queryID>80491</queryID>
+<name>Beräkning av total nettoinkomst per månad (DOLD)</name>
+<sortIndex>6</sortIndex>
+<defaultQueryState>HIDDEN</defaultQueryState>
+<queryTypeID>com.nordicpeak.flowengine.queries.textfieldquery.TextFieldQueryProviderModule</queryTypeID>
+<exported>false</exported>
+<EvaluatorDescriptors>
+<EvaluatorDescriptor>
+<evaluatorID>75347</evaluatorID>
+<name>Beräknad total nettoinkomst per månad - inkl. make/maka</name>
+<comment>OBS! Skatterna är adderade här eftersom dess motsvarande vikter är negativa.</comment>
+<sortIndex>1</sortIndex>
+<evaluatorTypeID>com.nordicpeak.flowengine.evaluators.settextfieldvalueweightevaluator.SetTextFieldValueWeightEvaluationProviderModule</evaluatorTypeID>
+<enabled>true</enabled>
+<SetTextFieldValueWeightEvaluator>
+<textFieldID>33692</textFieldID>
+<expression><![CDATA[$weight{vikt_inkomst} + (($weight{vikt_kapitalinkomst} + $weight{vikt_kapitalinkomst_partner} + $weight{vikt_kapitalskatt})/12) + $weight{vikt_ej_skattepl_inkomst} + $weight{vikt_inkomst_partner} + $weight{vikt_ej_skattepl_inkomst_partner}]]></expression>
+<displayDecimals>false</displayDecimals>
+<invalidExpressionMessage>Fel vid beräkning av av nettoinkomst.</invalidExpressionMessage>
+<evaluatorID>75347</evaluatorID>
+<configURL>/ep/settextfieldvalueweight/config/75347</configURL>
+<EvaluatorDescriptor>
+<evaluatorID>75347</evaluatorID>
+<name>Beräknad total nettoinkomst per månad - inkl. make/maka</name>
+<comment>OBS! Skatterna är adderade här eftersom dess motsvarande vikter är negativa.</comment>
+<sortIndex>1</sortIndex>
+<evaluatorTypeID>com.nordicpeak.flowengine.evaluators.settextfieldvalueweightevaluator.SetTextFieldValueWeightEvaluationProviderModule</evaluatorTypeID>
+<enabled>true</enabled>
+</EvaluatorDescriptor>
+</SetTextFieldValueWeightEvaluator>
+</EvaluatorDescriptor>
+<EvaluatorDescriptor>
+<evaluatorID>75348</evaluatorID>
+<name>Vikt för beräknad total nettoinkomst - inkl. make/maka</name>
+<sortIndex>2</sortIndex>
+<evaluatorTypeID>com.nordicpeak.flowengine.evaluators.settextfieldweightevaluator.SetTextFieldWeightEvaluationProviderModule</evaluatorTypeID>
+<enabled>true</enabled>
+<SetTextFieldWeightEvaluator>
+<textFieldID>33692</textFieldID>
+<weightType>vikt_nettoinkomst_total</weightType>
+<evaluationMode>USE_FIELD_VALUE</evaluationMode>
+<evaluatorID>75348</evaluatorID>
+<configURL>/ep/settextfieldweight/config/75348</configURL>
+<EvaluatorDescriptor>
+<evaluatorID>75348</evaluatorID>
+<name>Vikt för beräknad total nettoinkomst - inkl. make/maka</name>
+<sortIndex>2</sortIndex>
+<evaluatorTypeID>com.nordicpeak.flowengine.evaluators.settextfieldweightevaluator.SetTextFieldWeightEvaluationProviderModule</evaluatorTypeID>
+<enabled>true</enabled>
+</EvaluatorDescriptor>
+</SetTextFieldWeightEvaluator>
+</EvaluatorDescriptor>
+<EvaluatorDescriptor>
+<evaluatorID>75349</evaluatorID>
+<name>Beräknad total nettoinkomst per månad - delad</name>
+<comment>($weight{vikt_inkomst} + (($weight{vikt_kapitalinkomst} + $weight{vikt_kapitalinkomst_partner} + $weight{vikt_kapitalskatt})/12) + $weight{vikt_ej_skattepl_inkomst} + $weight{vikt_inkomst_partner} + $weight{vikt_ej_skattepl_inkomst_partner})/$weight{vikt_gift}&#13;
+&#13;
+Old:&#13;
+($weight{vikt_inkomst} + (($weight{vikt_kapitalinkomst} + $weight{vikt_kapitalinkomst_partner} + $weight{vikt_kapitalskatt})/12) + $weight{vikt_ej_skattepl_inkomst} + $weight{vikt_inkomst_partner} + $weight{vikt_ej_skattepl_inkomst_partner})/$weight{vikt_gift_partnerskap}</comment>
+<sortIndex>3</sortIndex>
+<evaluatorTypeID>com.nordicpeak.flowengine.evaluators.settextfieldvalueweightevaluator.SetTextFieldValueWeightEvaluationProviderModule</evaluatorTypeID>
+<enabled>true</enabled>
+<SetTextFieldValueWeightEvaluator>
+<textFieldID>33693</textFieldID>
+<expression><![CDATA[($weight{vikt_inkomst} + (($weight{vikt_kapitalinkomst} + $weight{vikt_kapitalinkomst_partner} + $weight{vikt_kapitalskatt})/12) + $weight{vikt_ej_skattepl_inkomst} + $weight{vikt_inkomst_partner} + $weight{vikt_ej_skattepl_inkomst_partner})/$weight{vikt_gift_partnerskap}]]></expression>
+<displayDecimals>false</displayDecimals>
+<invalidExpressionMessage>Fel vid beräkning av av nettoinkomst - delad.</invalidExpressionMessage>
+<evaluatorID>75349</evaluatorID>
+<configURL>/ep/settextfieldvalueweight/config/75349</configURL>
+<EvaluatorDescriptor>
+<evaluatorID>75349</evaluatorID>
+<name>Beräknad total nettoinkomst per månad - delad</name>
+<comment>($weight{vikt_inkomst} + (($weight{vikt_kapitalinkomst} + $weight{vikt_kapitalinkomst_partner} + $weight{vikt_kapitalskatt})/12) + $weight{vikt_ej_skattepl_inkomst} + $weight{vikt_inkomst_partner} + $weight{vikt_ej_skattepl_inkomst_partner})/$weight{vikt_gift}&#13;
+&#13;
+Old:&#13;
+($weight{vikt_inkomst} + (($weight{vikt_kapitalinkomst} + $weight{vikt_kapitalinkomst_partner} + $weight{vikt_kapitalskatt})/12) + $weight{vikt_ej_skattepl_inkomst} + $weight{vikt_inkomst_partner} + $weight{vikt_ej_skattepl_inkomst_partner})/$weight{vikt_gift_partnerskap}</comment>
+<sortIndex>3</sortIndex>
+<evaluatorTypeID>com.nordicpeak.flowengine.evaluators.settextfieldvalueweightevaluator.SetTextFieldValueWeightEvaluationProviderModule</evaluatorTypeID>
+<enabled>true</enabled>
+</EvaluatorDescriptor>
+</SetTextFieldValueWeightEvaluator>
+</EvaluatorDescriptor>
+<EvaluatorDescriptor>
+<evaluatorID>75350</evaluatorID>
+<name>Vikt för beräknad total nettoinkomst - delad</name>
+<sortIndex>4</sortIndex>
+<evaluatorTypeID>com.nordicpeak.flowengine.evaluators.settextfieldweightevaluator.SetTextFieldWeightEvaluationProviderModule</evaluatorTypeID>
+<enabled>true</enabled>
+<SetTextFieldWeightEvaluator>
+<textFieldID>33693</textFieldID>
+<weightType>vikt_nettoinkomst_delad</weightType>
+<evaluationMode>USE_FIELD_VALUE</evaluationMode>
+<evaluatorID>75350</evaluatorID>
+<configURL>/ep/settextfieldweight/config/75350</configURL>
+<EvaluatorDescriptor>
+<evaluatorID>75350</evaluatorID>
+<name>Vikt för beräknad total nettoinkomst - delad</name>
+<sortIndex>4</sortIndex>
+<evaluatorTypeID>com.nordicpeak.flowengine.evaluators.settextfieldweightevaluator.SetTextFieldWeightEvaluationProviderModule</evaluatorTypeID>
+<enabled>true</enabled>
+</EvaluatorDescriptor>
+</SetTextFieldWeightEvaluator>
+</EvaluatorDescriptor>
+</EvaluatorDescriptors>
+<mergeWithPreviousQuery>true</mergeWithPreviousQuery>
+<TextFieldQuery>
+<queryID>80491</queryID>
+<layout>FLOAT</layout>
+<hideTitle>true</hideTitle>
+<hideDescriptionWhenSubmitted>false</hideDescriptionWhenSubmitted>
+<lockOnOwnershipTransfer>false</lockOnOwnershipTransfer>
+<lockForManagerUpdate>false</lockForManagerUpdate>
+<Fields>
+<TextField>
+<textFieldID>33692</textFieldID>
+<label>Beräknad nettoinkomst total (kr/mån)</label>
+<disabled>true</disabled>
+<required>false</required>
+<searchable>false</searchable>
+<inactivateAutocomplete>false</inactivateAutocomplete>
+<sortIndex>1</sortIndex>
+<containsPrice>false</containsPrice>
+<maskFieldContent>false</maskFieldContent>
+<setAsAttribute>true</setAsAttribute>
+<attributeName>attr_nettoinkomst_total</attributeName>
+</TextField>
+<TextField>
+<textFieldID>33693</textFieldID>
+<label>Beräknad nettoinkomst efter delning (kr/mån)</label>
+<disabled>true</disabled>
+<required>false</required>
+<searchable>false</searchable>
+<inactivateAutocomplete>false</inactivateAutocomplete>
+<sortIndex>2</sortIndex>
+<containsPrice>false</containsPrice>
+<maskFieldContent>false</maskFieldContent>
+<setAsAttribute>true</setAsAttribute>
+<attributeName>attr_nettoinkomst_delad</attributeName>
+</TextField>
+</Fields>
+<configURL>/qp/textfieldprovider/config/80491</configURL>
+<QueryDescriptor>
+<queryID>80491</queryID>
+<name>Beräkning av total nettoinkomst per månad (DOLD)</name>
+<sortIndex>6</sortIndex>
+<defaultQueryState>HIDDEN</defaultQueryState>
+<queryTypeID>com.nordicpeak.flowengine.queries.textfieldquery.TextFieldQueryProviderModule</queryTypeID>
+<exported>false</exported>
+<EvaluatorDescriptors>
+<EvaluatorDescriptor>
+<evaluatorID>75347</evaluatorID>
+<name>Beräknad total nettoinkomst per månad - inkl. make/maka</name>
+<comment>OBS! Skatterna är adderade här eftersom dess motsvarande vikter är negativa.</comment>
+<sortIndex>1</sortIndex>
+<evaluatorTypeID>com.nordicpeak.flowengine.evaluators.settextfieldvalueweightevaluator.SetTextFieldValueWeightEvaluationProviderModule</evaluatorTypeID>
+<enabled>true</enabled>
+</EvaluatorDescriptor>
+<EvaluatorDescriptor>
+<evaluatorID>75348</evaluatorID>
+<name>Vikt för beräknad total nettoinkomst - inkl. make/maka</name>
+<sortIndex>2</sortIndex>
+<evaluatorTypeID>com.nordicpeak.flowengine.evaluators.settextfieldweightevaluator.SetTextFieldWeightEvaluationProviderModule</evaluatorTypeID>
+<enabled>true</enabled>
+</EvaluatorDescriptor>
+<EvaluatorDescriptor>
+<evaluatorID>75349</evaluatorID>
+<name>Beräknad total nettoinkomst per månad - delad</name>
+<comment>($weight{vikt_inkomst} + (($weight{vikt_kapitalinkomst} + $weight{vikt_kapitalinkomst_partner} + $weight{vikt_kapitalskatt})/12) + $weight{vikt_ej_skattepl_inkomst} + $weight{vikt_inkomst_partner} + $weight{vikt_ej_skattepl_inkomst_partner})/$weight{vikt_gift}&#13;
+&#13;
+Old:&#13;
+($weight{vikt_inkomst} + (($weight{vikt_kapitalinkomst} + $weight{vikt_kapitalinkomst_partner} + $weight{vikt_kapitalskatt})/12) + $weight{vikt_ej_skattepl_inkomst} + $weight{vikt_inkomst_partner} + $weight{vikt_ej_skattepl_inkomst_partner})/$weight{vikt_gift_partnerskap}</comment>
+<sortIndex>3</sortIndex>
+<evaluatorTypeID>com.nordicpeak.flowengine.evaluators.settextfieldvalueweightevaluator.SetTextFieldValueWeightEvaluationProviderModule</evaluatorTypeID>
+<enabled>true</enabled>
+</EvaluatorDescriptor>
+<EvaluatorDescriptor>
+<evaluatorID>75350</evaluatorID>
+<name>Vikt för beräknad total nettoinkomst - delad</name>
+<sortIndex>4</sortIndex>
+<evaluatorTypeID>com.nordicpeak.flowengine.evaluators.settextfieldweightevaluator.SetTextFieldWeightEvaluationProviderModule</evaluatorTypeID>
+<enabled>true</enabled>
+</EvaluatorDescriptor>
+</EvaluatorDescriptors>
+<mergeWithPreviousQuery>true</mergeWithPreviousQuery>
+</QueryDescriptor>
+</TextFieldQuery>
+</QueryDescriptor>
+<QueryDescriptor>
+<queryID>80492</queryID>
+<name>Beräkning av förbehållsbelopp (DOLD)</name>
+<sortIndex>7</sortIndex>
+<defaultQueryState>HIDDEN</defaultQueryState>
+<queryTypeID>com.nordicpeak.flowengine.queries.textfieldquery.TextFieldQueryProviderModule</queryTypeID>
+<exported>false</exported>
+<EvaluatorDescriptors>
+<EvaluatorDescriptor>
+<evaluatorID>75351</evaluatorID>
+<name>Beräknad förbehållsbelopp</name>
+<comment>Förbehållsbeloppet beräknas enligt nedan:&#13;
+- 60 år och över:&#13;
+  1,4789 x prisbasbeloppet/12 + 1808 kr.&#13;
+&#13;
+- Under 60 år:&#13;
+  1,1 x 1,4789 x prisbasbeloppet/12 + 1808 kr.&#13;
+&#13;
+I formeln delas vikt för ålder med 10 eftersom vikter kan bara vara heltal, ej med decimaler.&#13;
+Så 10% faktorn är sparad i vikten "vikt_alder" som 10 (för 60 år och uppåt) resp 11 (under 60 år)&#13;
+Funktionen round avrundar till närmaste heltal.&#13;
+&#13;
+Funktionens 'prototyp' är:&#13;
+round(uttryck, noggrannhet)</comment>
+<sortIndex>0</sortIndex>
+<evaluatorTypeID>com.nordicpeak.flowengine.evaluators.settextfieldvalueweightevaluator.SetTextFieldValueWeightEvaluationProviderModule</evaluatorTypeID>
+<enabled>true</enabled>
+<SetTextFieldValueWeightEvaluator>
+<textFieldID>33694</textFieldID>
+<expression><![CDATA[round(((($weight{vikt_alder}/10) * 1.4789 * ($weight{vikt_prisbasbelopp})/12) + 1808), 0)]]></expression>
+<displayDecimals>false</displayDecimals>
+<invalidExpressionMessage>Fel vid beräkning av förbehållsbelopp</invalidExpressionMessage>
+<evaluatorID>75351</evaluatorID>
+<configURL>/ep/settextfieldvalueweight/config/75351</configURL>
+<EvaluatorDescriptor>
+<evaluatorID>75351</evaluatorID>
+<name>Beräknad förbehållsbelopp</name>
+<comment>Förbehållsbeloppet beräknas enligt nedan:&#13;
+- 60 år och över:&#13;
+  1,4789 x prisbasbeloppet/12 + 1808 kr.&#13;
+&#13;
+- Under 60 år:&#13;
+  1,1 x 1,4789 x prisbasbeloppet/12 + 1808 kr.&#13;
+&#13;
+I formeln delas vikt för ålder med 10 eftersom vikter kan bara vara heltal, ej med decimaler.&#13;
+Så 10% faktorn är sparad i vikten "vikt_alder" som 10 (för 60 år och uppåt) resp 11 (under 60 år)&#13;
+Funktionen round avrundar till närmaste heltal.&#13;
+&#13;
+Funktionens 'prototyp' är:&#13;
+round(uttryck, noggrannhet)</comment>
+<sortIndex>0</sortIndex>
+<evaluatorTypeID>com.nordicpeak.flowengine.evaluators.settextfieldvalueweightevaluator.SetTextFieldValueWeightEvaluationProviderModule</evaluatorTypeID>
+<enabled>true</enabled>
+</EvaluatorDescriptor>
+</SetTextFieldValueWeightEvaluator>
+</EvaluatorDescriptor>
+<EvaluatorDescriptor>
+<evaluatorID>75352</evaluatorID>
+<name>Vikt för förbehållsbelopp</name>
+<sortIndex>1</sortIndex>
+<evaluatorTypeID>com.nordicpeak.flowengine.evaluators.settextfieldweightevaluator.SetTextFieldWeightEvaluationProviderModule</evaluatorTypeID>
+<enabled>true</enabled>
+<SetTextFieldWeightEvaluator>
+<textFieldID>33694</textFieldID>
+<weightType>vikt_forbehallsbelopp</weightType>
+<evaluationMode>USE_FIELD_VALUE</evaluationMode>
+<evaluatorID>75352</evaluatorID>
+<configURL>/ep/settextfieldweight/config/75352</configURL>
+<EvaluatorDescriptor>
+<evaluatorID>75352</evaluatorID>
+<name>Vikt för förbehållsbelopp</name>
+<sortIndex>1</sortIndex>
+<evaluatorTypeID>com.nordicpeak.flowengine.evaluators.settextfieldweightevaluator.SetTextFieldWeightEvaluationProviderModule</evaluatorTypeID>
+<enabled>true</enabled>
+</EvaluatorDescriptor>
+</SetTextFieldWeightEvaluator>
+</EvaluatorDescriptor>
+</EvaluatorDescriptors>
+<mergeWithPreviousQuery>true</mergeWithPreviousQuery>
+<TextFieldQuery>
+<queryID>80492</queryID>
+<layout>FLOAT</layout>
+<hideTitle>true</hideTitle>
+<hideDescriptionWhenSubmitted>false</hideDescriptionWhenSubmitted>
+<lockOnOwnershipTransfer>false</lockOnOwnershipTransfer>
+<lockForManagerUpdate>false</lockForManagerUpdate>
+<Fields>
+<TextField>
+<textFieldID>33694</textFieldID>
+<label>Beräknad förbehållsbelopp</label>
+<disabled>true</disabled>
+<required>false</required>
+<searchable>false</searchable>
+<inactivateAutocomplete>false</inactivateAutocomplete>
+<sortIndex>2</sortIndex>
+<containsPrice>false</containsPrice>
+<maskFieldContent>false</maskFieldContent>
+<setAsAttribute>true</setAsAttribute>
+<attributeName>attr_forbehallsbelopp</attributeName>
+</TextField>
+</Fields>
+<configURL>/qp/textfieldprovider/config/80492</configURL>
+<QueryDescriptor>
+<queryID>80492</queryID>
+<name>Beräkning av förbehållsbelopp (DOLD)</name>
+<sortIndex>7</sortIndex>
+<defaultQueryState>HIDDEN</defaultQueryState>
+<queryTypeID>com.nordicpeak.flowengine.queries.textfieldquery.TextFieldQueryProviderModule</queryTypeID>
+<exported>false</exported>
+<EvaluatorDescriptors>
+<EvaluatorDescriptor>
+<evaluatorID>75351</evaluatorID>
+<name>Beräknad förbehållsbelopp</name>
+<comment>Förbehållsbeloppet beräknas enligt nedan:&#13;
+- 60 år och över:&#13;
+  1,4789 x prisbasbeloppet/12 + 1808 kr.&#13;
+&#13;
+- Under 60 år:&#13;
+  1,1 x 1,4789 x prisbasbeloppet/12 + 1808 kr.&#13;
+&#13;
+I formeln delas vikt för ålder med 10 eftersom vikter kan bara vara heltal, ej med decimaler.&#13;
+Så 10% faktorn är sparad i vikten "vikt_alder" som 10 (för 60 år och uppåt) resp 11 (under 60 år)&#13;
+Funktionen round avrundar till närmaste heltal.&#13;
+&#13;
+Funktionens 'prototyp' är:&#13;
+round(uttryck, noggrannhet)</comment>
+<sortIndex>0</sortIndex>
+<evaluatorTypeID>com.nordicpeak.flowengine.evaluators.settextfieldvalueweightevaluator.SetTextFieldValueWeightEvaluationProviderModule</evaluatorTypeID>
+<enabled>true</enabled>
+</EvaluatorDescriptor>
+<EvaluatorDescriptor>
+<evaluatorID>75352</evaluatorID>
+<name>Vikt för förbehållsbelopp</name>
+<sortIndex>1</sortIndex>
+<evaluatorTypeID>com.nordicpeak.flowengine.evaluators.settextfieldweightevaluator.SetTextFieldWeightEvaluationProviderModule</evaluatorTypeID>
+<enabled>true</enabled>
+</EvaluatorDescriptor>
+</EvaluatorDescriptors>
+<mergeWithPreviousQuery>true</mergeWithPreviousQuery>
+</QueryDescriptor>
+</TextFieldQuery>
+</QueryDescriptor>
+<QueryDescriptor>
+<queryID>80493</queryID>
+<name>Beräkning av betalningsförmåga/avgiftsutrymme (DOLD)</name>
+<sortIndex>8</sortIndex>
+<defaultQueryState>HIDDEN</defaultQueryState>
+<queryTypeID>com.nordicpeak.flowengine.queries.textfieldquery.TextFieldQueryProviderModule</queryTypeID>
+<exported>false</exported>
+<EvaluatorDescriptors>
+<EvaluatorDescriptor>
+<evaluatorID>75353</evaluatorID>
+<name>Betalningsförmåga/avgiftsutrymme (kr/mån)</name>
+<comment>Här vill vi att summan ska stanna vid maxtaxan och vid 0 kr om avgiftsutrymmet (dvs betalningsförmågan) är negativt.</comment>
+<sortIndex>1</sortIndex>
+<evaluatorTypeID>com.nordicpeak.flowengine.evaluators.settextfieldvalueweightevaluator.SetTextFieldValueWeightEvaluationProviderModule</evaluatorTypeID>
+<enabled>true</enabled>
+<SetTextFieldValueWeightEvaluator>
+<textFieldID>33695</textFieldID>
+<expression><![CDATA[if(($weight{vikt_nettoinkomst_delad} - $weight{vikt_hyresavgift} - $weight{vikt_forbehallsbelopp}) <= 0, 0, (min($weight{vikt_maxtaxa}, ($weight{vikt_nettoinkomst_delad} - $weight{vikt_hyresavgift} - $weight{vikt_forbehallsbelopp}))))]]></expression>
+<displayDecimals>false</displayDecimals>
+<invalidExpressionMessage>Fel vid beräkning av betalningsförmåga.</invalidExpressionMessage>
+<evaluatorID>75353</evaluatorID>
+<configURL>/ep/settextfieldvalueweight/config/75353</configURL>
+<EvaluatorDescriptor>
+<evaluatorID>75353</evaluatorID>
+<name>Betalningsförmåga/avgiftsutrymme (kr/mån)</name>
+<comment>Här vill vi att summan ska stanna vid maxtaxan och vid 0 kr om avgiftsutrymmet (dvs betalningsförmågan) är negativt.</comment>
+<sortIndex>1</sortIndex>
+<evaluatorTypeID>com.nordicpeak.flowengine.evaluators.settextfieldvalueweightevaluator.SetTextFieldValueWeightEvaluationProviderModule</evaluatorTypeID>
+<enabled>true</enabled>
+</EvaluatorDescriptor>
+</SetTextFieldValueWeightEvaluator>
+</EvaluatorDescriptor>
+<EvaluatorDescriptor>
+<evaluatorID>75354</evaluatorID>
+<name>Vikt för beräknad betalningsförmåga/avgiftsutrymme</name>
+<sortIndex>2</sortIndex>
+<evaluatorTypeID>com.nordicpeak.flowengine.evaluators.settextfieldweightevaluator.SetTextFieldWeightEvaluationProviderModule</evaluatorTypeID>
+<enabled>true</enabled>
+<SetTextFieldWeightEvaluator>
+<textFieldID>33695</textFieldID>
+<weightType>vikt_ber_bet_formaga</weightType>
+<evaluationMode>USE_FIELD_VALUE</evaluationMode>
+<evaluatorID>75354</evaluatorID>
+<configURL>/ep/settextfieldweight/config/75354</configURL>
+<EvaluatorDescriptor>
+<evaluatorID>75354</evaluatorID>
+<name>Vikt för beräknad betalningsförmåga/avgiftsutrymme</name>
+<sortIndex>2</sortIndex>
+<evaluatorTypeID>com.nordicpeak.flowengine.evaluators.settextfieldweightevaluator.SetTextFieldWeightEvaluationProviderModule</evaluatorTypeID>
+<enabled>true</enabled>
+</EvaluatorDescriptor>
+</SetTextFieldWeightEvaluator>
+</EvaluatorDescriptor>
+</EvaluatorDescriptors>
+<mergeWithPreviousQuery>true</mergeWithPreviousQuery>
+<TextFieldQuery>
+<queryID>80493</queryID>
+<layout>FLOAT</layout>
+<hideTitle>true</hideTitle>
+<hideDescriptionWhenSubmitted>false</hideDescriptionWhenSubmitted>
+<lockOnOwnershipTransfer>false</lockOnOwnershipTransfer>
+<lockForManagerUpdate>false</lockForManagerUpdate>
+<Fields>
+<TextField>
+<textFieldID>33695</textFieldID>
+<label>Beräknad betalningsförmåga/avgiftsutrymme (kr/mån)</label>
+<disabled>true</disabled>
+<required>false</required>
+<searchable>false</searchable>
+<inactivateAutocomplete>false</inactivateAutocomplete>
+<sortIndex>1</sortIndex>
+<containsPrice>false</containsPrice>
+<maskFieldContent>false</maskFieldContent>
+<setAsAttribute>true</setAsAttribute>
+<attributeName>attr_betalformaga</attributeName>
+</TextField>
+</Fields>
+<configURL>/qp/textfieldprovider/config/80493</configURL>
+<QueryDescriptor>
+<queryID>80493</queryID>
+<name>Beräkning av betalningsförmåga/avgiftsutrymme (DOLD)</name>
+<sortIndex>8</sortIndex>
+<defaultQueryState>HIDDEN</defaultQueryState>
+<queryTypeID>com.nordicpeak.flowengine.queries.textfieldquery.TextFieldQueryProviderModule</queryTypeID>
+<exported>false</exported>
+<EvaluatorDescriptors>
+<EvaluatorDescriptor>
+<evaluatorID>75353</evaluatorID>
+<name>Betalningsförmåga/avgiftsutrymme (kr/mån)</name>
+<comment>Här vill vi att summan ska stanna vid maxtaxan och vid 0 kr om avgiftsutrymmet (dvs betalningsförmågan) är negativt.</comment>
+<sortIndex>1</sortIndex>
+<evaluatorTypeID>com.nordicpeak.flowengine.evaluators.settextfieldvalueweightevaluator.SetTextFieldValueWeightEvaluationProviderModule</evaluatorTypeID>
+<enabled>true</enabled>
+</EvaluatorDescriptor>
+<EvaluatorDescriptor>
+<evaluatorID>75354</evaluatorID>
+<name>Vikt för beräknad betalningsförmåga/avgiftsutrymme</name>
+<sortIndex>2</sortIndex>
+<evaluatorTypeID>com.nordicpeak.flowengine.evaluators.settextfieldweightevaluator.SetTextFieldWeightEvaluationProviderModule</evaluatorTypeID>
+<enabled>true</enabled>
+</EvaluatorDescriptor>
+</EvaluatorDescriptors>
+<mergeWithPreviousQuery>true</mergeWithPreviousQuery>
+</QueryDescriptor>
+</TextFieldQuery>
+</QueryDescriptor>
+<QueryDescriptor>
+<queryID>80494</queryID>
+<name>Sätt vikt för avgifter utifrån inkomstintervall (DOLD)</name>
+<comment>OBS! Om den sökande är gift eller har registrerat partnerskap beräknas nettoinkomsten (dvs den inkomst avgiften grundas på) som hälften av den sökandes och och partners sammanlagda nettoinkomster.</comment>
+<sortIndex>9</sortIndex>
+<defaultQueryState>HIDDEN</defaultQueryState>
+<queryTypeID>com.nordicpeak.flowengine.queries.textfieldquery.TextFieldQueryProviderModule</queryTypeID>
+<exported>false</exported>
+<EvaluatorDescriptors>
+<EvaluatorDescriptor>
+<evaluatorID>75355</evaluatorID>
+<name>Hämta beräknad delad nettoinkomst</name>
+<sortIndex>0</sortIndex>
+<evaluatorTypeID>com.nordicpeak.flowengine.evaluators.settextfieldvalueweightevaluator.SetTextFieldValueWeightEvaluationProviderModule</evaluatorTypeID>
+<enabled>true</enabled>
+<SetTextFieldValueWeightEvaluator>
+<textFieldID>33697</textFieldID>
+<expression><![CDATA[$weight{vikt_nettoinkomst_delad}]]></expression>
+<displayDecimals>false</displayDecimals>
+<invalidExpressionMessage>Fel vid beräkning av avgift för omvårdnadsavgift.</invalidExpressionMessage>
+<evaluatorID>75355</evaluatorID>
+<configURL>/ep/settextfieldvalueweight/config/75355</configURL>
+<EvaluatorDescriptor>
+<evaluatorID>75355</evaluatorID>
+<name>Hämta beräknad delad nettoinkomst</name>
+<sortIndex>0</sortIndex>
+<evaluatorTypeID>com.nordicpeak.flowengine.evaluators.settextfieldvalueweightevaluator.SetTextFieldValueWeightEvaluationProviderModule</evaluatorTypeID>
+<enabled>true</enabled>
+</EvaluatorDescriptor>
+</SetTextFieldValueWeightEvaluator>
+</EvaluatorDescriptor>
+<EvaluatorDescriptor>
+<evaluatorID>75356</evaluatorID>
+<name>Beräknad omvårdnadsavgift</name>
+<comment>Version 1:&#13;
+$weight{vikt_nettoinkomst_delad} - $weight{vikt_hyresavgift} -  $weight{vikt_forbehallsbelopp}&#13;
+&#13;
+Version 2:&#13;
+if(($weight{vikt_nettoinkomst_delad} - $weight{vikt_hyresavgift} - $weight{vikt_forbehallsbelopp}) &lt;= 0, 0, (min($weight{vikt_maxtaxa}, ($weight{vikt_nettoinkomst_delad} - $weight{vikt_hyresavgift} - $weight{vikt_forbehallsbelopp}))))</comment>
+<sortIndex>1</sortIndex>
+<evaluatorTypeID>com.nordicpeak.flowengine.evaluators.settextfieldvalueweightevaluator.SetTextFieldValueWeightEvaluationProviderModule</evaluatorTypeID>
+<enabled>true</enabled>
+<SetTextFieldValueWeightEvaluator>
+<textFieldID>33696</textFieldID>
+<expression><![CDATA[if(($weight{vikt_nettoinkomst_delad} - $weight{vikt_hyresavgift} - $weight{vikt_forbehallsbelopp}) <= 0, 0, (min($weight{vikt_maxtaxa}, ($weight{vikt_nettoinkomst_delad} - $weight{vikt_hyresavgift} - $weight{vikt_forbehallsbelopp}))))]]></expression>
+<displayDecimals>false</displayDecimals>
+<invalidExpressionMessage>Fel vid beräkning av avgift för hemsjukvård.</invalidExpressionMessage>
+<evaluatorID>75356</evaluatorID>
+<configURL>/ep/settextfieldvalueweight/config/75356</configURL>
+<EvaluatorDescriptor>
+<evaluatorID>75356</evaluatorID>
+<name>Beräknad omvårdnadsavgift</name>
+<comment>Version 1:&#13;
+$weight{vikt_nettoinkomst_delad} - $weight{vikt_hyresavgift} -  $weight{vikt_forbehallsbelopp}&#13;
+&#13;
+Version 2:&#13;
+if(($weight{vikt_nettoinkomst_delad} - $weight{vikt_hyresavgift} - $weight{vikt_forbehallsbelopp}) &lt;= 0, 0, (min($weight{vikt_maxtaxa}, ($weight{vikt_nettoinkomst_delad} - $weight{vikt_hyresavgift} - $weight{vikt_forbehallsbelopp}))))</comment>
+<sortIndex>1</sortIndex>
+<evaluatorTypeID>com.nordicpeak.flowengine.evaluators.settextfieldvalueweightevaluator.SetTextFieldValueWeightEvaluationProviderModule</evaluatorTypeID>
+<enabled>true</enabled>
+</EvaluatorDescriptor>
+</SetTextFieldValueWeightEvaluator>
+</EvaluatorDescriptor>
+<EvaluatorDescriptor>
+<evaluatorID>75357</evaluatorID>
+<name>Vikt för omvårdnadsavgift</name>
+<sortIndex>2</sortIndex>
+<evaluatorTypeID>com.nordicpeak.flowengine.evaluators.settextfieldweightevaluator.SetTextFieldWeightEvaluationProviderModule</evaluatorTypeID>
+<enabled>true</enabled>
+<SetTextFieldWeightEvaluator>
+<textFieldID>33696</textFieldID>
+<weightType>vikt_omvardnadsavgift</weightType>
+<fromValue>0</fromValue>
+<toValue>0</toValue>
+<weight>0</weight>
+<evaluationMode>USE_FIELD_VALUE</evaluationMode>
+<evaluatorID>75357</evaluatorID>
+<configURL>/ep/settextfieldweight/config/75357</configURL>
+<EvaluatorDescriptor>
+<evaluatorID>75357</evaluatorID>
+<name>Vikt för omvårdnadsavgift</name>
+<sortIndex>2</sortIndex>
+<evaluatorTypeID>com.nordicpeak.flowengine.evaluators.settextfieldweightevaluator.SetTextFieldWeightEvaluationProviderModule</evaluatorTypeID>
+<enabled>true</enabled>
+</EvaluatorDescriptor>
+</SetTextFieldWeightEvaluator>
+</EvaluatorDescriptor>
+</EvaluatorDescriptors>
+<mergeWithPreviousQuery>false</mergeWithPreviousQuery>
+<TextFieldQuery>
+<queryID>80494</queryID>
+<layout>FLOAT</layout>
+<hideTitle>false</hideTitle>
+<hideDescriptionWhenSubmitted>false</hideDescriptionWhenSubmitted>
+<lockOnOwnershipTransfer>false</lockOnOwnershipTransfer>
+<lockForManagerUpdate>false</lockForManagerUpdate>
+<Fields>
+<TextField>
+<textFieldID>33696</textFieldID>
+<label>Beräknad omvårdnadsavgift</label>
+<disabled>true</disabled>
+<required>false</required>
+<searchable>false</searchable>
+<inactivateAutocomplete>false</inactivateAutocomplete>
+<sortIndex>2</sortIndex>
+<containsPrice>false</containsPrice>
+<maskFieldContent>false</maskFieldContent>
+<setAsAttribute>true</setAsAttribute>
+<attributeName>attr_omvardnadsavgift</attributeName>
+</TextField>
+<TextField>
+<textFieldID>33697</textFieldID>
+<label>Nettoinkomst delad</label>
+<disabled>true</disabled>
+<required>false</required>
+<searchable>false</searchable>
+<inactivateAutocomplete>false</inactivateAutocomplete>
+<sortIndex>3</sortIndex>
+<containsPrice>false</containsPrice>
+<maskFieldContent>false</maskFieldContent>
+<setAsAttribute>false</setAsAttribute>
+</TextField>
+</Fields>
+<configURL>/qp/textfieldprovider/config/80494</configURL>
+<QueryDescriptor>
+<queryID>80494</queryID>
+<name>Sätt vikt för avgifter utifrån inkomstintervall (DOLD)</name>
+<comment>OBS! Om den sökande är gift eller har registrerat partnerskap beräknas nettoinkomsten (dvs den inkomst avgiften grundas på) som hälften av den sökandes och och partners sammanlagda nettoinkomster.</comment>
+<sortIndex>9</sortIndex>
+<defaultQueryState>HIDDEN</defaultQueryState>
+<queryTypeID>com.nordicpeak.flowengine.queries.textfieldquery.TextFieldQueryProviderModule</queryTypeID>
+<exported>false</exported>
+<EvaluatorDescriptors>
+<EvaluatorDescriptor>
+<evaluatorID>75355</evaluatorID>
+<name>Hämta beräknad delad nettoinkomst</name>
+<sortIndex>0</sortIndex>
+<evaluatorTypeID>com.nordicpeak.flowengine.evaluators.settextfieldvalueweightevaluator.SetTextFieldValueWeightEvaluationProviderModule</evaluatorTypeID>
+<enabled>true</enabled>
+</EvaluatorDescriptor>
+<EvaluatorDescriptor>
+<evaluatorID>75356</evaluatorID>
+<name>Beräknad omvårdnadsavgift</name>
+<comment>Version 1:&#13;
+$weight{vikt_nettoinkomst_delad} - $weight{vikt_hyresavgift} -  $weight{vikt_forbehallsbelopp}&#13;
+&#13;
+Version 2:&#13;
+if(($weight{vikt_nettoinkomst_delad} - $weight{vikt_hyresavgift} - $weight{vikt_forbehallsbelopp}) &lt;= 0, 0, (min($weight{vikt_maxtaxa}, ($weight{vikt_nettoinkomst_delad} - $weight{vikt_hyresavgift} - $weight{vikt_forbehallsbelopp}))))</comment>
+<sortIndex>1</sortIndex>
+<evaluatorTypeID>com.nordicpeak.flowengine.evaluators.settextfieldvalueweightevaluator.SetTextFieldValueWeightEvaluationProviderModule</evaluatorTypeID>
+<enabled>true</enabled>
+</EvaluatorDescriptor>
+<EvaluatorDescriptor>
+<evaluatorID>75357</evaluatorID>
+<name>Vikt för omvårdnadsavgift</name>
+<sortIndex>2</sortIndex>
+<evaluatorTypeID>com.nordicpeak.flowengine.evaluators.settextfieldweightevaluator.SetTextFieldWeightEvaluationProviderModule</evaluatorTypeID>
+<enabled>true</enabled>
+</EvaluatorDescriptor>
+</EvaluatorDescriptors>
+<mergeWithPreviousQuery>false</mergeWithPreviousQuery>
+</QueryDescriptor>
+</TextFieldQuery>
+</QueryDescriptor>
+<QueryDescriptor>
+<queryID>80495</queryID>
+<name>Beräkning av summa avgifter (DOLD)</name>
+<sortIndex>10</sortIndex>
+<defaultQueryState>HIDDEN</defaultQueryState>
+<queryTypeID>com.nordicpeak.flowengine.queries.textfieldquery.TextFieldQueryProviderModule</queryTypeID>
+<exported>false</exported>
+<EvaluatorDescriptors>
+<EvaluatorDescriptor>
+<evaluatorID>75358</evaluatorID>
+<name>Beräkning av summa avgifter - exkl hemsjukvård</name>
+<sortIndex>0</sortIndex>
+<evaluatorTypeID>com.nordicpeak.flowengine.evaluators.settextfieldvalueweightevaluator.SetTextFieldValueWeightEvaluationProviderModule</evaluatorTypeID>
+<enabled>true</enabled>
+<SetTextFieldValueWeightEvaluator>
+<textFieldID>33698</textFieldID>
+<expression><![CDATA[$weight{vikt_boendeabonnemang} + $weight{vikt_omvardnadsavgift} + $weight{vikt_hyresavgift}]]></expression>
+<displayDecimals>false</displayDecimals>
+<invalidExpressionMessage>Fel vid beräkning av summa avgifter.</invalidExpressionMessage>
+<evaluatorID>75358</evaluatorID>
+<configURL>/ep/settextfieldvalueweight/config/75358</configURL>
+<EvaluatorDescriptor>
+<evaluatorID>75358</evaluatorID>
+<name>Beräkning av summa avgifter - exkl hemsjukvård</name>
+<sortIndex>0</sortIndex>
+<evaluatorTypeID>com.nordicpeak.flowengine.evaluators.settextfieldvalueweightevaluator.SetTextFieldValueWeightEvaluationProviderModule</evaluatorTypeID>
+<enabled>true</enabled>
+</EvaluatorDescriptor>
+</SetTextFieldValueWeightEvaluator>
+</EvaluatorDescriptor>
+<EvaluatorDescriptor>
+<evaluatorID>75359</evaluatorID>
+<name>Vikt för summa avgifter</name>
+<sortIndex>4</sortIndex>
+<evaluatorTypeID>com.nordicpeak.flowengine.evaluators.settextfieldweightevaluator.SetTextFieldWeightEvaluationProviderModule</evaluatorTypeID>
+<enabled>true</enabled>
+<SetTextFieldWeightEvaluator>
+<textFieldID>33698</textFieldID>
+<weightType>vikt_summa_avgifter</weightType>
+<evaluationMode>USE_FIELD_VALUE</evaluationMode>
+<evaluatorID>75359</evaluatorID>
+<configURL>/ep/settextfieldweight/config/75359</configURL>
+<EvaluatorDescriptor>
+<evaluatorID>75359</evaluatorID>
+<name>Vikt för summa avgifter</name>
+<sortIndex>4</sortIndex>
+<evaluatorTypeID>com.nordicpeak.flowengine.evaluators.settextfieldweightevaluator.SetTextFieldWeightEvaluationProviderModule</evaluatorTypeID>
+<enabled>true</enabled>
+</EvaluatorDescriptor>
+</SetTextFieldWeightEvaluator>
+</EvaluatorDescriptor>
+</EvaluatorDescriptors>
+<mergeWithPreviousQuery>false</mergeWithPreviousQuery>
+<TextFieldQuery>
+<queryID>80495</queryID>
+<layout>FLOAT</layout>
+<hideTitle>false</hideTitle>
+<hideDescriptionWhenSubmitted>false</hideDescriptionWhenSubmitted>
+<lockOnOwnershipTransfer>false</lockOnOwnershipTransfer>
+<lockForManagerUpdate>false</lockForManagerUpdate>
+<Fields>
+<TextField>
+<textFieldID>33698</textFieldID>
+<label>Beräknad summa avgifter</label>
+<disabled>true</disabled>
+<required>false</required>
+<searchable>false</searchable>
+<inactivateAutocomplete>false</inactivateAutocomplete>
+<sortIndex>1</sortIndex>
+<containsPrice>false</containsPrice>
+<maskFieldContent>false</maskFieldContent>
+<setAsAttribute>true</setAsAttribute>
+<attributeName>attr_summa_avgifter</attributeName>
+</TextField>
+<TextField>
+<textFieldID>33699</textFieldID>
+<label>Beräknad omvårdnadsavgift</label>
+<disabled>true</disabled>
+<required>false</required>
+<searchable>false</searchable>
+<inactivateAutocomplete>false</inactivateAutocomplete>
+<sortIndex>2</sortIndex>
+<containsPrice>false</containsPrice>
+<maskFieldContent>false</maskFieldContent>
+<setAsAttribute>true</setAsAttribute>
+<attributeName>attr_omvardnadsavgift</attributeName>
+</TextField>
+</Fields>
+<configURL>/qp/textfieldprovider/config/80495</configURL>
+<QueryDescriptor>
+<queryID>80495</queryID>
+<name>Beräkning av summa avgifter (DOLD)</name>
+<sortIndex>10</sortIndex>
+<defaultQueryState>HIDDEN</defaultQueryState>
+<queryTypeID>com.nordicpeak.flowengine.queries.textfieldquery.TextFieldQueryProviderModule</queryTypeID>
+<exported>false</exported>
+<EvaluatorDescriptors>
+<EvaluatorDescriptor>
+<evaluatorID>75358</evaluatorID>
+<name>Beräkning av summa avgifter - exkl hemsjukvård</name>
+<sortIndex>0</sortIndex>
+<evaluatorTypeID>com.nordicpeak.flowengine.evaluators.settextfieldvalueweightevaluator.SetTextFieldValueWeightEvaluationProviderModule</evaluatorTypeID>
+<enabled>true</enabled>
+</EvaluatorDescriptor>
+<EvaluatorDescriptor>
+<evaluatorID>75359</evaluatorID>
+<name>Vikt för summa avgifter</name>
+<sortIndex>4</sortIndex>
+<evaluatorTypeID>com.nordicpeak.flowengine.evaluators.settextfieldweightevaluator.SetTextFieldWeightEvaluationProviderModule</evaluatorTypeID>
+<enabled>true</enabled>
+</EvaluatorDescriptor>
+</EvaluatorDescriptors>
+<mergeWithPreviousQuery>false</mergeWithPreviousQuery>
+</QueryDescriptor>
+</TextFieldQuery>
+</QueryDescriptor>
+<QueryDescriptor>
+<queryID>80496</queryID>
+<name>Beräkning av justering för maxtaxa (DOLD)</name>
+<sortIndex>11</sortIndex>
+<defaultQueryState>HIDDEN</defaultQueryState>
+<queryTypeID>com.nordicpeak.flowengine.queries.textfieldquery.TextFieldQueryProviderModule</queryTypeID>
+<exported>false</exported>
+<EvaluatorDescriptors>
+<EvaluatorDescriptor>
+<evaluatorID>75360</evaluatorID>
+<name>Beräkning av justering för maxtaxa</name>
+<comment>Om summan av alla avgifter är större än maxtaxan =&gt; returnera diffen som negativt värde, annars returnera noll.</comment>
+<sortIndex>1</sortIndex>
+<evaluatorTypeID>com.nordicpeak.flowengine.evaluators.settextfieldvalueweightevaluator.SetTextFieldValueWeightEvaluationProviderModule</evaluatorTypeID>
+<enabled>true</enabled>
+<SetTextFieldValueWeightEvaluator>
+<textFieldID>33700</textFieldID>
+<expression><![CDATA[if((($weight{vikt_summa_avgifter} - $weight{vikt_maxtaxa}) > 0), (($weight{vikt_summa_avgifter} - $weight{vikt_maxtaxa})*(-1)), 0)]]></expression>
+<displayDecimals>false</displayDecimals>
+<invalidExpressionMessage>Fel vid beräkning av justering.</invalidExpressionMessage>
+<evaluatorID>75360</evaluatorID>
+<configURL>/ep/settextfieldvalueweight/config/75360</configURL>
+<EvaluatorDescriptor>
+<evaluatorID>75360</evaluatorID>
+<name>Beräkning av justering för maxtaxa</name>
+<comment>Om summan av alla avgifter är större än maxtaxan =&gt; returnera diffen som negativt värde, annars returnera noll.</comment>
+<sortIndex>1</sortIndex>
+<evaluatorTypeID>com.nordicpeak.flowengine.evaluators.settextfieldvalueweightevaluator.SetTextFieldValueWeightEvaluationProviderModule</evaluatorTypeID>
+<enabled>true</enabled>
+</EvaluatorDescriptor>
+</SetTextFieldValueWeightEvaluator>
+</EvaluatorDescriptor>
+<EvaluatorDescriptor>
+<evaluatorID>75361</evaluatorID>
+<name>Vikt för justering för maxtaxa</name>
+<sortIndex>2</sortIndex>
+<evaluatorTypeID>com.nordicpeak.flowengine.evaluators.settextfieldweightevaluator.SetTextFieldWeightEvaluationProviderModule</evaluatorTypeID>
+<enabled>true</enabled>
+<SetTextFieldWeightEvaluator>
+<textFieldID>33700</textFieldID>
+<weightType>vikt_justering_maxtaxa</weightType>
+<evaluationMode>USE_FIELD_VALUE</evaluationMode>
+<evaluatorID>75361</evaluatorID>
+<configURL>/ep/settextfieldweight/config/75361</configURL>
+<EvaluatorDescriptor>
+<evaluatorID>75361</evaluatorID>
+<name>Vikt för justering för maxtaxa</name>
+<sortIndex>2</sortIndex>
+<evaluatorTypeID>com.nordicpeak.flowengine.evaluators.settextfieldweightevaluator.SetTextFieldWeightEvaluationProviderModule</evaluatorTypeID>
+<enabled>true</enabled>
+</EvaluatorDescriptor>
+</SetTextFieldWeightEvaluator>
+</EvaluatorDescriptor>
+</EvaluatorDescriptors>
+<mergeWithPreviousQuery>false</mergeWithPreviousQuery>
+<TextFieldQuery>
+<queryID>80496</queryID>
+<layout>FLOAT</layout>
+<hideTitle>false</hideTitle>
+<hideDescriptionWhenSubmitted>false</hideDescriptionWhenSubmitted>
+<lockOnOwnershipTransfer>false</lockOnOwnershipTransfer>
+<lockForManagerUpdate>false</lockForManagerUpdate>
+<Fields>
+<TextField>
+<textFieldID>33700</textFieldID>
+<label>Justering för maxtaxa</label>
+<disabled>true</disabled>
+<required>false</required>
+<searchable>false</searchable>
+<inactivateAutocomplete>false</inactivateAutocomplete>
+<sortIndex>1</sortIndex>
+<containsPrice>false</containsPrice>
+<maskFieldContent>false</maskFieldContent>
+<setAsAttribute>true</setAsAttribute>
+<attributeName>attr_justering_maxtaxa</attributeName>
+</TextField>
+</Fields>
+<configURL>/qp/textfieldprovider/config/80496</configURL>
+<QueryDescriptor>
+<queryID>80496</queryID>
+<name>Beräkning av justering för maxtaxa (DOLD)</name>
+<sortIndex>11</sortIndex>
+<defaultQueryState>HIDDEN</defaultQueryState>
+<queryTypeID>com.nordicpeak.flowengine.queries.textfieldquery.TextFieldQueryProviderModule</queryTypeID>
+<exported>false</exported>
+<EvaluatorDescriptors>
+<EvaluatorDescriptor>
+<evaluatorID>75360</evaluatorID>
+<name>Beräkning av justering för maxtaxa</name>
+<comment>Om summan av alla avgifter är större än maxtaxan =&gt; returnera diffen som negativt värde, annars returnera noll.</comment>
+<sortIndex>1</sortIndex>
+<evaluatorTypeID>com.nordicpeak.flowengine.evaluators.settextfieldvalueweightevaluator.SetTextFieldValueWeightEvaluationProviderModule</evaluatorTypeID>
+<enabled>true</enabled>
+</EvaluatorDescriptor>
+<EvaluatorDescriptor>
+<evaluatorID>75361</evaluatorID>
+<name>Vikt för justering för maxtaxa</name>
+<sortIndex>2</sortIndex>
+<evaluatorTypeID>com.nordicpeak.flowengine.evaluators.settextfieldweightevaluator.SetTextFieldWeightEvaluationProviderModule</evaluatorTypeID>
+<enabled>true</enabled>
+</EvaluatorDescriptor>
+</EvaluatorDescriptors>
+<mergeWithPreviousQuery>false</mergeWithPreviousQuery>
+</QueryDescriptor>
+</TextFieldQuery>
+</QueryDescriptor>
+<QueryDescriptor>
+<queryID>80497</queryID>
+<name>Beräkning av preliminär avgift efter justering (DOLD)</name>
+<sortIndex>12</sortIndex>
+<defaultQueryState>HIDDEN</defaultQueryState>
+<queryTypeID>com.nordicpeak.flowengine.queries.textfieldquery.TextFieldQueryProviderModule</queryTypeID>
+<exported>false</exported>
+<EvaluatorDescriptors>
+<EvaluatorDescriptor>
+<evaluatorID>75362</evaluatorID>
+<name>Beräkning av preliminär avgift</name>
+<comment>OBS!&#13;
+Om summan av alla avgifter (+ avgift för hemsjukvård) för sig överstiger maxtaxan så ska vi dra av diffen mellan dessa.&#13;
+OBS! Diffen är sparad som ett negativt värde i tidigare steg i vikten 'vikt_justering_maxtaxa', därför är det addition i beräkningen nedan.&#13;
+(Vikten 'vikt_justering_maxtaxa' har värdet noll om diffen är noll eller mindre).</comment>
+<sortIndex>1</sortIndex>
+<evaluatorTypeID>com.nordicpeak.flowengine.evaluators.settextfieldvalueweightevaluator.SetTextFieldValueWeightEvaluationProviderModule</evaluatorTypeID>
+<enabled>true</enabled>
+<SetTextFieldValueWeightEvaluator>
+<textFieldID>33701</textFieldID>
+<expression><![CDATA[if(($weight{vikt_ber_bet_formaga} <= 0), 0, min($weight{vikt_ber_bet_formaga}, ($weight{vikt_summa_avgifter} + $weight{vikt_justering_maxtaxa})))]]></expression>
+<displayDecimals>false</displayDecimals>
+<invalidExpressionMessage>Fel vid beräkning av preliminär avgift.</invalidExpressionMessage>
+<evaluatorID>75362</evaluatorID>
+<configURL>/ep/settextfieldvalueweight/config/75362</configURL>
+<EvaluatorDescriptor>
+<evaluatorID>75362</evaluatorID>
+<name>Beräkning av preliminär avgift</name>
+<comment>OBS!&#13;
+Om summan av alla avgifter (+ avgift för hemsjukvård) för sig överstiger maxtaxan så ska vi dra av diffen mellan dessa.&#13;
+OBS! Diffen är sparad som ett negativt värde i tidigare steg i vikten 'vikt_justering_maxtaxa', därför är det addition i beräkningen nedan.&#13;
+(Vikten 'vikt_justering_maxtaxa' har värdet noll om diffen är noll eller mindre).</comment>
+<sortIndex>1</sortIndex>
+<evaluatorTypeID>com.nordicpeak.flowengine.evaluators.settextfieldvalueweightevaluator.SetTextFieldValueWeightEvaluationProviderModule</evaluatorTypeID>
+<enabled>true</enabled>
+</EvaluatorDescriptor>
+</SetTextFieldValueWeightEvaluator>
+</EvaluatorDescriptor>
+<EvaluatorDescriptor>
+<evaluatorID>75363</evaluatorID>
+<name>Vikt för beräknad preliminär avgift</name>
+<sortIndex>2</sortIndex>
+<evaluatorTypeID>com.nordicpeak.flowengine.evaluators.settextfieldweightevaluator.SetTextFieldWeightEvaluationProviderModule</evaluatorTypeID>
+<enabled>true</enabled>
+<SetTextFieldWeightEvaluator>
+<textFieldID>33701</textFieldID>
+<weightType>vikt_ber_prel_avgift</weightType>
+<evaluationMode>USE_FIELD_VALUE</evaluationMode>
+<evaluatorID>75363</evaluatorID>
+<configURL>/ep/settextfieldweight/config/75363</configURL>
+<EvaluatorDescriptor>
+<evaluatorID>75363</evaluatorID>
+<name>Vikt för beräknad preliminär avgift</name>
+<sortIndex>2</sortIndex>
+<evaluatorTypeID>com.nordicpeak.flowengine.evaluators.settextfieldweightevaluator.SetTextFieldWeightEvaluationProviderModule</evaluatorTypeID>
+<enabled>true</enabled>
+</EvaluatorDescriptor>
+</SetTextFieldWeightEvaluator>
+</EvaluatorDescriptor>
+</EvaluatorDescriptors>
+<mergeWithPreviousQuery>false</mergeWithPreviousQuery>
+<TextFieldQuery>
+<queryID>80497</queryID>
+<layout>FLOAT</layout>
+<hideTitle>false</hideTitle>
+<hideDescriptionWhenSubmitted>false</hideDescriptionWhenSubmitted>
+<lockOnOwnershipTransfer>false</lockOnOwnershipTransfer>
+<lockForManagerUpdate>false</lockForManagerUpdate>
+<Fields>
+<TextField>
+<textFieldID>33701</textFieldID>
+<label>Beräknad preliminär avgift efter justering</label>
+<disabled>true</disabled>
+<required>false</required>
+<searchable>false</searchable>
+<inactivateAutocomplete>false</inactivateAutocomplete>
+<sortIndex>1</sortIndex>
+<containsPrice>false</containsPrice>
+<maskFieldContent>false</maskFieldContent>
+<setAsAttribute>true</setAsAttribute>
+<attributeName>attr_ber_prel_avgift</attributeName>
+</TextField>
+</Fields>
+<configURL>/qp/textfieldprovider/config/80497</configURL>
+<QueryDescriptor>
+<queryID>80497</queryID>
+<name>Beräkning av preliminär avgift efter justering (DOLD)</name>
+<sortIndex>12</sortIndex>
+<defaultQueryState>HIDDEN</defaultQueryState>
+<queryTypeID>com.nordicpeak.flowengine.queries.textfieldquery.TextFieldQueryProviderModule</queryTypeID>
+<exported>false</exported>
+<EvaluatorDescriptors>
+<EvaluatorDescriptor>
+<evaluatorID>75362</evaluatorID>
+<name>Beräkning av preliminär avgift</name>
+<comment>OBS!&#13;
+Om summan av alla avgifter (+ avgift för hemsjukvård) för sig överstiger maxtaxan så ska vi dra av diffen mellan dessa.&#13;
+OBS! Diffen är sparad som ett negativt värde i tidigare steg i vikten 'vikt_justering_maxtaxa', därför är det addition i beräkningen nedan.&#13;
+(Vikten 'vikt_justering_maxtaxa' har värdet noll om diffen är noll eller mindre).</comment>
+<sortIndex>1</sortIndex>
+<evaluatorTypeID>com.nordicpeak.flowengine.evaluators.settextfieldvalueweightevaluator.SetTextFieldValueWeightEvaluationProviderModule</evaluatorTypeID>
+<enabled>true</enabled>
+</EvaluatorDescriptor>
+<EvaluatorDescriptor>
+<evaluatorID>75363</evaluatorID>
+<name>Vikt för beräknad preliminär avgift</name>
+<sortIndex>2</sortIndex>
+<evaluatorTypeID>com.nordicpeak.flowengine.evaluators.settextfieldweightevaluator.SetTextFieldWeightEvaluationProviderModule</evaluatorTypeID>
+<enabled>true</enabled>
+</EvaluatorDescriptor>
+</EvaluatorDescriptors>
+<mergeWithPreviousQuery>false</mergeWithPreviousQuery>
+</QueryDescriptor>
+</TextFieldQuery>
+</QueryDescriptor>
+</QueryDescriptors>
+</Step>
+<Step>
+<stepID>9325</stepID>
+<name>Preliminär beräkning</name>
+<sortIndex>2</sortIndex>
+<QueryDescriptors>
+<QueryDescriptor>
+<queryID>80498</queryID>
+<name>Preliminär beräkning</name>
+<sortIndex>0</sortIndex>
+<defaultQueryState>VISIBLE</defaultQueryState>
+<queryTypeID>com.nordicpeak.flowengine.queries.infoquery.InfoQueryProviderModule</queryTypeID>
+<exported>false</exported>
+<mergeWithPreviousQuery>true</mergeWithPreviousQuery>
+<InfoQuery>
+<queryID>80498</queryID>
+<hideTitle>false</hideTitle>
+<hideBackground>false</hideBackground>
+<dontSetPopulated>false</dontSetPopulated>
+<setAsAttribute>false</setAsAttribute>
+<enablePaymentSupport>false</enablePaymentSupport>
+<description><![CDATA[<p>Klicka p&aring; hj&auml;lpikonen till h&ouml;ger f&ouml;r mer information.<br />
+<br />
+Utifr&aring;n dina&nbsp;uppgifter&nbsp;&auml;r den ber&auml;knade prelimin&auml;ra kostnaden f&ouml;r s&auml;rskilt boende:</p>
+
+<p><strong>$attribute{attr_summa_avgifter} kr/m&aring;n</strong></p>
+
+<p>&nbsp;</p>
+
+<h3><strong>Det du betalar f&ouml;r</strong></h3>
+
+<p>Boendeabonnemang (mat och f&ouml;rbrukningsartiklar):&nbsp; $attribute{attr_boendeabonnemang}&nbsp;kr/m&aring;n</p>
+
+<p>Omv&aring;rdnadsavgift:&nbsp; $attribute{attr_omvardnadsavgift}&nbsp;kr/m&aring;n</p>
+
+<p>Hyra f&ouml;r din l&auml;genhet:&nbsp; $attribute{attr_hyresavgift}&nbsp;kr/m&aring;n</p>
+
+<p>&nbsp;</p>
+
+<p>Elavgift kan tillkomma men &auml;r inte medr&auml;knat h&auml;r. Elavgiften baseras p&aring;&nbsp;l&auml;genhetens storlek. P&aring; en del boenden blir du inte&nbsp;debiterad elavgift av oss utan du tecknar ett eget elavtal.</p>]]></description>
+<helpText><![CDATA[<p><strong>Begreppsf&ouml;rklaring:</strong></p>
+
+<ul>
+	<li><strong>F&ouml;rbeh&aring;llsbeloppet </strong>&auml;r det lagstadgade belopp som ska t&auml;cka dina vanliga levnadskostnader. Detta belopp dras fr&aring;n din inkomst innan man best&auml;mmer hur mycket du ska betala i avgift.</li>
+	<li><strong>Ber&auml;knat avgiftsutrymme</strong> (&auml;ven kallat betalningsf&ouml;rm&aring;ga)&nbsp;&auml;r det belopp som du maximalt f&aring;r betala f&ouml;r omv&aring;rdnaden p&aring; boendet. Om ditt avgiftsutrymme &auml;r l&auml;gre &auml;n grundkostnaden f&ouml;r omv&aring;rdnaden p&aring; boende, betalar du bara s&aring; mycket som ditt avgiftsutrymme till&aring;ter. Om ditt avgiftsutrymme &auml;r 0 kronor tas ingen avgift ut f&ouml;r omv&aring;rdnaden.</li>
+</ul>
+
+<p>Vill du veta mer om hur avgifterna ber&auml;knas kan du l&auml;sa mer p&aring; malmo.se:<br />
+<a href="https://malmo.se/Bo-och-leva/Stod-och-omsorg/Kommunal-halso--och-sjukvard/Avgifter-for-vard-och-omsorg/Sa-beraknas-din-avgift-for-vard-och-omsorg.html" target="_blank">S&aring; ber&auml;knas din avgift f&ouml;r v&aring;rd och omsorg</a><br />
+&nbsp;</p>]]></helpText>
+<configURL>/qp/infoquery/config/80498</configURL>
+<QueryDescriptor>
+<queryID>80498</queryID>
+<name>Preliminär beräkning</name>
+<sortIndex>0</sortIndex>
+<defaultQueryState>VISIBLE</defaultQueryState>
+<queryTypeID>com.nordicpeak.flowengine.queries.infoquery.InfoQueryProviderModule</queryTypeID>
+<exported>false</exported>
+<mergeWithPreviousQuery>true</mergeWithPreviousQuery>
+</QueryDescriptor>
+</InfoQuery>
+</QueryDescriptor>
+<QueryDescriptor>
+<queryID>80499</queryID>
+<name>Preliminär beräkning - sökandes inkomstuppgifter</name>
+<comment>Redovisning av den sökandes inkomster</comment>
+<sortIndex>1</sortIndex>
+<defaultQueryState>VISIBLE_REQUIRED</defaultQueryState>
+<queryTypeID>com.nordicpeak.flowengine.queries.infoquery.InfoQueryProviderModule</queryTypeID>
+<exported>false</exported>
+<mergeWithPreviousQuery>true</mergeWithPreviousQuery>
+<InfoQuery>
+<queryID>80499</queryID>
+<hideTitle>true</hideTitle>
+<hideBackground>false</hideBackground>
+<dontSetPopulated>false</dontSetPopulated>
+<setAsAttribute>false</setAsAttribute>
+<enablePaymentSupport>false</enablePaymentSupport>
+<description><![CDATA[<h3><strong>Du har angett f&ouml;ljande inkomstuppgifter</strong></h3>
+
+<p>Nettoinkomst:&nbsp;$attribute{attr_nettoinkomst} kr/m&aring;n</p>
+
+<p>Ej skattepliktig inkomst:&nbsp;$attribute{attr_ej_skattepl_inkomst} kr/m&aring;n</p>
+
+<p>Kapitalinkomst f&ouml;reg&aring;ende &aring;r:&nbsp;$attribute{attr_kapitalinkomst}&nbsp;kr</p>]]></description>
+<configURL>/qp/infoquery/config/80499</configURL>
+<QueryDescriptor>
+<queryID>80499</queryID>
+<name>Preliminär beräkning - sökandes inkomstuppgifter</name>
+<comment>Redovisning av den sökandes inkomster</comment>
+<sortIndex>1</sortIndex>
+<defaultQueryState>VISIBLE_REQUIRED</defaultQueryState>
+<queryTypeID>com.nordicpeak.flowengine.queries.infoquery.InfoQueryProviderModule</queryTypeID>
+<exported>false</exported>
+<mergeWithPreviousQuery>true</mergeWithPreviousQuery>
+</QueryDescriptor>
+</InfoQuery>
+</QueryDescriptor>
+<QueryDescriptor>
+<queryID>80500</queryID>
+<name>Preliminär beräkning - makes/makas inkomstuppgifter</name>
+<sortIndex>2</sortIndex>
+<defaultQueryState>HIDDEN</defaultQueryState>
+<queryTypeID>com.nordicpeak.flowengine.queries.infoquery.InfoQueryProviderModule</queryTypeID>
+<exported>false</exported>
+<EvaluatorDescriptors>
+<EvaluatorDescriptor>
+<evaluatorID>75364</evaluatorID>
+<name>Visa inkomstuppgifter om partner om gift</name>
+<sortIndex>1</sortIndex>
+<evaluatorTypeID>com.nordicpeak.flowengine.evaluators.weightquerystateevaluator.WeightQueryStateEvaluationProviderModule</evaluatorTypeID>
+<enabled>true</enabled>
+<WeightQueryStateEvaluator>
+<weightType>vikt_gift_partnerskap</weightType>
+<fromValue>2</fromValue>
+<toValue>2</toValue>
+<queryState>VISIBLE_REQUIRED</queryState>
+<doNotResetQueryState>false</doNotResetQueryState>
+<forceReload>false</forceReload>
+<evaluatorID>75364</evaluatorID>
+<configURL>/ep/weightquerystate/config/75364</configURL>
+<EvaluatorDescriptor>
+<evaluatorID>75364</evaluatorID>
+<name>Visa inkomstuppgifter om partner om gift</name>
+<sortIndex>1</sortIndex>
+<evaluatorTypeID>com.nordicpeak.flowengine.evaluators.weightquerystateevaluator.WeightQueryStateEvaluationProviderModule</evaluatorTypeID>
+<enabled>true</enabled>
+</EvaluatorDescriptor>
+</WeightQueryStateEvaluator>
+</EvaluatorDescriptor>
+</EvaluatorDescriptors>
+<mergeWithPreviousQuery>true</mergeWithPreviousQuery>
+<InfoQuery>
+<queryID>80500</queryID>
+<hideTitle>true</hideTitle>
+<hideBackground>false</hideBackground>
+<dontSetPopulated>false</dontSetPopulated>
+<setAsAttribute>false</setAsAttribute>
+<enablePaymentSupport>false</enablePaymentSupport>
+<description><![CDATA[<h3><strong>Du har angett f&ouml;ljande inkomstuppgifter f&ouml;r&nbsp;make/maka</strong></h3>
+
+<p>Nettoinkomst:&nbsp;$attribute{attr_nettoinkomst_partner} kr/m&aring;n</p>
+
+<p>Ej skattepliktig inkomst:&nbsp;$attribute{attr_ej_skattepl_inkomst_partner}&nbsp;kr/m&aring;n</p>
+
+<p>Kapitalinkomst f&ouml;reg&aring;ende &aring;r:&nbsp;$attribute{attr_kapitalinkomst_partner}&nbsp;kr</p>]]></description>
+<configURL>/qp/infoquery/config/80500</configURL>
+<QueryDescriptor>
+<queryID>80500</queryID>
+<name>Preliminär beräkning - makes/makas inkomstuppgifter</name>
+<sortIndex>2</sortIndex>
+<defaultQueryState>HIDDEN</defaultQueryState>
+<queryTypeID>com.nordicpeak.flowengine.queries.infoquery.InfoQueryProviderModule</queryTypeID>
+<exported>false</exported>
+<EvaluatorDescriptors>
+<EvaluatorDescriptor>
+<evaluatorID>75364</evaluatorID>
+<name>Visa inkomstuppgifter om partner om gift</name>
+<sortIndex>1</sortIndex>
+<evaluatorTypeID>com.nordicpeak.flowengine.evaluators.weightquerystateevaluator.WeightQueryStateEvaluationProviderModule</evaluatorTypeID>
+<enabled>true</enabled>
+</EvaluatorDescriptor>
+</EvaluatorDescriptors>
+<mergeWithPreviousQuery>true</mergeWithPreviousQuery>
+</QueryDescriptor>
+</InfoQuery>
+</QueryDescriptor>
+<QueryDescriptor>
+<queryID>80501</queryID>
+<name>Preliminär beräkning - beräknad nettoinkomst, förbehållsbelopp, avgiftsutrymme</name>
+<comment>!!! Vid behov av att skriva ut del-beräkningar - ta bort när klart: !!!&#13;
+&#13;
+- Beräknad nettoinkomst inklusive ev. inkomster från make/maka: $attribute{attr_nettoinkomst_total} kr/mån&#13;
+&#13;
+&#13;
+Justering av avgiften med avseende på maxtaxa:&#13;
+&#13;
+- Maxtaxa: $attribute{attr_maxtaxa} kr/mån&#13;
+- Summa avgifter före justering: $attribute{attr_summa_avgifter} kr/mån&#13;
+- Justering: $attribute{attr_justering_maxtaxa} kr/mån</comment>
+<sortIndex>3</sortIndex>
+<defaultQueryState>VISIBLE_REQUIRED</defaultQueryState>
+<queryTypeID>com.nordicpeak.flowengine.queries.infoquery.InfoQueryProviderModule</queryTypeID>
+<exported>false</exported>
+<mergeWithPreviousQuery>true</mergeWithPreviousQuery>
+<InfoQuery>
+<queryID>80501</queryID>
+<hideTitle>true</hideTitle>
+<hideBackground>false</hideBackground>
+<dontSetPopulated>false</dontSetPopulated>
+<setAsAttribute>false</setAsAttribute>
+<enablePaymentSupport>false</enablePaymentSupport>
+<description><![CDATA[<h3><strong>Utr&auml;kningen&nbsp;baseras p&aring;</strong></h3>
+
+<p>Din ber&auml;knade nettoinkomst:&nbsp;$attribute{attr_nettoinkomst_delad} kr/m&aring;n</p>
+
+<p>Ditt f&ouml;rbeh&aring;llsbelopp: $attribute{attr_forbehallsbelopp}&nbsp;kr/m&aring;n</p>
+
+<p>Ditt ber&auml;knade avgiftsutrymme:&nbsp;$attribute{attr_betalformaga} kr/m&aring;n</p>]]></description>
+<configURL>/qp/infoquery/config/80501</configURL>
+<QueryDescriptor>
+<queryID>80501</queryID>
+<name>Preliminär beräkning - beräknad nettoinkomst, förbehållsbelopp, avgiftsutrymme</name>
+<comment>!!! Vid behov av att skriva ut del-beräkningar - ta bort när klart: !!!&#13;
+&#13;
+- Beräknad nettoinkomst inklusive ev. inkomster från make/maka: $attribute{attr_nettoinkomst_total} kr/mån&#13;
+&#13;
+&#13;
+Justering av avgiften med avseende på maxtaxa:&#13;
+&#13;
+- Maxtaxa: $attribute{attr_maxtaxa} kr/mån&#13;
+- Summa avgifter före justering: $attribute{attr_summa_avgifter} kr/mån&#13;
+- Justering: $attribute{attr_justering_maxtaxa} kr/mån</comment>
+<sortIndex>3</sortIndex>
+<defaultQueryState>VISIBLE_REQUIRED</defaultQueryState>
+<queryTypeID>com.nordicpeak.flowengine.queries.infoquery.InfoQueryProviderModule</queryTypeID>
+<exported>false</exported>
+<mergeWithPreviousQuery>true</mergeWithPreviousQuery>
+</QueryDescriptor>
+</InfoQuery>
+</QueryDescriptor>
+<QueryDescriptor>
+<queryID>80502</queryID>
+<name>Ansök om plats och bostadstillägg</name>
+<sortIndex>4</sortIndex>
+<defaultQueryState>VISIBLE_REQUIRED</defaultQueryState>
+<queryTypeID>com.nordicpeak.flowengine.queries.infoquery.InfoQueryProviderModule</queryTypeID>
+<exported>false</exported>
+<mergeWithPreviousQuery>true</mergeWithPreviousQuery>
+<InfoQuery>
+<queryID>80502</queryID>
+<hideTitle>true</hideTitle>
+<hideBackground>false</hideBackground>
+<dontSetPopulated>false</dontSetPopulated>
+<setAsAttribute>false</setAsAttribute>
+<enablePaymentSupport>false</enablePaymentSupport>
+<description><![CDATA[<h3><strong>Ans&ouml;k om plats och bostadstill&auml;gg</strong></h3>
+
+<p>Du kan ans&ouml;ka om plats p&aring; v&aring;rd- och omsorgsboende via v&aring;r andra e-tj&auml;nst:</p>
+
+<p><a href="https://malmo.se/Bo-och-leva/Stod-och-omsorg/Stod-till-aldre/Boenden-for-aldre/Ansokan-om-plats-pa-vard--och-omsorgsboende.html" target="_blank">Ans&ouml;kan om plats p&aring; v&aring;rd- och omsorgsboende</a></p>
+
+<p>Beh&ouml;ver du hj&auml;lp med ans&ouml;kan kan du kontakta en bist&aring;ndshandl&auml;ggare.</p>
+
+<p>&nbsp;</p>
+
+<p>N&auml;r du bor p&aring; v&aring;rd- och omsorgboende kan du ha r&auml;tt till bostadstill&auml;gg fr&aring;n pensionsmyndigheten.&nbsp;</p>
+
+<p><a href="https://www.pensionsmyndigheten.se/for-pensionarer/ekonomiskt-stod/sa-fungerar-bostadstillagg" target="_blank">Bostadstill&auml;gg hos pensionsmyndigheten</a></p>]]></description>
+<configURL>/qp/infoquery/config/80502</configURL>
+<QueryDescriptor>
+<queryID>80502</queryID>
+<name>Ansök om plats och bostadstillägg</name>
+<sortIndex>4</sortIndex>
+<defaultQueryState>VISIBLE_REQUIRED</defaultQueryState>
+<queryTypeID>com.nordicpeak.flowengine.queries.infoquery.InfoQueryProviderModule</queryTypeID>
+<exported>false</exported>
+<mergeWithPreviousQuery>true</mergeWithPreviousQuery>
+</QueryDescriptor>
+</InfoQuery>
+</QueryDescriptor>
+<QueryDescriptor>
+<queryID>80503</queryID>
+<name>Vill du göra en ny beräkning?</name>
+<comment>Stoppfråga - förhindra skicka in</comment>
+<sortIndex>5</sortIndex>
+<defaultQueryState>VISIBLE</defaultQueryState>
+<queryTypeID>com.nordicpeak.flowengine.queries.stopquery.StopQueryProviderModule</queryTypeID>
+<exported>false</exported>
+<mergeWithPreviousQuery>true</mergeWithPreviousQuery>
+<StopQuery>
+<queryID>80503</queryID>
+<displayValidationError>false</displayValidationError>
+<description><![CDATA[<p>Klicka p&aring; knappen nedan s&aring; kan du g&aring; tillbaka till tidigare steg och &auml;ndra uppgifterna.</p>]]></description>
+<configURL>/qp/stopquery/config/80503</configURL>
+<QueryDescriptor>
+<queryID>80503</queryID>
+<name>Vill du göra en ny beräkning?</name>
+<comment>Stoppfråga - förhindra skicka in</comment>
+<sortIndex>5</sortIndex>
+<defaultQueryState>VISIBLE</defaultQueryState>
+<queryTypeID>com.nordicpeak.flowengine.queries.stopquery.StopQueryProviderModule</queryTypeID>
+<exported>false</exported>
+<mergeWithPreviousQuery>true</mergeWithPreviousQuery>
+</QueryDescriptor>
+</StopQuery>
+</QueryDescriptor>
+</QueryDescriptors>
+</Step>
+</Steps>
+<flowInstanceCount>0</flowInstanceCount>
+<flowSubmittedInstanceCount>0</flowSubmittedInstanceCount>
+<latestVersion>true</latestVersion>
+<shortDescription>&lt;p&gt;Prelimin&amp;auml;r ber&amp;auml;kning av avgift f&amp;ouml;r v&amp;aring;rd- och omsorgsboende.&lt;/p&gt;</shortDescription>
+<longDescription>&lt;p class="preamble"&gt;Via tj&amp;auml;nsten kan du ta reda p&amp;aring; ungef&amp;auml;r hur mycket du kommer beh&amp;ouml;va betala i avgift per m&amp;aring;nad f&amp;ouml;r v&amp;aring;rd- och omsorgsboende.&lt;/p&gt;&#13;
+&#13;
+&lt;p&gt;&lt;a href="https://malmo.se/Bo-och-leva/Stod-och-omsorg/Kommunal-halso--och-sjukvard/Avgifter-for-vard-och-omsorg/Avgifter-pa-vard--och-omsorgsboende-eller-LSS-boende.html" target="_blank"&gt;Se aktuella avgifter f&amp;ouml;r v&amp;aring;rd- och omsorgsboende&lt;/a&gt;.&lt;/p&gt;&#13;
+&#13;
+&lt;p&gt;F&amp;ouml;r att kunna ber&amp;auml;kna en ungef&amp;auml;rlig avgift p&amp;aring; v&amp;aring;rd- och omsorgsboende beh&amp;ouml;ver du ange f&amp;ouml;ljande i tj&amp;auml;nsten:&lt;/p&gt;&#13;
+&#13;
+&lt;ul&gt;&#13;
+	&lt;li&gt;Nettoinkomst&lt;/li&gt;&#13;
+	&lt;li&gt;Ej skattepliktig inkomst&lt;/li&gt;&#13;
+	&lt;li&gt;Inkomst av kapital&lt;/li&gt;&#13;
+	&lt;li&gt;Hyran&amp;nbsp;p&amp;aring;&amp;nbsp;v&amp;aring;rd- och omsorgsboendet&lt;/li&gt;&#13;
+&lt;/ul&gt;&#13;
+&#13;
+&lt;p&gt;Du hittar hyror f&amp;ouml;r varje v&amp;aring;rd- och omsorgsboende p&amp;aring;&amp;nbsp;&lt;a href="http://malmo.se/Vard--och-omsorgsboenden-i-Malmo.html" target="_blank"&gt;Alla v&amp;aring;rd- och omsorgsboenden&lt;/a&gt;.&lt;/p&gt;&#13;
+&#13;
+&lt;h2&gt;T&amp;auml;nk p&amp;aring; att ber&amp;auml;kningen endast &amp;auml;r en uppskattning&amp;nbsp;&lt;/h2&gt;&#13;
+&#13;
+&lt;p&gt;Genom att svara p&amp;aring; n&amp;aring;gra fr&amp;aring;gor i tj&amp;auml;nsten f&amp;aring;r du en f&amp;ouml;rsta uppskattning av kostnaden. Du f&amp;aring;r veta exakt vad du ska betala per m&amp;aring;nad f&amp;ouml;rst efter att du ans&amp;ouml;kt om insatsen. Uppgifter som du l&amp;auml;mnar i den h&amp;auml;r e-tj&amp;auml;nsten sparas inte och inget &amp;auml;rende skickas till Malm&amp;ouml; stad.&lt;/p&gt;</longDescription>
+<submittedMessage>&lt;p&gt;Tack!&lt;/p&gt;</submittedMessage>
+<loginQuestionText>&lt;p&gt;Om du loggar in s&amp;aring; kan vi f&amp;ouml;rifylla fr&amp;aring;gor med uppgifter vi h&amp;auml;mtar fr&amp;aring;n andra system t.ex. skatteverket.&lt;/p&gt;&#13;
+&#13;
+&lt;p&gt;Du kan &amp;auml;ven f&amp;aring; &amp;aring;terkoppling om &amp;auml;rendets status och notifiering om handl&amp;auml;ggaren beh&amp;ouml;ver mer information.&lt;/p&gt;</loginQuestionText>
+<published>true</published>
+<IconLastModified>1767794170000</IconLastModified>
+<icon>iVBORw0KGgoAAAANSUhEUgAAAEEAAABBCAYAAACO98lFAAAEWklEQVR42u1a6UsVURSf98yyzTQzrcAy26VCC9M2lPoQ9SFaCIIWKkgMJJLA+hARiIStQhQY9Af0sSQJSi2MtDQLKc1oUYNyKSJa1Hy+zqEzcLrMvHfn+eY5T+8PfqDj3HPPPfds946apqCgoKCgoKCgoKCgoDAscAEnATOBO4AHgTuBa4Cx9HdZOfj+WhqPcrYDM0i+y4mLjyIlK4A/gV4D9gGrgPuBk03k4PMDwGpgv4kclH+b5otyigHWA+uBgyZKG7EZuFXY+W3A1xZk4HxPgKuHc/ERwELgb0G5duAN4HHgYWA+8DzwufDeH3o+EVhKv/MFPgaeBR4hOYUkt93AMwqA7uEwwGUDpTfT38ziPBvYIHjNBwM5mT7iHuVvAdYxOYNk0JAa4hhTHGP3NHCs5Fjc+YvAAQPPKAGOt5CHioAeZoj8UBkgDfiDJvaQu1rN1rhjucBektNLCdHqTrooTHRDoF7LQxEGd9nuXRqiC+4CfqZMPxSdrjKd7tgdFqtYAmsBRgdBZlwQZMQA37JSnGanEc4xi+cGsGN24ijTrdjOUKhjMRxnIW5LyO3tTFyJrMGqsSsksF3toUkaLYybz3qJniC5vxmaaR40+AQ7JohhdbncwrhioRQWSFSOdOC8AHSsZGV7ih1GiGULqZAcM452hRuhlXoFM+yl5PuFvMgKqmiOAdq0oAMPN99pkpeSY/awxXvYz7tN3sdGqYm9V2axB9ErRJcfQweMMcAXrAxNl3DrGmaAYmaIWmCkiRcMCueCBZL6zWTl+6md1egaU/CQn3czWLZuoF1+xlrcHIM2uMngtFgmqVseG3PBzlqczXazgRR3m/A6UyqPxu9jz275CB08In9lXjfXxzxuMnAjywdZdhoBQ+Ih2008Ab4xYR+LT70sYtl6z5RNpeeRrLx5yEvOMKN0+pgH2cberSI9Nbu9od/C5ccVYXyhgavzXHCf4jmRDOi1wN5QXrIU+dkZna1st3lnpzdd34ApLBegd2xk756QnEfnqVBfqLolaYRStnv8kuWekNWtzON26gWsGRYCfwmuLHpBWAFzxEnGdMlxNwUjVEoeetKF+TKdYIRoVjGQ3dQj+EOWcEeYI2mAbjbXA7s6w0APV5VMuS6JWu1it1TlEvG8DNgheE6M08JiqmCITglXxUWs08w/xuhYKvQCtTSfIxFDLupl9weLhigziR2MvNR6Jzg9UUYLhvhIOxkIUqj+67LwA058uFSMROr/deXbKKatYBbwFZOBx/fkcCudaIh6tghMakssjG3U/v92GXYG0BHPjs+6IVL9jJkmGKDDwp2CY5EghEY7dYxmBuA9B544F2sjBDPotkdfXAvdEYh3mDyhfgogj4SFIfj/H2DWn83uFiuErnOlNkKRJGT8d9q/L9zV7BneKK3QRjiSqdwZXYrgNfsGbZRgDvCRYIA2OpGOKkTQVRj+X8ImzabPZgoKCgoKCgoKCgoKCgpBxF/Eps+9QMjKvAAAAABJRU5ErkJggg==</icon>
+</Flow>

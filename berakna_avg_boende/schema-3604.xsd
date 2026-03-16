@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://www.oeplatform.org/version/2.0/schemas/flowinstance" attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="http://www.oeplatform.org/version/2.0/schemas/flowinstance">
+
+	<xs:element name="FlowInstance" type="FlowInstance"/>
+
+	<xs:complexType name="FlowInstance">
+		<xs:sequence>
+			<xs:element maxOccurs="1" minOccurs="1" name="Header" type="Header"/>
+			<xs:element maxOccurs="1" minOccurs="1" name="Values" type="Values"/>
+			<xs:element maxOccurs="1" minOccurs="0" name="SigningEvents" type="SigningEvents"/>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="Header">
+
+		<xs:sequence>
+			<xs:element maxOccurs="1" minOccurs="1" name="Flow" type="Flow"/>
+
+			<xs:element maxOccurs="1" minOccurs="1" name="FlowInstanceID" type="xs:positiveInteger"/>
+
+			<xs:element maxOccurs="1" minOccurs="1" name="Status" type="Status"/>
+
+			<xs:element maxOccurs="1" minOccurs="0" name="Poster" type="User"/>
+			<xs:element maxOccurs="unbounded" minOccurs="0" name="Owner" type="User"/>
+			<xs:element maxOccurs="1" minOccurs="1" name="Posted" type="xs:dateTime"/>
+
+			<xs:element maxOccurs="1" minOccurs="0" name="Editor" type="User"/>
+			<xs:element maxOccurs="1" minOccurs="0" name="Updated" type="xs:dateTime"/>
+			<xs:element maxOccurs="1" minOccurs="1" name="FirstSubmitted" type="xs:dateTime"/>
+			<xs:element maxOccurs="1" minOccurs="1" name="LastSubmitted" type="xs:dateTime"/>
+		</xs:sequence>
+
+	</xs:complexType>
+
+	<xs:complexType name="Values">
+
+		<xs:sequence>
+
+		</xs:sequence>
+
+	</xs:complexType>
+	
+	<xs:complexType name="SigningEvents">
+
+		<xs:sequence>
+			<xs:element maxOccurs="unbounded" minOccurs="0" name="SignEvent" type="SignEvent"/>
+		</xs:sequence>
+
+	</xs:complexType>
+
+	<xs:complexType name="User">
+		<xs:sequence>
+			<xs:element maxOccurs="1" minOccurs="1" name="Firstname" type="xs:string"/>
+			<xs:element maxOccurs="1" minOccurs="1" name="Lastname" type="xs:string"/>
+			<xs:element maxOccurs="1" minOccurs="0" name="Email" type="xs:string"/>
+			<xs:element maxOccurs="1" minOccurs="1" name="ID" type="xs:string"/>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="Flow">
+		<xs:sequence>
+			<xs:element fixed="1313" maxOccurs="1" minOccurs="1" name="FamilyID" type="xs:positiveInteger"/>
+			<xs:element fixed="2" maxOccurs="1" minOccurs="1" name="Version" type="xs:positiveInteger"/>
+			<xs:element fixed="3604" maxOccurs="1" minOccurs="1" name="FlowID" type="xs:positiveInteger"/>
+			<xs:element maxOccurs="1" minOccurs="1" name="Name" type="xs:string"/>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="Status">
+		<xs:sequence>
+			<xs:element maxOccurs="1" minOccurs="1" name="ID">
+<xs:simpleType>
+<xs:restriction base="xs:positiveInteger">
+<!--ID for status: Avslag-->
+<xs:enumeration value="28607"/>
+<!--ID for status: Beviljat-->
+<xs:enumeration value="28608"/>
+<!--ID for status: Redo för beslut-->
+<xs:enumeration value="28609"/>
+<!--ID for status: Sparat-->
+<xs:enumeration value="28610"/>
+<!--ID for status: Inskickat-->
+<xs:enumeration value="28611"/>
+<!--ID for status: Väntar på komplettering-->
+<xs:enumeration value="28612"/>
+<!--ID for status: Kompletterat-->
+<xs:enumeration value="28613"/>
+<!--ID for status: Under behandling-->
+<xs:enumeration value="28614"/>
+<!--ID for status: Arkiverat-->
+<xs:enumeration value="28615"/>
+</xs:restriction>
+</xs:simpleType>
+</xs:element>
+			<xs:element maxOccurs="1" minOccurs="1" name="Name" type="xs:string"/>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="Query">
+		<xs:sequence>
+			<xs:element maxOccurs="1" minOccurs="1" name="QueryID" type="xs:positiveInteger"/>
+		</xs:sequence>
+	</xs:complexType>
+	
+	<xs:complexType name="SignEvent">
+
+		<xs:sequence>
+			<xs:element maxOccurs="1" minOccurs="1" name="SignedChecksum" type="xs:string"/>
+			<xs:element maxOccurs="1" minOccurs="1" name="Date" type="xs:dateTime"/>
+			<xs:element maxOccurs="1" minOccurs="1" name="Signer" type="User"/>
+		</xs:sequence>
+
+	</xs:complexType>
+
+	<xs:simpleType name="StringType">
+		<xs:restriction base="xs:string"/>
+	</xs:simpleType>
+
+</xs:schema>
