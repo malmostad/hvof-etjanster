@@ -1,0 +1,676 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<Flow>
+<flowID>3602</flowID>
+<name>Vård och omsorg - Beställ trygghetslarm för äldre</name>
+<version>3</version>
+<iconFileName>heartbeat_Resized-01.png</iconFileName>
+<publishDate>2026-01-06</publishDate>
+<enabled>true</enabled>
+<lockSubmitForUnpublishedSavedFlow>false</lockSubmitForUnpublishedSavedFlow>
+<usePreview>true</usePreview>
+<paymentSupportEnabled>false</paymentSupportEnabled>
+<requireAuthentication>false</requireAuthentication>
+<allowForeignIDs>false</allowForeignIDs>
+<requireSigning>false</requireSigning>
+<useSequentialSigning>false</useSequentialSigning>
+<skipPosterSigning>false</skipPosterSigning>
+<allowPosterMultipartSigning>false</allowPosterMultipartSigning>
+<appendSigningSignatureToPDF>false</appendSigningSignatureToPDF>
+<showPreviousSignaturesToSigners>false</showPreviousSignaturesToSigners>
+<resetOwnersOnCompletion>false</resetOwnersOnCompletion>
+<showSubmitSurvey>true</showSubmitSurvey>
+<hideSubmitStepText>false</hideSubmitStepText>
+<hideSaveButton>true</hideSaveButton>
+<hideAsteriskInfo>false</hideAsteriskInfo>
+<showLoginQuestion>false</showLoginQuestion>
+<FlowFamily>
+<flowFamilyID>1364</flowFamilyID>
+<versionCount>3</versionCount>
+<contactName>Malmö stad</contactName>
+<contactEmail>malmostad@malmo.se</contactEmail>
+<contactPhone>040-34 10 00</contactPhone>
+<ownerName>Hälsa-, vård- och omsorgsnämnden</ownerName>
+<ownerEmail>hvo@malmo.se</ownerEmail>
+<useLoginHelpLink>false</useLoginHelpLink>
+<statisticsMode>INTERNAL</statisticsMode>
+<Aliases>
+<Alias>trygghetslarm</Alias>
+</Aliases>
+<ManagementInfo>
+<flowFamilyID>1364</flowFamilyID>
+<processOwner>Rebecca Nannsjö (rebecca.nannsjo@malmo.se), HVOF, avd. för myndighet; Theresa Frelander (theresa.frelander@malmo.se), HVOF, avd. för digital utveckling och lokaler.</processOwner>
+<flowResponsible>Ubejd Shala (ubejd.shala@malmo.se)</flowResponsible>
+<organization>HVOF</organization>
+<aboutFlow>E-tjänst för beställning (ej ansökan) av trygghetslarm.</aboutFlow>
+</ManagementInfo>
+</FlowFamily>
+<skipOverview>false</skipOverview>
+<hideManagerDetails>true</hideManagerDetails>
+<hideFromOverview>false</hideFromOverview>
+<hideExternalMessages>false</hideExternalMessages>
+<hideExternalMessageAttachments>false</hideExternalMessageAttachments>
+<showExternalMessageAttachmentsForManager>false</showExternalMessageAttachmentsForManager>
+<readReceiptsEnabled>false</readReceiptsEnabled>
+<readReceiptsEnabledByDefault>false</readReceiptsEnabledByDefault>
+<hideInternalMessages>false</hideInternalMessages>
+<allowDeletingInternalMessages>false</allowDeletingInternalMessages>
+<hideFromUser>false</hideFromUser>
+<hideFromManager>false</hideFromManager>
+<hideOverviewPDF>false</hideOverviewPDF>
+<hideOverviewFlowInstance>false</hideOverviewFlowInstance>
+<hideFlowInstanceIDFromUser>false</hideFlowInstanceIDFromUser>
+<alwaysStartFromFirstStep>false</alwaysStartFromFirstStep>
+<Statuses>
+<Status>
+<flowInstanceCount>1</flowInstanceCount>
+<flowSubmittedInstanceCount>1</flowSubmittedInstanceCount>
+<statusID>28591</statusID>
+<name>Avslag</name>
+<description>Er ansökan har inte beviljats. Ni kommer att få ett beslut per e-post.</description>
+<managingTime>7</managingTime>
+<newExternalMessagesDisallowed>false</newExternalMessagesDisallowed>
+<addExternalMessage>false</addExternalMessage>
+<addInternalMessage>false</addInternalMessage>
+<isUserMutable>false</isUserMutable>
+<isUserDeletable>false</isUserDeletable>
+<isAdminMutable>false</isAdminMutable>
+<isAdminDeletable>false</isAdminDeletable>
+<isRestrictedAdminDeletable>false</isRestrictedAdminDeletable>
+<requireSigning>false</requireSigning>
+<useAccessCheckByUser>false</useAccessCheckByUser>
+<useAccessCheckByStatus>false</useAccessCheckByStatus>
+<contentType>ARCHIVED</contentType>
+<sortIndex>0</sortIndex>
+</Status>
+<Status>
+<flowInstanceCount>15</flowInstanceCount>
+<flowSubmittedInstanceCount>15</flowSubmittedInstanceCount>
+<statusID>28592</statusID>
+<name>Beviljat</name>
+<description>Text om att ärendet är beviljat</description>
+<managingTime>10</managingTime>
+<newExternalMessagesDisallowed>false</newExternalMessagesDisallowed>
+<addExternalMessage>false</addExternalMessage>
+<addInternalMessage>false</addInternalMessage>
+<isUserMutable>false</isUserMutable>
+<isUserDeletable>false</isUserDeletable>
+<isAdminMutable>false</isAdminMutable>
+<isAdminDeletable>false</isAdminDeletable>
+<isRestrictedAdminDeletable>false</isRestrictedAdminDeletable>
+<requireSigning>false</requireSigning>
+<useAccessCheckByUser>false</useAccessCheckByUser>
+<useAccessCheckByStatus>false</useAccessCheckByStatus>
+<contentType>ARCHIVED</contentType>
+<sortIndex>0</sortIndex>
+</Status>
+<Status>
+<flowInstanceCount>7</flowInstanceCount>
+<flowSubmittedInstanceCount>7</flowSubmittedInstanceCount>
+<statusID>28593</statusID>
+<name>Inskickat</name>
+<newExternalMessagesDisallowed>false</newExternalMessagesDisallowed>
+<addExternalMessage>false</addExternalMessage>
+<addInternalMessage>false</addInternalMessage>
+<isUserMutable>false</isUserMutable>
+<isUserDeletable>false</isUserDeletable>
+<isAdminMutable>true</isAdminMutable>
+<isAdminDeletable>true</isAdminDeletable>
+<isRestrictedAdminDeletable>true</isRestrictedAdminDeletable>
+<requireSigning>false</requireSigning>
+<useAccessCheckByUser>false</useAccessCheckByUser>
+<useAccessCheckByStatus>false</useAccessCheckByStatus>
+<contentType>SUBMITTED</contentType>
+<sortIndex>2</sortIndex>
+</Status>
+<Status>
+<flowInstanceCount>2</flowInstanceCount>
+<flowSubmittedInstanceCount>2</flowSubmittedInstanceCount>
+<statusID>28594</statusID>
+<name>Väntar på komplettering</name>
+<newExternalMessagesDisallowed>false</newExternalMessagesDisallowed>
+<addExternalMessage>false</addExternalMessage>
+<addInternalMessage>false</addInternalMessage>
+<isUserMutable>true</isUserMutable>
+<isUserDeletable>false</isUserDeletable>
+<isAdminMutable>false</isAdminMutable>
+<isAdminDeletable>false</isAdminDeletable>
+<isRestrictedAdminDeletable>false</isRestrictedAdminDeletable>
+<requireSigning>false</requireSigning>
+<useAccessCheckByUser>false</useAccessCheckByUser>
+<useAccessCheckByStatus>false</useAccessCheckByStatus>
+<contentType>WAITING_FOR_COMPLETION</contentType>
+<sortIndex>3</sortIndex>
+</Status>
+<Status>
+<flowInstanceCount>3</flowInstanceCount>
+<flowSubmittedInstanceCount>3</flowSubmittedInstanceCount>
+<statusID>28595</statusID>
+<name>Under behandling</name>
+<newExternalMessagesDisallowed>false</newExternalMessagesDisallowed>
+<addExternalMessage>false</addExternalMessage>
+<addInternalMessage>false</addInternalMessage>
+<isUserMutable>false</isUserMutable>
+<isUserDeletable>false</isUserDeletable>
+<isAdminMutable>true</isAdminMutable>
+<isAdminDeletable>true</isAdminDeletable>
+<isRestrictedAdminDeletable>true</isRestrictedAdminDeletable>
+<requireSigning>false</requireSigning>
+<useAccessCheckByUser>false</useAccessCheckByUser>
+<useAccessCheckByStatus>false</useAccessCheckByStatus>
+<contentType>IN_PROGRESS</contentType>
+<sortIndex>5</sortIndex>
+</Status>
+<Status>
+<flowInstanceCount>0</flowInstanceCount>
+<flowSubmittedInstanceCount>0</flowSubmittedInstanceCount>
+<statusID>28596</statusID>
+<name>Arkiverat</name>
+<newExternalMessagesDisallowed>false</newExternalMessagesDisallowed>
+<addExternalMessage>false</addExternalMessage>
+<addInternalMessage>false</addInternalMessage>
+<isUserMutable>false</isUserMutable>
+<isUserDeletable>false</isUserDeletable>
+<isAdminMutable>true</isAdminMutable>
+<isAdminDeletable>true</isAdminDeletable>
+<isRestrictedAdminDeletable>false</isRestrictedAdminDeletable>
+<requireSigning>false</requireSigning>
+<useAccessCheckByUser>false</useAccessCheckByUser>
+<useAccessCheckByStatus>false</useAccessCheckByStatus>
+<contentType>ARCHIVED</contentType>
+<sortIndex>6</sortIndex>
+</Status>
+<Status>
+<flowInstanceCount>0</flowInstanceCount>
+<flowSubmittedInstanceCount>0</flowSubmittedInstanceCount>
+<statusID>28597</statusID>
+<name>Sparat</name>
+<newExternalMessagesDisallowed>false</newExternalMessagesDisallowed>
+<addExternalMessage>false</addExternalMessage>
+<addInternalMessage>false</addInternalMessage>
+<isUserMutable>true</isUserMutable>
+<isUserDeletable>true</isUserDeletable>
+<isAdminMutable>false</isAdminMutable>
+<isAdminDeletable>false</isAdminDeletable>
+<isRestrictedAdminDeletable>false</isRestrictedAdminDeletable>
+<requireSigning>false</requireSigning>
+<useAccessCheckByUser>false</useAccessCheckByUser>
+<useAccessCheckByStatus>false</useAccessCheckByStatus>
+<contentType>NEW</contentType>
+<sortIndex>2147483647</sortIndex>
+</Status>
+</Statuses>
+<defaultFlowStateMappings>
+<DefaultStatusMapping>
+<actionID>com.nordicpeak.flowengine.FlowBrowserModule.save</actionID>
+<Status>
+<statusID>28597</statusID>
+<name>Sparat</name>
+<newExternalMessagesDisallowed>false</newExternalMessagesDisallowed>
+<addExternalMessage>false</addExternalMessage>
+<addInternalMessage>false</addInternalMessage>
+<isUserMutable>true</isUserMutable>
+<isUserDeletable>true</isUserDeletable>
+<isAdminMutable>false</isAdminMutable>
+<isAdminDeletable>false</isAdminDeletable>
+<isRestrictedAdminDeletable>false</isRestrictedAdminDeletable>
+<requireSigning>false</requireSigning>
+<useAccessCheckByUser>false</useAccessCheckByUser>
+<useAccessCheckByStatus>false</useAccessCheckByStatus>
+<contentType>NEW</contentType>
+<sortIndex>2147483647</sortIndex>
+</Status>
+</DefaultStatusMapping>
+<DefaultStatusMapping>
+<actionID>com.nordicpeak.flowengine.FlowBrowserModule.submit</actionID>
+<Status>
+<statusID>28593</statusID>
+<name>Inskickat</name>
+<newExternalMessagesDisallowed>false</newExternalMessagesDisallowed>
+<addExternalMessage>false</addExternalMessage>
+<addInternalMessage>false</addInternalMessage>
+<isUserMutable>false</isUserMutable>
+<isUserDeletable>false</isUserDeletable>
+<isAdminMutable>true</isAdminMutable>
+<isAdminDeletable>true</isAdminDeletable>
+<isRestrictedAdminDeletable>true</isRestrictedAdminDeletable>
+<requireSigning>false</requireSigning>
+<useAccessCheckByUser>false</useAccessCheckByUser>
+<useAccessCheckByStatus>false</useAccessCheckByStatus>
+<contentType>SUBMITTED</contentType>
+<sortIndex>2</sortIndex>
+</Status>
+</DefaultStatusMapping>
+</defaultFlowStateMappings>
+<Steps>
+<Step>
+<stepID>9316</stepID>
+<name>Kontaktuppgifter</name>
+<sortIndex>0</sortIndex>
+<QueryDescriptors>
+<QueryDescriptor>
+<queryID>80444</queryID>
+<name>Kontaktuppgifter</name>
+<sortIndex>0</sortIndex>
+<defaultQueryState>VISIBLE_REQUIRED</defaultQueryState>
+<queryTypeID>com.nordicpeak.flowengine.queries.contactdetailquery.ContactDetailQueryProviderModule</queryTypeID>
+<exported>false</exported>
+<EvaluatorDescriptors>
+<EvaluatorDescriptor>
+<evaluatorID>75227</evaluatorID>
+<name>Sätt vikt om yngre än 69</name>
+<comment>OBS! Högsta tillåtna ålder nedan är satt till 68 (även om man spontant kan tycka att det ska vara 69).&#13;
+Det innebär att regeln körs fram till och inklusive dagen innan man fyller 69.</comment>
+<sortIndex>2</sortIndex>
+<evaluatorTypeID>com.nordicpeak.flowengine.evaluators.setweightbyageevaluator.SetWeightByAgeEvaluationProviderModule</evaluatorTypeID>
+<enabled>true</enabled>
+<SetWeightByAgeEvaluator>
+<maxAge>68</maxAge>
+<calculateBasedOnYearOnly>false</calculateBasedOnYearOnly>
+<weightType>vikt_yngre</weightType>
+<weight>1</weight>
+<setAttributeIfAgeInRange>false</setAttributeIfAgeInRange>
+<attributeName/>
+<attributeValue/>
+<evaluatorID>75227</evaluatorID>
+<configURL>/ep/setweightbyageevaluator/config/75227</configURL>
+<EvaluatorDescriptor>
+<evaluatorID>75227</evaluatorID>
+<name>Sätt vikt om yngre än 69</name>
+<comment>OBS! Högsta tillåtna ålder nedan är satt till 68 (även om man spontant kan tycka att det ska vara 69).&#13;
+Det innebär att regeln körs fram till och inklusive dagen innan man fyller 69.</comment>
+<sortIndex>2</sortIndex>
+<evaluatorTypeID>com.nordicpeak.flowengine.evaluators.setweightbyageevaluator.SetWeightByAgeEvaluationProviderModule</evaluatorTypeID>
+<enabled>true</enabled>
+</EvaluatorDescriptor>
+</SetWeightByAgeEvaluator>
+</EvaluatorDescriptor>
+</EvaluatorDescriptors>
+<mergeWithPreviousQuery>false</mergeWithPreviousQuery>
+<ContactDetailQuery>
+<queryID>80444</queryID>
+<hideNotificationChannelSettings>true</hideNotificationChannelSettings>
+<allowSMS>false</allowSMS>
+<forceSMS>false</forceSMS>
+<requireMobilePhoneOrPhone>false</requireMobilePhoneOrPhone>
+<requireContactDetailInfoVerification>false</requireContactDetailInfoVerification>
+<useOfficalAddress>false</useOfficalAddress>
+<requireAtLeastOneContactWay>false</requireAtLeastOneContactWay>
+<fieldCitizenID>REQUIRED</fieldCitizenID>
+<fieldName>REQUIRED</fieldName>
+<fieldAddress>REQUIRED</fieldAddress>
+<fieldPhone>REQUIRED</fieldPhone>
+<fieldMobilePhone>HIDDEN</fieldMobilePhone>
+<fieldEmail>VISIBLE</fieldEmail>
+<fieldCareOf>HIDDEN</fieldCareOf>
+<fieldUpdate>NEVER</fieldUpdate>
+<setAsAttribute>true</setAsAttribute>
+<attributeName>kontakt</attributeName>
+<managerUpdateAccess>false</managerUpdateAccess>
+<configURL>/qp/contactdetails/config/80444</configURL>
+<QueryDescriptor>
+<queryID>80444</queryID>
+<name>Kontaktuppgifter</name>
+<sortIndex>0</sortIndex>
+<defaultQueryState>VISIBLE_REQUIRED</defaultQueryState>
+<queryTypeID>com.nordicpeak.flowengine.queries.contactdetailquery.ContactDetailQueryProviderModule</queryTypeID>
+<exported>false</exported>
+<EvaluatorDescriptors>
+<EvaluatorDescriptor>
+<evaluatorID>75227</evaluatorID>
+<name>Sätt vikt om yngre än 69</name>
+<comment>OBS! Högsta tillåtna ålder nedan är satt till 68 (även om man spontant kan tycka att det ska vara 69).&#13;
+Det innebär att regeln körs fram till och inklusive dagen innan man fyller 69.</comment>
+<sortIndex>2</sortIndex>
+<evaluatorTypeID>com.nordicpeak.flowengine.evaluators.setweightbyageevaluator.SetWeightByAgeEvaluationProviderModule</evaluatorTypeID>
+<enabled>true</enabled>
+</EvaluatorDescriptor>
+</EvaluatorDescriptors>
+<mergeWithPreviousQuery>false</mergeWithPreviousQuery>
+</QueryDescriptor>
+</ContactDetailQuery>
+</QueryDescriptor>
+<QueryDescriptor>
+<queryID>80445</queryID>
+<name>Företrädare</name>
+<sortIndex>1</sortIndex>
+<defaultQueryState>VISIBLE</defaultQueryState>
+<queryTypeID>com.nordicpeak.flowengine.queries.textfieldquery.TextFieldQueryProviderModule</queryTypeID>
+<exported>false</exported>
+<mergeWithPreviousQuery>false</mergeWithPreviousQuery>
+<TextFieldQuery>
+<queryID>80445</queryID>
+<layout>FLOAT</layout>
+<hideTitle>true</hideTitle>
+<hideDescriptionWhenSubmitted>false</hideDescriptionWhenSubmitted>
+<lockOnOwnershipTransfer>false</lockOnOwnershipTransfer>
+<lockForManagerUpdate>false</lockForManagerUpdate>
+<Fields>
+<TextField>
+<textFieldID>33634</textFieldID>
+<label>Namn (förnamn och efternamn)</label>
+<disabled>false</disabled>
+<required>false</required>
+<searchable>false</searchable>
+<inactivateAutocomplete>false</inactivateAutocomplete>
+<sortIndex>1</sortIndex>
+<containsPrice>false</containsPrice>
+<maskFieldContent>false</maskFieldContent>
+<setAsAttribute>true</setAsAttribute>
+<attributeName>attr_namn_foretradare</attributeName>
+</TextField>
+<TextField>
+<textFieldID>33635</textFieldID>
+<label>Telefon / Mobiltelefon</label>
+<disabled>false</disabled>
+<required>false</required>
+<searchable>false</searchable>
+<inactivateAutocomplete>false</inactivateAutocomplete>
+<sortIndex>2</sortIndex>
+<containsPrice>false</containsPrice>
+<maskFieldContent>false</maskFieldContent>
+<formatValidator>se.unlogic.standardutils.validation.SwedishPhoneNumberValidator</formatValidator>
+<invalidFormatMessage>Du måste fylla i ett giltigt telefonnummer</invalidFormatMessage>
+<setAsAttribute>true</setAsAttribute>
+<attributeName>attr_tel_anhorig</attributeName>
+</TextField>
+</Fields>
+<description><![CDATA[<h2>F&ouml;retr&auml;dare</h2>
+
+<p>Om du vill ha st&ouml;d i din kontakt med oss ang&aring;ende ditt trygghetslarm, kan du fylla i kontaktuppgifter till den person du &ouml;nskar att vi kontaktar. Det kan till exempel vara en n&auml;rst&aring;ende, en anh&ouml;rig, din f&ouml;rvaltare eller ditt ombud.</p>]]></description>
+<configURL>/qp/textfieldprovider/config/80445</configURL>
+<QueryDescriptor>
+<queryID>80445</queryID>
+<name>Företrädare</name>
+<sortIndex>1</sortIndex>
+<defaultQueryState>VISIBLE</defaultQueryState>
+<queryTypeID>com.nordicpeak.flowengine.queries.textfieldquery.TextFieldQueryProviderModule</queryTypeID>
+<exported>false</exported>
+<mergeWithPreviousQuery>false</mergeWithPreviousQuery>
+</QueryDescriptor>
+</TextFieldQuery>
+</QueryDescriptor>
+</QueryDescriptors>
+</Step>
+<Step>
+<stepID>9317</stepID>
+<name>Nycklar till bostaden</name>
+<sortIndex>1</sortIndex>
+<QueryDescriptors>
+<QueryDescriptor>
+<queryID>80446</queryID>
+<name>Nycklar och taggar till din bostad</name>
+<sortIndex>0</sortIndex>
+<defaultQueryState>VISIBLE_REQUIRED</defaultQueryState>
+<queryTypeID>com.nordicpeak.flowengine.queries.radiobuttonquery.RadioButtonQueryProviderModule</queryTypeID>
+<exported>false</exported>
+<mergeWithPreviousQuery>false</mergeWithPreviousQuery>
+<RadioButtonQuery>
+<queryID>80446</queryID>
+<searchable>false</searchable>
+<Alternatives>
+<RadioButtonAlternative>
+<alternativeID>56047</alternativeID>
+<name>Jag intygar att en komplett uppsättning av nycklar är klar att lämnas till hemtjänsten</name>
+<sortIndex>0</sortIndex>
+</RadioButtonAlternative>
+<RadioButtonAlternative>
+<alternativeID>56048</alternativeID>
+<name>Annan person i hushållet har trygghetslarm, hemtjänsten har redan en uppsättning nycklar</name>
+<sortIndex>1</sortIndex>
+</RadioButtonAlternative>
+</Alternatives>
+<setAsAttribute>true</setAsAttribute>
+<attributeName>attr_nyckel</attributeName>
+<columns>ONE</columns>
+<hideTitle>false</hideTitle>
+<hideDescriptionInPDF>false</hideDescriptionInPDF>
+<hideDescriptionWhenSubmitted>false</hideDescriptionWhenSubmitted>
+<lockForManagerUpdate>false</lockForManagerUpdate>
+<lockForOwnerUpdate>false</lockForOwnerUpdate>
+<description><![CDATA[<p>F&ouml;r att trygghetslarmet ska kunna installeras beh&ouml;ver&nbsp;hemtj&auml;nsten&nbsp;en komplett upps&auml;ttning av nycklar samt eventuella&nbsp;taggar som passar till de d&ouml;rrar och portar som hemtj&auml;nstpersonalen beh&ouml;ver passera f&ouml;r att komma in i din bostad.</p>
+
+<p>Om n&aring;gon nyckel eller tagg saknas kan vi tyv&auml;rr inte genomf&ouml;ra installationen. N&auml;r alla nycklar och eventuella taggar finns tillg&auml;ngliga &auml;r du v&auml;lkommen att &aring;terkomma med din best&auml;llning.</p>]]></description>
+<configURL>/qp/radiobuttonquery/config/80446</configURL>
+<QueryDescriptor>
+<queryID>80446</queryID>
+<name>Nycklar och taggar till din bostad</name>
+<sortIndex>0</sortIndex>
+<defaultQueryState>VISIBLE_REQUIRED</defaultQueryState>
+<queryTypeID>com.nordicpeak.flowengine.queries.radiobuttonquery.RadioButtonQueryProviderModule</queryTypeID>
+<exported>false</exported>
+<mergeWithPreviousQuery>false</mergeWithPreviousQuery>
+</QueryDescriptor>
+</RadioButtonQuery>
+</QueryDescriptor>
+<QueryDescriptor>
+<queryID>80447</queryID>
+<name>Har du fyllt i rätt personnummer?</name>
+<sortIndex>2</sortIndex>
+<defaultQueryState>HIDDEN</defaultQueryState>
+<queryTypeID>com.nordicpeak.flowengine.queries.stopquery.StopQueryProviderModule</queryTypeID>
+<exported>false</exported>
+<EvaluatorDescriptors>
+<EvaluatorDescriptor>
+<evaluatorID>75228</evaluatorID>
+<name>Visa stoppfråga om yngre än 69 år</name>
+<sortIndex>1</sortIndex>
+<evaluatorTypeID>com.nordicpeak.flowengine.evaluators.weightquerystateevaluator.WeightQueryStateEvaluationProviderModule</evaluatorTypeID>
+<enabled>true</enabled>
+<WeightQueryStateEvaluator>
+<weightType>vikt_yngre</weightType>
+<fromValue>1</fromValue>
+<toValue>1</toValue>
+<queryState>VISIBLE_REQUIRED</queryState>
+<doNotResetQueryState>false</doNotResetQueryState>
+<forceReload>false</forceReload>
+<evaluatorID>75228</evaluatorID>
+<configURL>/ep/weightquerystate/config/75228</configURL>
+<EvaluatorDescriptor>
+<evaluatorID>75228</evaluatorID>
+<name>Visa stoppfråga om yngre än 69 år</name>
+<sortIndex>1</sortIndex>
+<evaluatorTypeID>com.nordicpeak.flowengine.evaluators.weightquerystateevaluator.WeightQueryStateEvaluationProviderModule</evaluatorTypeID>
+<enabled>true</enabled>
+</EvaluatorDescriptor>
+</WeightQueryStateEvaluator>
+</EvaluatorDescriptor>
+</EvaluatorDescriptors>
+<mergeWithPreviousQuery>false</mergeWithPreviousQuery>
+<StopQuery>
+<queryID>80447</queryID>
+<displayValidationError>true</displayValidationError>
+<description><![CDATA[<p>Personnumret som du angav i f&ouml;rra steget&nbsp;($attribute{kontakt.citizenIdentifier}) visar att du &auml;nnu inte har fyllt 69 &aring;r.</p>
+
+<p data-end="391" data-start="294">Att ha fyllt 69 &aring;r &auml;r ett av villkoren f&ouml;r att kunna best&auml;lla trygghetslarm.</p>
+
+<p data-end="391" data-start="294">&nbsp;</p>
+
+<p data-end="507" data-start="393">Om du har r&aring;kat skriva in fel personnummer kan du klicka p&aring; knappen nedan f&ouml;r att g&aring; tillbaka och r&auml;tta uppgiften.</p>]]></description>
+<configURL>/qp/stopquery/config/80447</configURL>
+<QueryDescriptor>
+<queryID>80447</queryID>
+<name>Har du fyllt i rätt personnummer?</name>
+<sortIndex>2</sortIndex>
+<defaultQueryState>HIDDEN</defaultQueryState>
+<queryTypeID>com.nordicpeak.flowengine.queries.stopquery.StopQueryProviderModule</queryTypeID>
+<exported>false</exported>
+<EvaluatorDescriptors>
+<EvaluatorDescriptor>
+<evaluatorID>75228</evaluatorID>
+<name>Visa stoppfråga om yngre än 69 år</name>
+<sortIndex>1</sortIndex>
+<evaluatorTypeID>com.nordicpeak.flowengine.evaluators.weightquerystateevaluator.WeightQueryStateEvaluationProviderModule</evaluatorTypeID>
+<enabled>true</enabled>
+</EvaluatorDescriptor>
+</EvaluatorDescriptors>
+<mergeWithPreviousQuery>false</mergeWithPreviousQuery>
+</QueryDescriptor>
+</StopQuery>
+</QueryDescriptor>
+</QueryDescriptors>
+</Step>
+<Step>
+<stepID>9318</stepID>
+<name>Hälsofrämjande samtal</name>
+<sortIndex>2</sortIndex>
+<QueryDescriptors>
+<QueryDescriptor>
+<queryID>80448</queryID>
+<name>Vill du prata om din hälsa?</name>
+<sortIndex>0</sortIndex>
+<defaultQueryState>VISIBLE_REQUIRED</defaultQueryState>
+<queryTypeID>com.nordicpeak.flowengine.queries.radiobuttonquery.RadioButtonQueryProviderModule</queryTypeID>
+<exported>false</exported>
+<EvaluatorDescriptors>
+<EvaluatorDescriptor>
+<evaluatorID>75229</evaluatorID>
+<name>Epost hälsofrämjande samtal</name>
+<sortIndex>1</sortIndex>
+<evaluatorTypeID>com.nordicpeak.flowengine.evaluators.sendmailevaluator.SendMailEvaluationProviderModule</evaluatorTypeID>
+<enabled>true</enabled>
+<SendMailEvaluator>
+<AlternativeIDs>
+<alternativeID>56049</alternativeID>
+</AlternativeIDs>
+<enableStatusFiltering>false</enableStatusFiltering>
+<emailRecipients>
+<value>halsoframjandesamtal.hvof@malmo.se</value>
+</emailRecipients>
+<emailSubject>Hälsofrämjande samtal beställt</emailSubject>
+<emailMessage>&lt;p&gt;Hej,&lt;/p&gt;&#13;
+&#13;
+&lt;p&gt;I samband med&amp;nbsp;best&amp;auml;llning av trygghetslarm har medborgaren &amp;ouml;nskat boka h&amp;auml;lsofr&amp;auml;mjande samtal.&lt;/p&gt;&#13;
+&#13;
+&lt;p&gt;&amp;Auml;rende:&amp;nbsp;$flowInstance.flowInstanceID&lt;br /&gt;&#13;
+Namn: $attribute{kontakt.firstname} $attribute{kontakt.lastname}&lt;br /&gt;&#13;
+Telefon: $attribute{kontakt.phone}&lt;/p&gt;</emailMessage>
+<attachPDF>false</attachPDF>
+<attachPDFAttachmentsSeparately>false</attachPDFAttachmentsSeparately>
+<usePosterContactAsSender>false</usePosterContactAsSender>
+<freeTextAlternative>false</freeTextAlternative>
+<evaluatorID>75229</evaluatorID>
+<configURL>/ep/sendmail/config/75229</configURL>
+<EvaluatorDescriptor>
+<evaluatorID>75229</evaluatorID>
+<name>Epost hälsofrämjande samtal</name>
+<sortIndex>1</sortIndex>
+<evaluatorTypeID>com.nordicpeak.flowengine.evaluators.sendmailevaluator.SendMailEvaluationProviderModule</evaluatorTypeID>
+<enabled>true</enabled>
+</EvaluatorDescriptor>
+</SendMailEvaluator>
+</EvaluatorDescriptor>
+</EvaluatorDescriptors>
+<mergeWithPreviousQuery>false</mergeWithPreviousQuery>
+<RadioButtonQuery>
+<queryID>80448</queryID>
+<searchable>false</searchable>
+<Alternatives>
+<RadioButtonAlternative>
+<alternativeID>56049</alternativeID>
+<name>Jag vill ha ett hälsofrämjande samtal</name>
+<sortIndex>0</sortIndex>
+</RadioButtonAlternative>
+<RadioButtonAlternative>
+<alternativeID>56050</alternativeID>
+<name>Jag avvaktar med att boka ett hälsofrämjande samtal</name>
+<sortIndex>1</sortIndex>
+</RadioButtonAlternative>
+</Alternatives>
+<setAsAttribute>true</setAsAttribute>
+<attributeName>attr_samtal</attributeName>
+<columns>ONE</columns>
+<hideTitle>false</hideTitle>
+<hideDescriptionInPDF>false</hideDescriptionInPDF>
+<hideDescriptionWhenSubmitted>false</hideDescriptionWhenSubmitted>
+<lockForManagerUpdate>false</lockForManagerUpdate>
+<lockForOwnerUpdate>false</lockForOwnerUpdate>
+<description><![CDATA[<p>Att m&aring; bra &auml;r viktigt hela livet!<br />
+Malm&ouml; stad erbjuder alla som f&aring;r ett trygghetslarm ett h&auml;lsofr&auml;mjande samtal.&nbsp;<br />
+D&auml;r f&aring;r du m&ouml;jlighet att prata om hur du m&aring;r och vad som kan st&auml;rka din h&auml;lsa. Tanken &auml;r att samtalen ska bidra till bibeh&aring;llen eller f&ouml;rb&auml;ttrad h&auml;lsa och livskvalitet.&nbsp;<br />
+Vi pratar bland annat om social gemenskap, meningsfullhet, fysisk aktivitet och levnadsvanor.</p>
+
+<p>Samtalet &auml;r kostnadsfritt och ber&auml;knas ta ungef&auml;r en timme.&nbsp;<br />
+Samtalet erbjuds p&aring; svenska eller finska och p&aring; andra spr&aring;k med hj&auml;lp av tolk.</p>
+
+<p>Vi har tystnadsplikt vilket inneb&auml;r att det vi pratar om tillsammans inte f&ouml;rs vidare om vi inte kommer &ouml;verens om annat.</p>]]></description>
+<configURL>/qp/radiobuttonquery/config/80448</configURL>
+<QueryDescriptor>
+<queryID>80448</queryID>
+<name>Vill du prata om din hälsa?</name>
+<sortIndex>0</sortIndex>
+<defaultQueryState>VISIBLE_REQUIRED</defaultQueryState>
+<queryTypeID>com.nordicpeak.flowengine.queries.radiobuttonquery.RadioButtonQueryProviderModule</queryTypeID>
+<exported>false</exported>
+<EvaluatorDescriptors>
+<EvaluatorDescriptor>
+<evaluatorID>75229</evaluatorID>
+<name>Epost hälsofrämjande samtal</name>
+<sortIndex>1</sortIndex>
+<evaluatorTypeID>com.nordicpeak.flowengine.evaluators.sendmailevaluator.SendMailEvaluationProviderModule</evaluatorTypeID>
+<enabled>true</enabled>
+</EvaluatorDescriptor>
+</EvaluatorDescriptors>
+<mergeWithPreviousQuery>false</mergeWithPreviousQuery>
+</QueryDescriptor>
+</RadioButtonQuery>
+</QueryDescriptor>
+</QueryDescriptors>
+</Step>
+</Steps>
+<flowInstanceCount>28</flowInstanceCount>
+<flowSubmittedInstanceCount>28</flowSubmittedInstanceCount>
+<latestVersion>true</latestVersion>
+<shortDescription>&lt;p&gt;Best&amp;auml;llning av trygghetslarm.&amp;nbsp;&amp;nbsp;&lt;/p&gt;</shortDescription>
+<longDescription>&lt;p class="preamble"&gt;H&amp;auml;r kan du som &amp;auml;r 69 &amp;aring;r eller &amp;auml;ldre och folkbokf&amp;ouml;rd i egen bostad i Malm&amp;ouml; best&amp;auml;lla ett trygghetslarm. Du som inte uppfyller kriterierna ans&amp;ouml;ker via separat e-tj&amp;auml;nst.&amp;nbsp;&lt;/p&gt;&#13;
+&#13;
+&lt;p&gt;Trygghetslarm &amp;auml;r ett hj&amp;auml;lpmedel som kan bidra till att du k&amp;auml;nner dig tryggare och s&amp;auml;krare i ditt eget hem. Genom en knapptryckning p&amp;aring; en b&amp;auml;rbar larmklocka kan du kalla p&amp;aring; hj&amp;auml;lp dygnet runt via Malm&amp;ouml; stads larmcentral. En larmoperat&amp;ouml;r f&amp;ouml;rmedlar ditt behov av hj&amp;auml;lp till hemtj&amp;auml;nstpersonal.&lt;/p&gt;&#13;
+&#13;
+&lt;p&gt;N&amp;auml;r du f&amp;aring;r ditt trygghetslarm kommer vi samtidigt att installera ett kostnadsfritt&amp;nbsp; digitalt l&amp;aring;s p&amp;aring; din d&amp;ouml;rr. &amp;nbsp;Endast beh&amp;ouml;rig personal har tillg&amp;aring;ng till l&amp;aring;set och varje bes&amp;ouml;k registreras f&amp;ouml;r din s&amp;auml;kerhet.&lt;/p&gt;&#13;
+&#13;
+&lt;p&gt;&lt;a href="https://malmo.se/Bo-och-leva/Stod-och-omsorg/Stod-i-hemmet/Trygghetslarm.html" target="_blank"&gt;Mer om trygghetslarm&lt;/a&gt;&lt;/p&gt;&#13;
+&#13;
+&lt;h2&gt;Best&amp;auml;ll trygghetslarm direkt&lt;/h2&gt;&#13;
+&#13;
+&lt;p&gt;Genom e-tj&amp;auml;nsten kan du enkelt best&amp;auml;lla trygghetslarm direkt om du uppfyller dessa kriterier:&lt;/p&gt;&#13;
+&#13;
+&lt;ul&gt;&#13;
+	&lt;li&gt;har fyllt 69 &amp;aring;r&lt;/li&gt;&#13;
+	&lt;li&gt;&amp;auml;r folkbokf&amp;ouml;rd i Malm&amp;ouml;&lt;/li&gt;&#13;
+	&lt;li&gt;bor i ditt eget hem (inte p&amp;aring; ett v&amp;aring;rd- och omsorgsboende)&lt;/li&gt;&#13;
+&lt;/ul&gt;&#13;
+&#13;
+&lt;p&gt;Att best&amp;auml;lla och installera larmet &amp;auml;r kostnadsfritt. D&amp;auml;refter betalar du en fast avgift per m&amp;aring;nad f&amp;ouml;r larmet. Att anv&amp;auml;nda larmet kostar inget extra.&lt;/p&gt;&#13;
+&#13;
+&lt;p&gt;Obs! Om du i dagsl&amp;auml;get &amp;auml;r beviljad personlig assistans enligt LSS kan en best&amp;auml;llning av trygghetslarm p&amp;aring;verka din r&amp;auml;tt till ers&amp;auml;ttning. Kontakta d&amp;auml;rf&amp;ouml;r f&amp;ouml;rst din handl&amp;auml;ggare.&lt;/p&gt;&#13;
+&#13;
+&lt;h2&gt;Ans&amp;ouml;k om trygghetslarm (om du inte uppfyller kriterierna)&lt;/h2&gt;&#13;
+&#13;
+&lt;p&gt;Om du inte uppfyller kriterierna ovan men &amp;auml;nd&amp;aring; upplever att du beh&amp;ouml;ver ett trygghetslarm, eller om du vill ha ett formellt beslut, kan du ist&amp;auml;llet ans&amp;ouml;ka digitalt eller v&amp;auml;nda dig till Malm&amp;ouml; stads kontaktcenter.&lt;/p&gt;&#13;
+&#13;
+&lt;p&gt;&lt;a href="/oversikt/overview/806" target="_blank"&gt;Ans&amp;ouml;k om trygghetslarm som insats enligt SoL&lt;/a&gt;&lt;/p&gt;&#13;
+&#13;
+&lt;h2&gt;Ans&amp;ouml;k om trygghetslarm - f&amp;ouml;r dig med funktionsneds&amp;auml;ttning&lt;/h2&gt;&#13;
+&#13;
+&lt;p&gt;Om du &amp;auml;r under 69 &amp;aring;r och har en funktionsneds&amp;auml;ttning ans&amp;ouml;ker du via en separat e-tj&amp;auml;nst.&lt;/p&gt;&#13;
+&#13;
+&lt;p&gt;&lt;a href="/oversikt/overview/745" target="_blank"&gt;Ans&amp;ouml;k om trygghetslarm - f&amp;ouml;r dig med funktionsneds&amp;auml;ttning&lt;/a&gt;&lt;/p&gt;&#13;
+&#13;
+&lt;h2&gt;Du beh&amp;ouml;ver l&amp;auml;mna in nycklar innan installation&lt;/h2&gt;&#13;
+&#13;
+&lt;p&gt;Innan ditt larm och digitala l&amp;aring;s installeras beh&amp;ouml;ver du ha l&amp;auml;mnat in en komplett upps&amp;auml;ttning av nycklar och eventuella taggar som passar till alla d&amp;ouml;rrar och portar som hemtj&amp;auml;nstpersonalen beh&amp;ouml;ver passera f&amp;ouml;r att komma in i din bostad. Nycklarna &amp;auml;r en extra s&amp;auml;kerhets&amp;aring;tg&amp;auml;rd om det digitala l&amp;aring;set inte skulle fungera. Om nycklar saknas kan trygghetslarmet inte installeras.&lt;/p&gt;&#13;
+&#13;
+&lt;h2&gt;Skyddade personuppgifter&lt;/h2&gt;&#13;
+&#13;
+&lt;p&gt;Du som har skyddade personuppgifter ska inte anv&amp;auml;nda denna e-tj&amp;auml;nst. Orsaken &amp;auml;r att informationen som l&amp;auml;mnas i e-tj&amp;auml;nsten kan bli en offentlig handling. Det &amp;auml;r heller inte m&amp;ouml;jligt att garantera fullst&amp;auml;ndigt skydd fr&amp;aring;n obeh&amp;ouml;rig insyn. Kontakta ist&amp;auml;llet Malm&amp;ouml; stads kontaktcenter p&amp;aring; telefon 040-34 10 00, vardagar klockan 08.00-17.00.&lt;/p&gt;</longDescription>
+<submittedMessage>&lt;p&gt;Din best&amp;auml;llning &amp;auml;r nu skickad. En medarbetare fr&amp;aring;n h&amp;auml;lsa-, v&amp;aring;rd- och omsorgsf&amp;ouml;rvaltningen i&amp;nbsp;Malm&amp;ouml; stad kommer att kontakta dig.&amp;nbsp;Har du fyllt i en e-postadress skickas en bekr&amp;auml;ftelse p&amp;aring; inskickat &amp;auml;rende till dig via e-post&lt;/p&gt;&#13;
+&#13;
+&lt;p&gt;Du kommer att f&amp;aring; mer information om ditt trygghetslarm i en broschyr som &amp;ouml;verl&amp;auml;mnas till dig vid installationen av ditt larm.&lt;/p&gt;&#13;
+&#13;
+&lt;p&gt;Om vi har f&amp;aring;tt fel kontaktuppgifter&amp;nbsp;eller inte kan n&amp;aring; dig inom tio dagar kommer din best&amp;auml;llning att tas bort, och du beh&amp;ouml;ver d&amp;aring; g&amp;ouml;ra en ny best&amp;auml;llning.&lt;/p&gt;</submittedMessage>
+<loginQuestionText>&lt;p&gt;Om du loggar in s&amp;aring; kan vi f&amp;ouml;rifylla fr&amp;aring;gor med uppgifter vi h&amp;auml;mtar fr&amp;aring;n andra system t.ex. skatteverket.&lt;/p&gt;&#13;
+&#13;
+&lt;p&gt;Du kan &amp;auml;ven f&amp;aring; &amp;aring;terkoppling om &amp;auml;rendets status och notifiering om handl&amp;auml;ggaren beh&amp;ouml;ver mer information.&lt;/p&gt;</loginQuestionText>
+<published>true</published>
+<IconLastModified>1767708565000</IconLastModified>
+<icon>iVBORw0KGgoAAAANSUhEUgAAAEEAAABBCAYAAACO98lFAAAEWklEQVR42u1a6UsVURSf98yyzTQzrcAy26VCC9M2lPoQ9SFaCIIWKkgMJJLA+hARiIStQhQY9Af0sSQJSi2MtDQLKc1oUYNyKSJa1Hy+zqEzcLrMvHfn+eY5T+8PfqDj3HPPPfds946apqCgoKCgoKCgoKCgoDAscAEnATOBO4AHgTuBa4Cx9HdZOfj+WhqPcrYDM0i+y4mLjyIlK4A/gV4D9gGrgPuBk03k4PMDwGpgv4kclH+b5otyigHWA+uBgyZKG7EZuFXY+W3A1xZk4HxPgKuHc/ERwELgb0G5duAN4HHgYWA+8DzwufDeH3o+EVhKv/MFPgaeBR4hOYUkt93AMwqA7uEwwGUDpTfT38ziPBvYIHjNBwM5mT7iHuVvAdYxOYNk0JAa4hhTHGP3NHCs5Fjc+YvAAQPPKAGOt5CHioAeZoj8UBkgDfiDJvaQu1rN1rhjucBektNLCdHqTrooTHRDoF7LQxEGd9nuXRqiC+4CfqZMPxSdrjKd7tgdFqtYAmsBRgdBZlwQZMQA37JSnGanEc4xi+cGsGN24ijTrdjOUKhjMRxnIW5LyO3tTFyJrMGqsSsksF3toUkaLYybz3qJniC5vxmaaR40+AQ7JohhdbncwrhioRQWSFSOdOC8AHSsZGV7ih1GiGULqZAcM452hRuhlXoFM+yl5PuFvMgKqmiOAdq0oAMPN99pkpeSY/awxXvYz7tN3sdGqYm9V2axB9ErRJcfQweMMcAXrAxNl3DrGmaAYmaIWmCkiRcMCueCBZL6zWTl+6md1egaU/CQn3czWLZuoF1+xlrcHIM2uMngtFgmqVseG3PBzlqczXazgRR3m/A6UyqPxu9jz275CB08In9lXjfXxzxuMnAjywdZdhoBQ+Ih2008Ab4xYR+LT70sYtl6z5RNpeeRrLx5yEvOMKN0+pgH2cberSI9Nbu9od/C5ccVYXyhgavzXHCf4jmRDOi1wN5QXrIU+dkZna1st3lnpzdd34ApLBegd2xk756QnEfnqVBfqLolaYRStnv8kuWekNWtzON26gWsGRYCfwmuLHpBWAFzxEnGdMlxNwUjVEoeetKF+TKdYIRoVjGQ3dQj+EOWcEeYI2mAbjbXA7s6w0APV5VMuS6JWu1it1TlEvG8DNgheE6M08JiqmCITglXxUWs08w/xuhYKvQCtTSfIxFDLupl9weLhigziR2MvNR6Jzg9UUYLhvhIOxkIUqj+67LwA058uFSMROr/deXbKKatYBbwFZOBx/fkcCudaIh6tghMakssjG3U/v92GXYG0BHPjs+6IVL9jJkmGKDDwp2CY5EghEY7dYxmBuA9B544F2sjBDPotkdfXAvdEYh3mDyhfgogj4SFIfj/H2DWn83uFiuErnOlNkKRJGT8d9q/L9zV7BneKK3QRjiSqdwZXYrgNfsGbZRgDvCRYIA2OpGOKkTQVRj+X8ImzabPZgoKCgoKCgoKCgoKCgpBxF/Eps+9QMjKvAAAAABJRU5ErkJggg==</icon>
+</Flow>
